@@ -1,7 +1,40 @@
 {
   "levels": [
-    {"id":"3","label":"★★★","ranges":[]},
-    {"id":"2","label":"★★","ranges":[{"id":"501-600","label":"501–600","file":"data/level-2/501-600.json"}]},
-    {"id":"1","label":"★","ranges":[]}
+    {
+      "id": "3",
+      "label": "★★★",
+      "ranges": []
+    },
+    {
+      "id": "2",
+      "label": "★★",
+      "ranges": [
+        {
+          "id": "501-600",
+          "label": "501–600",
+          "file": "data/level-2/501-600.json"
+        },
+        {
+          "id": "601-700",
+          "label": "601–700",
+          "file": "data/level-2/601-700.json"
+        },
+        {
+          "id": "601-700",
+          "label": "601–700",
+          "file": "data/level-2/601-700.json"
+        },
+        {
+          "id": "601-700",
+          "label": "601–700",
+          "file": "data/level-2/601-700.json"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "label": "★",
+      "ranges": []
+    }
   ]
 }

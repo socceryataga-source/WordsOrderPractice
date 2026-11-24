@@ -20,14 +20,9 @@
           "file": "data/level-2/601-700.json"
         },
         {
-          "id": "601-700",
-          "label": "601–700",
-          "file": "data/level-2/601-700.json"
-        },
-        {
-          "id": "601-700",
-          "label": "601–700",
-          "file": "data/level-2/601-700.json"
+          "id": "701-800",
+          "label": "701–800",
+          "file": "data/level-2/701-800.json"
         }
       ]
     },

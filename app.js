@@ -11,16 +11,83 @@ function currentRange(){return state.catalog.levels.find(x=>x.id===state.level).
 async function loadData(){const ref=currentRange();if(!ref)throw Error('Select an available vocabulary range.');if(!state.cache[ref.file]){let r=await fetch(ref.file,{cache:'no-cache'});if(!r.ok)throw Error(`Could not load ${ref.file} (HTTP ${r.status})`);let d=await r.json();if(!Array.isArray(d.questions)||!d.questions.length)throw Error('This range contains no questions.');state.cache[ref.file]=d.questions;}return state.cache[ref.file];}
 async function begin(retryIds=null){$('setupMsg').textContent='';$('start').disabled=true;try{const data=await loadData();let selected=retryIds?data.filter(q=>retryIds.includes(q.id)):shuffle(data).slice(0,Math.min(state.count,data.length));if(!selected.length)throw Error('No questions available to retry.');state.deck=shuffle(selected);state.index=0;state.records=[];state.startedAt=Date.now();state.deadline=state.minutes?Date.now()+state.minutes*60000:null;state.done=false;$('playLevel').textContent=`LEVEL ${'★'.repeat(Number(state.level))} · ${state.range}`;show('play');renderQuestion();clearInterval(state.ticker);state.ticker=setInterval(updateClock,250);updateClock();}catch(err){$('setupMsg').textContent=err.message;show('home');}finally{$('start').disabled=false;}}
 function current(){return state.deck[state.index];}
-function renderQuestion(){state.done=false;state.answer=[];let q=current();state.bank=shuffle(q.tiles.map((text,id)=>({id,text})));$('qCounter').textContent=`QUESTION ${String(state.index+1).padStart(2,'0')} / ${String(state.deck.length).padStart(2,'0')}`;$('qNumber').textContent=`SOURCE NO. ${q.id}`;$('japanese').textContent=q.japanese;$('fixedPrefix').textContent=q.prefix;$('fixedSuffix').textContent=q.suffix;$('feedback').classList.add('hidden');$('next').classList.add('hidden');$('submit').classList.remove('hidden');$('reset').disabled=false;renderTiles();updateHud();}
+function renderQuestion(){state.done=false;state.answer=[];let q=current();state.bank=shuffle(q.tiles.map((text,id)=>({id,text})));$('qCounter').textContent=`QUESTION ${String(state.index+1).padStart(2,'0')} / ${String(state.deck.length).padStart(2,'0')}`;$('qNumber').textContent=`SOURCE NO. ${q.id}`;$('japanese').textContent=q.japanese;$('fixedPrefix').textContent=q.prefix;$('fixedSuffix').textContent=q.suffix;
+  // Punctuation is not a pre-filled word: avoid rendering a large locked tile for "." or "?".
+  for (const [id, value] of [['fixedPrefix', q.prefix], ['fixedSuffix', q.suffix]]) {
+    const node = $(id);
+    const punctuationOnly = /^[\s.,!?;:’”"']+$/.test(value || '');
+    node.classList.toggle('fixed-punctuation', punctuationOnly);
+    node.setAttribute('aria-label', punctuationOnly ? `Punctuation: ${value}` : `Given text: ${value}`);
+  }$('feedback').classList.add('hidden');$('next').classList.add('hidden');$('submit').classList.remove('hidden');$('reset').disabled=false;$('skip').disabled=false;renderTiles();updateHud();}
 function tileNode(tile,zone){const b=document.createElement('button');b.type='button';b.className='word-tile';b.dataset.id=tile.id;b.dataset.zone=zone;b.textContent=tile.text;b.setAttribute('aria-label',`${tile.text}, ${zone==='bank'?'move to answer':'return to word bank'}`);b.addEventListener('pointerdown',startPointer);b.addEventListener('keydown',e=>{if(state.done)return;if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();moveByKeyboard(tile.id,zone,e.key==='ArrowLeft'?-1:1);}});return b;}
 function renderTiles(focusId=null){$('answerZone').replaceChildren(...state.answer.map(t=>tileNode(t,'answer')));$('bankZone').replaceChildren(...state.bank.map(t=>tileNode(t,'bank')));let q=current();$('tileCount').textContent=`${state.answer.length} / ${q.tiles.length} TILES`;$('submit').disabled=state.done||state.answer.length!==q.tiles.length;$('reset').disabled=state.done||state.answer.length===0;if(focusId!==null){let node=[...document.querySelectorAll('.word-tile')].find(t=>Number(t.dataset.id)===focusId);node?.focus({preventScroll:true});}}
 function moveTile(id,from,to,index=null){if(state.done)return;const source=from==='bank'?state.bank:state.answer;const target=to==='bank'?state.bank:state.answer;const i=source.findIndex(t=>t.id===id);if(i<0)return;const [item]=source.splice(i,1);if(source===target&&index!==null&&i<index)index--;if(index===null)target.push(item);else target.splice(Math.max(0,Math.min(index,target.length)),0,item);renderTiles(id);}
 function moveByKeyboard(id,zone,dir){const list=zone==='answer'?state.answer:state.bank;let i=list.findIndex(t=>t.id===id);let newIndex=Math.max(0,Math.min(list.length-1,i+dir));if(newIndex===i)return;[list[i],list[newIndex]]=[list[newIndex],list[i]];renderTiles(id);}
-let pointer=null,justDragged=false;
-function startPointer(e){if(state.done||e.button!==0)return;const node=e.currentTarget;const id=Number(node.dataset.id),from=node.dataset.zone;pointer={id,from,x:e.clientX,y:e.clientY,dragged:false,ghost:null};node.setPointerCapture(e.pointerId);node.onpointermove=movePointer;node.onpointerup=endPointer;node.onpointercancel=cancelPointer;}
-function movePointer(e){if(!pointer)return;const d=pointer;if(!d.dragged&&Math.hypot(e.clientX-d.x,e.clientY-d.y)>7){d.dragged=true;const item=(d.from==='bank'?state.bank:state.answer).find(t=>t.id===d.id);d.ghost=document.createElement('div');d.ghost.className='word-tile dragging-ghost';d.ghost.textContent=item.text;document.body.appendChild(d.ghost);document.body.classList.add('drag-active');}if(d.ghost){d.ghost.style.left=`${e.clientX}px`;d.ghost.style.top=`${e.clientY}px`;const under=document.elementFromPoint(e.clientX,e.clientY);['answerZone','bankZone'].forEach(k=>$(k).classList.toggle('drop-active',!!under?.closest('#'+k)));}}
-function cleanupPointer(el){if(pointer?.ghost)pointer.ghost.remove();document.body.classList.remove('drag-active');['answerZone','bankZone'].forEach(k=>$(k).classList.remove('drop-active'));el.onpointermove=null;el.onpointerup=null;el.onpointercancel=null;pointer=null;}
-function endPointer(e){if(!pointer)return;const d=pointer;const el=e.currentTarget;if(d.dragged){const under=document.elementFromPoint(e.clientX,e.clientY);const targetZone=under?.closest('#answerZone')?'answer':under?.closest('#bankZone')?'bank':null;let index=null;if(targetZone){const zone=targetZone==='answer'?$('answerZone'):$('bankZone');const cards=[...zone.querySelectorAll('.word-tile')];index=cards.findIndex(n=>{const r=n.getBoundingClientRect();return e.clientY<r.top+r.height/2||(e.clientY<=r.bottom&&e.clientX<r.left+r.width/2);});if(index<0)index=cards.length;}cleanupPointer(el);if(targetZone)moveTile(d.id,d.from,targetZone,index);}else{cleanupPointer(el);moveTile(d.id,d.from,d.from==='bank'?'answer':'bank');}}
+let pointer=null;
+const dropMarker=document.createElement('span');
+dropMarker.className='drop-insertion-marker';
+dropMarker.setAttribute('aria-hidden','true');
+function startPointer(e){
+  if(state.done||e.button!==0)return;
+  const node=e.currentTarget;
+  pointer={id:Number(node.dataset.id),from:node.dataset.zone,x:e.clientX,y:e.clientY,dragged:false,ghost:null,target:null,index:null,source:node};
+  node.setPointerCapture(e.pointerId);
+  node.onpointermove=movePointer;node.onpointerup=endPointer;node.onpointercancel=cancelPointer;
+}
+function locateDrop(e){
+  const element=document.elementFromPoint(e.clientX,e.clientY);
+  const target=element?.closest('#answerZone')?'answer':element?.closest('#bankZone')?'bank':null;
+  if(!target)return {target:null,index:null};
+  const zone=$(target==='answer'?'answerZone':'bankZone');
+  const cards=[...zone.querySelectorAll('.word-tile')];
+  // Find the insertion gap before the first tile whose visual midpoint follows
+  // the pointer. This also works when tiles wrap into multiple lines.
+  let index=cards.findIndex(n=>{
+    const r=n.getBoundingClientRect();
+    return e.clientY<r.top+r.height/2 || (e.clientY<=r.bottom&&e.clientX<r.left+r.width/2);
+  });
+  if(index<0)index=cards.length;
+  return {target,index};
+}
+function movePointer(e){
+  if(!pointer)return;
+  const d=pointer;
+  if(!d.dragged&&Math.hypot(e.clientX-d.x,e.clientY-d.y)>7){
+    d.dragged=true;
+    d.source.classList.add('drag-source');
+    const item=(d.from==='bank'?state.bank:state.answer).find(t=>t.id===d.id);
+    d.ghost=document.createElement('div');d.ghost.className='word-tile dragging-ghost';
+    d.ghost.textContent=item.text;document.body.appendChild(d.ghost);
+    document.body.classList.add('drag-active');
+  }
+  if(!d.ghost)return;
+  d.ghost.style.left=`${e.clientX}px`;d.ghost.style.top=`${e.clientY}px`;
+  const {target,index}=locateDrop(e);
+  d.target=target;d.index=index;
+  ['answerZone','bankZone'].forEach(k=>$(k).classList.toggle('drop-active',k===(target==='answer'?'answerZone':target==='bank'?'bankZone':null)));
+  dropMarker.remove();
+  if(target){
+    const zone=$(target==='answer'?'answerZone':'bankZone');
+    const cards=[...zone.querySelectorAll('.word-tile')];
+    zone.insertBefore(dropMarker,cards[index]||null);
+  }
+}
+function cleanupPointer(el){
+  if(pointer?.ghost)pointer.ghost.remove();
+  pointer?.source?.classList.remove('drag-source');
+  dropMarker.remove();document.body.classList.remove('drag-active');
+  ['answerZone','bankZone'].forEach(k=>$(k).classList.remove('drop-active'));
+  el.onpointermove=null;el.onpointerup=null;el.onpointercancel=null;pointer=null;
+}
+function endPointer(e){
+  if(!pointer)return;
+  const d=pointer,el=e.currentTarget;
+  if(d.dragged){
+    const {target,index}=locateDrop(e);
+    cleanupPointer(el);
+    if(target)moveTile(d.id,d.from,target,index);
+  }else{cleanupPointer(el);moveTile(d.id,d.from,d.from==='bank'?'answer':'bank');}
+}
 function cancelPointer(e){cleanupPointer(e.currentTarget);}
 function resetAnswer(){if(state.done)return;state.bank=shuffle([...state.bank,...state.answer]);state.answer=[];renderTiles();}
 function correctText(q){return q.correctOrder.map(i=>q.tiles[i]).join(' ');}
@@ -30,6 +97,15 @@ function assessAnswer(q, selectedWords){
   if(key===orderKey(q.correctOrder.map(i=>q.tiles[i])))return {correct:true,alternative:false,note:''};
   const match=(q.alternatives||[]).find(alt=>key===orderKey(alt.order.map(i=>q.tiles[i])));
   return match?{correct:true,alternative:true,note:match.note||''}:{correct:false,alternative:false,note:''};
+}
+function skipQuestion(){
+  if(state.done||!state.deck.length)return;
+  const q=current();
+  state.done=true;
+  state.records.push({id:q.id,japanese:q.japanese,chosen:state.answer.map(t=>t.text).join(' '),answer:q.answer,focus:q.focus,status:'skipped',prefix:q.prefix,suffix:q.suffix,punctuationAfter:q.punctuationAfter||[]});
+  updateHud();
+  if(state.index>=state.deck.length-1){finish('complete');return;}
+  state.index++;renderQuestion();window.scrollTo({top:0,behavior:'smooth'});
 }
 function submit(){
   if(state.done)return;
@@ -45,6 +121,7 @@ function submit(){
   $('feedback').classList.remove('hidden');
   $('feedback').innerHTML=`<div class="feedback-status ${correct?'is-correct':'is-wrong'}">${assessment.alternative?'✓ CORRECT — ALTERNATIVE ANSWER':correct?'✓ CORRECT':'✕ NOT QUITE'}</div>${!correct?`<div class="feedback-label">YOUR ANSWER</div><div class="feedback-answer">${escapeHtml(assemble(q,chosen.join(' ')))}</div>`:submittedAnswer}<div class="feedback-label">${assessment.alternative?'TEXTBOOK ANSWER':'CORRECT ANSWER'}</div><div class="feedback-answer right-answer">${escapeHtml(pretty(q.answer))}</div>${altNote}<div class="language-focus"><div class="focus-kicker">✳ LANGUAGE FOCUS <span>${escapeHtml(q.category)}</span></div><p lang="ja">${escapeHtml(q.focus)}</p></div>`;
   $('submit').classList.add('hidden');
+  $('skip').disabled=true;
   $('next').classList.remove('hidden');
   $('next').textContent=state.index===state.deck.length-1?'VIEW RESULTS →':'NEXT QUESTION →';
   renderTiles();updateHud();
@@ -61,15 +138,15 @@ function assemble(q,arr){
   return pretty(s).replace(/\s+([.,?!])/g,'$1').replace(/([“‘])\s+/g,'$1');
 }
 function next(){if(!state.done)return;if(state.index>=state.deck.length-1){finish('complete');return;}state.index++;renderQuestion();window.scrollTo({top:0,behavior:'smooth'});}
-function accuracy(){const yes=state.records.filter(r=>r.status==='correct').length;return state.records.length?`${Math.round(yes/state.records.length*100)}%`:'—';}
+function accuracy(){const yes=state.records.filter(r=>r.status==='correct').length;const attempted=state.records.filter(r=>r.status==='correct'||r.status==='incorrect').length;return attempted?`${Math.round(yes/attempted*100)}%`:'—';}
 function updateHud(){const total=state.deck.length;$('progressText').textContent=`${state.records.length} / ${total}`;$('accuracyText').textContent=accuracy();$('progressFill').style.width=`${state.records.length/total*100}%`;}
 function formatTime(ms){const sec=Math.max(0,Math.ceil(ms/1000));return `${String(Math.floor(sec/60)).padStart(2,'0')}:${String(sec%60).padStart(2,'0')}`;}
 function updateClock(){if($('play').classList.contains('hidden'))return;if(!state.deadline){$('timeText').textContent='∞';return;}const left=state.deadline-Date.now();$('timeText').textContent=formatTime(left);$('timeText').classList.toggle('urgent',left<=30000);if(left<=0)finish('time');}
-function finish(reason){clearInterval(state.ticker);state.ticker=null;if(!state.deck.length)return;const answered=new Set(state.records.map(r=>r.id));for(const q of state.deck)if(!answered.has(q.id))state.records.push({id:q.id,japanese:q.japanese,chosen:'',answer:q.answer,focus:q.focus,status:'unanswered',prefix:q.prefix,suffix:q.suffix});const correct=state.records.filter(r=>r.status==='correct').length;const wrong=state.records.filter(r=>r.status==='incorrect').length;const unanswered=state.records.filter(r=>r.status==='unanswered').length;const attempted=correct+wrong;const total=state.deck.length;const used=Math.min(Date.now()-state.startedAt,state.minutes?state.minutes*60000:Infinity);$('resultTitle').innerHTML=reason==='time'?'Time is up<span class="period">.</span>':reason==='exit'?'Session ended<span class="period">.</span>':'Well built<span class="period">.</span>';$('resultMessage').textContent=`Level ${'★'.repeat(Number(state.level))} · ${state.range} · ${total} questions`;$('resultAccuracy').textContent=attempted?`${Math.round(correct/attempted*100)}%`:'—';$('resultCompletion').textContent=`${attempted}/${total}`;$('resultTime').textContent=formatTime(used);$('resultBars').innerHTML=[['CORRECT',correct,'correct'],['INCORRECT',wrong,'incorrect'],['UNANSWERED',unanswered,'unanswered']].map(([label,value,k])=>`<div class="bar-item"><div class="bar-row"><span>${label}</span><strong>${value}</strong></div><div class="bar-track"><div class="bar-fill ${k}" style="width:${value/total*100}%"></div></div></div>`).join('');$('retry').disabled=wrong+unanswered===0;state.result={level:state.level,range:state.range,count:total,minutes:state.minutes,records:[...state.records],savedAt:new Date().toISOString()};try{localStorage.setItem(storeKey,JSON.stringify(state.result));}catch(e){}show('results');}
+function finish(reason){clearInterval(state.ticker);state.ticker=null;if(!state.deck.length)return;const answered=new Set(state.records.map(r=>r.id));for(const q of state.deck)if(!answered.has(q.id))state.records.push({id:q.id,japanese:q.japanese,chosen:'',answer:q.answer,focus:q.focus,status:'unanswered',prefix:q.prefix,suffix:q.suffix});const correct=state.records.filter(r=>r.status==='correct').length;const wrong=state.records.filter(r=>r.status==='incorrect').length;const skipped=state.records.filter(r=>r.status==='skipped').length;const unanswered=state.records.filter(r=>r.status==='unanswered').length;const attempted=correct+wrong;const total=state.deck.length;const used=Math.min(Date.now()-state.startedAt,state.minutes?state.minutes*60000:Infinity);$('resultTitle').innerHTML=reason==='time'?'Time is up<span class="period">.</span>':reason==='exit'?'Session ended<span class="period">.</span>':'Well built<span class="period">.</span>';$('resultMessage').textContent=`Level ${'★'.repeat(Number(state.level))} · ${state.range} · ${total} questions`;$('resultAccuracy').textContent=attempted?`${Math.round(correct/attempted*100)}%`:'—';$('resultCompletion').textContent=`${attempted+skipped}/${total}`;$('resultTime').textContent=formatTime(used);$('resultBars').innerHTML=[['CORRECT',correct,'correct'],['INCORRECT',wrong,'incorrect'],['SKIPPED',skipped,'skipped'],['UNANSWERED',unanswered,'unanswered']].map(([label,value,k])=>`<div class="bar-item"><div class="bar-row"><span>${label}</span><strong>${value}</strong></div><div class="bar-track"><div class="bar-fill ${k}" style="width:${value/total*100}%"></div></div></div>`).join('');$('retry').disabled=wrong+skipped+unanswered===0;state.result={level:state.level,range:state.range,count:total,minutes:state.minutes,records:[...state.records],savedAt:new Date().toISOString()};try{localStorage.setItem(storeKey,JSON.stringify(state.result));}catch(e){}show('results');}
 function escapeCsv(s){return '"'+String(s??'').replaceAll('"','""')+'"';}
 function downloadCsv(){const source=state.result||(()=>{try{return JSON.parse(localStorage.getItem(storeKey)||'null');}catch(e){return null;}})();if(!source)return;const rows=[['No.','Status','Japanese','Your Answer','Correct Answer','Language Focus'],...source.records.filter(r=>r.status!=='correct').map(r=>[r.id,r.status,r.japanese,r.chosen?assemble(r,r.chosen):'',pretty(r.answer),r.focus])];const content='\ufeff'+rows.map(row=>row.map(escapeCsv).join(',')).join('\r\n');const blob=new Blob([content],{type:'text/csv;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`word-order-review-level-${source.level}-${source.range}-${new Date().toISOString().slice(0,10)}.csv`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 async function retry(){const ids=state.result?.records.filter(x=>x.status!=='correct').map(x=>x.id)||[];if(!ids.length)return;await begin(ids);}
 function confirmExit(){clearInterval(state.ticker);state.ticker=setInterval(updateClock,250);$('confirmOverlay').classList.remove('hidden');}
 function closeExit(){$('confirmOverlay').classList.add('hidden');}
-async function init(){try{const r=await fetch('catalog.json',{cache:'no-cache'});if(!r.ok)throw Error('Could not load catalog.json');state.catalog=await r.json();renderSettings();}catch(err){$('setupMsg').textContent=err.message;$('start').disabled=true;} $('range').addEventListener('change',e=>{state.range=e.target.value;});$('start').onclick=()=>begin();$('submit').onclick=submit;$('reset').onclick=resetAnswer;$('next').onclick=next;$('homeBtn').onclick=confirmExit;$('cancelExit').onclick=closeExit;$('confirmExit').onclick=()=>{closeExit();finish('exit');};$('download').onclick=downloadCsv;$('retry').onclick=retry;$('resultHome').onclick=()=>show('home');document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateClock();});}
+async function init(){try{const r=await fetch('catalog.json',{cache:'no-cache'});if(!r.ok)throw Error('Could not load catalog.json');state.catalog=await r.json();renderSettings();}catch(err){$('setupMsg').textContent=err.message;$('start').disabled=true;} $('range').addEventListener('change',e=>{state.range=e.target.value;});$('start').onclick=()=>begin();$('submit').onclick=submit;$('reset').onclick=resetAnswer;$('skip').onclick=skipQuestion;$('next').onclick=next;$('homeBtn').onclick=confirmExit;$('cancelExit').onclick=closeExit;$('confirmExit').onclick=()=>{closeExit();finish('exit');};$('download').onclick=downloadCsv;$('retry').onclick=retry;$('resultHome').onclick=()=>show('home');document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateClock();});}
 init();

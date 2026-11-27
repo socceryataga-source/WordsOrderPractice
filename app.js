@@ -24,9 +24,42 @@ function endPointer(e){if(!pointer)return;const d=pointer;const el=e.currentTarg
 function cancelPointer(e){cleanupPointer(e.currentTarget);}
 function resetAnswer(){if(state.done)return;state.bank=shuffle([...state.bank,...state.answer]);state.answer=[];renderTiles();}
 function correctText(q){return q.correctOrder.map(i=>q.tiles[i]).join(' ');}
-function submit(){if(state.done)return;const q=current();if(state.answer.length!==q.tiles.length)return;let correct=state.answer.map(t=>t.text.toLocaleLowerCase()).join(' ')===q.correctOrder.map(i=>q.tiles[i].toLocaleLowerCase()).join(' ');state.done=true;state.records.push({id:q.id,japanese:q.japanese,chosen:state.answer.map(t=>t.text).join(' '),answer:q.answer,focus:q.focus,status:correct?'correct':'incorrect',prefix:q.prefix,suffix:q.suffix});$('feedback').classList.remove('hidden');$('feedback').innerHTML=`<div class="feedback-status ${correct?'is-correct':'is-wrong'}">${correct?'✓ CORRECT':'✕ NOT QUITE'}</div>${correct?'':`<div class="feedback-label">YOUR ANSWER</div><div class="feedback-answer">${escapeHtml(assemble(q,state.answer.map(t=>t.text).join(' ')))}</div>`}<div class="feedback-label">CORRECT ANSWER</div><div class="feedback-answer right-answer">${escapeHtml(pretty(q.answer))}</div><div class="language-focus"><div class="focus-kicker">✳ LANGUAGE FOCUS <span>${escapeHtml(q.category)}</span></div><p lang="ja">${escapeHtml(q.focus)}</p></div>`;$('submit').classList.add('hidden');$('next').classList.remove('hidden');$('next').textContent=state.index===state.deck.length-1?'VIEW RESULTS →':'NEXT QUESTION →';renderTiles();updateHud();$('feedback').scrollIntoView({behavior:'smooth',block:'nearest'});}
+function orderKey(words){return words.map(w=>w.normalize('NFKC').toLocaleLowerCase()).join(' ');}
+function assessAnswer(q, selectedWords){
+  const key=orderKey(selectedWords);
+  if(key===orderKey(q.correctOrder.map(i=>q.tiles[i])))return {correct:true,alternative:false,note:''};
+  const match=(q.alternatives||[]).find(alt=>key===orderKey(alt.order.map(i=>q.tiles[i])));
+  return match?{correct:true,alternative:true,note:match.note||''}:{correct:false,alternative:false,note:''};
+}
+function submit(){
+  if(state.done)return;
+  const q=current();
+  if(state.answer.length!==q.tiles.length)return;
+  const chosen=state.answer.map(t=>t.text);
+  const assessment=assessAnswer(q,chosen);
+  const correct=assessment.correct;
+  state.done=true;
+  state.records.push({id:q.id,japanese:q.japanese,chosen:chosen.join(' '),answer:q.answer,focus:q.focus,status:correct?'correct':'incorrect',alternative:assessment.alternative,prefix:q.prefix,suffix:q.suffix,punctuationAfter:q.punctuationAfter||[]});
+  const altNote=assessment.alternative?`<div class="alternative-note" lang="ja">${escapeHtml(assessment.note)}</div>`:'';
+  const submittedAnswer=assessment.alternative?`<div class="feedback-label">YOUR ANSWER — ACCEPTED</div><div class="feedback-answer accepted-answer">${escapeHtml(assemble(q,chosen.join(' ')))}</div>`:'';
+  $('feedback').classList.remove('hidden');
+  $('feedback').innerHTML=`<div class="feedback-status ${correct?'is-correct':'is-wrong'}">${assessment.alternative?'✓ CORRECT — ALTERNATIVE ANSWER':correct?'✓ CORRECT':'✕ NOT QUITE'}</div>${!correct?`<div class="feedback-label">YOUR ANSWER</div><div class="feedback-answer">${escapeHtml(assemble(q,chosen.join(' ')))}</div>`:submittedAnswer}<div class="feedback-label">${assessment.alternative?'TEXTBOOK ANSWER':'CORRECT ANSWER'}</div><div class="feedback-answer right-answer">${escapeHtml(pretty(q.answer))}</div>${altNote}<div class="language-focus"><div class="focus-kicker">✳ LANGUAGE FOCUS <span>${escapeHtml(q.category)}</span></div><p lang="ja">${escapeHtml(q.focus)}</p></div>`;
+  $('submit').classList.add('hidden');
+  $('next').classList.remove('hidden');
+  $('next').textContent=state.index===state.deck.length-1?'VIEW RESULTS →':'NEXT QUESTION →';
+  renderTiles();updateHud();
+  $('feedback').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
 function pretty(s){return s.replace(/,([^\s])/g,', $1');}
-function assemble(q,arr){let s=[q.prefix,arr,q.suffix].filter(Boolean).join(' ');return pretty(s).replace(/\s+([.,?!])/g,'$1');}
+function assemble(q,arr){
+  let s=[q.prefix,arr,q.suffix].filter(Boolean).join(' ');
+  // Non-selectable punctuation is display-only; it never changes word-order scoring.
+  for(const word of (q.punctuationAfter||[])){
+    if(!/^[a-z]+$/i.test(word))continue;
+    s=s.replace(new RegExp(String.raw`\b(${word})\b(?=\s|$)`,'i'),'$1,');
+  }
+  return pretty(s).replace(/\s+([.,?!])/g,'$1').replace(/([“‘])\s+/g,'$1');
+}
 function next(){if(!state.done)return;if(state.index>=state.deck.length-1){finish('complete');return;}state.index++;renderQuestion();window.scrollTo({top:0,behavior:'smooth'});}
 function accuracy(){const yes=state.records.filter(r=>r.status==='correct').length;return state.records.length?`${Math.round(yes/state.records.length*100)}%`:'—';}
 function updateHud(){const total=state.deck.length;$('progressText').textContent=`${state.records.length} / ${total}`;$('accuracyText').textContent=accuracy();$('progressFill').style.width=`${state.records.length/total*100}%`;}

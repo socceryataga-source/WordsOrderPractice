@@ -593,11 +593,11 @@
     {
       "japanese": "短パンとTシャツではふだん着すぎてこのレストランには入れない。",
       "prefix": "Shorts and T-shirts",
-      "suffix": "this restaurant.",
+      "suffix": "to this restaurant.",
       "tiles": [
         "casual",
         "to",
-        "enter",
+        "wear",
         "too",
         "are"
       ],
@@ -608,10 +608,10 @@
         1,
         2
       ],
-      "answer": "Shorts and T-shirts are too casual to enter this restaurant.",
+      "answer": "Shorts and T-shirts are too casual to wear to this restaurant.",
       "id": 824,
       "sourceNumber": 24,
-      "focus": "too＋形容詞＋to do は「～すぎて…できない」。to enter が不定詞。",
+      "focus": "too＋形容詞＋to do：「～すぎて…できない」。too casual to wear to this restaurant で「この店に着て行くにはカジュアルすぎる」。",
       "category": "Grammar"
     },
     {
@@ -1586,7 +1586,10 @@
       "id": 863,
       "sourceNumber": 63,
       "focus": "show up は「現れる」。never shows up と is unreliable が因果関係。",
-      "category": "Usage & Collocation"
+      "category": "Usage & Collocation",
+      "punctuationAfter": [
+        "up"
+      ]
     },
     {
       "japanese": "山の頂上までは急な上り坂だった。",
@@ -2388,7 +2391,7 @@
       "tiles": [
         "of",
         "life",
-        "from",
+        "to",
         "our",
         "are",
         "way",
@@ -2403,10 +2406,10 @@
         0,
         1
       ],
-      "answer": "The manners are alien from our way of life.",
+      "answer": "The manners are alien to our way of life.",
       "id": 895,
       "sourceNumber": 95,
-      "focus": "原文は alien from our way of life だが、通常は alien to A（Aとは異質な）。教材原文に注意。",
+      "focus": "be alien to A：「Aにとって異質である」。前置詞は to が標準的。",
       "category": "Usage & Collocation"
     },
     {

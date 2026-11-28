@@ -26,8 +26,9 @@
         1
       ],
       "answer": "He avoided looking me in the face.",
-      "focus": "avoid + -ing＝「〜することを避ける」。look A in the face＝「Aの顔を見る」。",
-      "category": "Usage & Collocation"
+      "focus": "avoid は目的語に動名詞を取り、avoid looking とする。avoid to look は不可。look 人 in the face は「顔を正面から見る」。",
+      "category": "Usage & Collocation",
+      "focusExample": "He avoided looking me in the eye."
     },
     {
       "id": 202,
@@ -48,8 +49,8 @@
         0
       ],
       "answer": "The smartphone now has many different functions.",
-      "focus": "now は現在を表す副詞。many different + 複数名詞＝「多種多様な〜」。",
-      "category": "Usage & Collocation"
+      "focus": "function は「機能・働き」。多くの機能を持つ製品なら multifunctional（多機能の）とも表現できる。",
+      "category": "Vocabulary"
     },
     {
       "id": 203,
@@ -76,7 +77,7 @@
         1
       ],
       "answer": "Note that your homework must be handed in within a week.",
-      "focus": "Note that S V＝「〜ということに注意する」。must be + 過去分詞で義務の受動態。",
+      "focus": "must be handed in は〈助動詞＋be＋過去分詞〉で義務の受動態。「宿題が提出されなければならない」。",
       "category": "Grammar"
     },
     {
@@ -102,8 +103,8 @@
         2
       ],
       "answer": "We need to discuss the specific details of the plan.",
-      "focus": "need to + 動詞の原形＝「〜する必要がある」。specific details＝「具体的な詳細」。",
-      "category": "Usage & Collocation"
+      "focus": "specific は「具体的な・特定の」。general details ではなく specific details で細部を限定する。",
+      "category": "Vocabulary"
     },
     {
       "id": 205,
@@ -130,8 +131,8 @@
         5
       ],
       "answer": "The whistle was the signal to run.",
-      "focus": "the signal to + 動詞の原形＝「〜する合図」。",
-      "category": "Usage & Collocation"
+      "focus": "the signal to run の to run は signal の内容を示す不定詞。何の合図かを後ろから補っている。",
+      "category": "Grammar"
     },
     {
       "id": 206,
@@ -158,8 +159,8 @@
         3
       ],
       "answer": "Many parts of the city are dangerous for tourists.",
-      "focus": "Many parts of + 場所＝「〜の多くの地域」。",
-      "category": "Usage & Collocation"
+      "focus": "Many parts of the city が主語なので are を用いる。of the city は parts を詳しくする句。",
+      "category": "Grammar"
     },
     {
       "id": 207,
@@ -182,8 +183,8 @@
         4
       ],
       "answer": "How did you gain the money?",
-      "focus": "How did S + 動詞の原形 ...?＝過去の方法を尋ねる疑問文。",
-      "category": "Usage & Collocation"
+      "focus": "gain the money は obtain the money（その金を手に入れる）と言い換えられる。gain は努力や過程を経て得る意味がある。",
+      "category": "Paraphrase"
     },
     {
       "id": 208,
@@ -206,8 +207,8 @@
         0
       ],
       "answer": "What does this passage mean?",
-      "focus": "What does + 主語 + 動詞の原形 ...?＝意味を尋ねる疑問文。",
-      "category": "Usage & Collocation"
+      "focus": "What does this passage mean? の does は疑問文を作る助動詞。意味を尋ねる疑問詞 What が目的語となる。",
+      "category": "Grammar"
     },
     {
       "id": 209,
@@ -230,7 +231,7 @@
         4
       ],
       "answer": "What's the main factor that caused the dispute?",
-      "focus": "the main factor that caused ...＝関係代名詞thatで原因となった要因を説明。",
+      "focus": "that caused the dispute は factor を修飾する関係詞節。that は節の中で主語として働く。",
       "category": "Grammar"
     },
     {
@@ -256,7 +257,7 @@
         1
       ],
       "answer": "The only things he desired were fame and wealth.",
-      "focus": "The only things (that) he desired＝目的格関係代名詞が省略された形。",
+      "focus": "the only things (that) he desired の that は目的格の関係代名詞で省略可。主語は複数形 things。",
       "category": "Grammar"
     },
     {
@@ -286,8 +287,8 @@
         6
       ],
       "answer": "Chinese characters are of most importance for the Japanese.",
-      "focus": "be of importance＝be importantに相当する表現。most importanceは最上級的な意味を表す。",
-      "category": "Usage & Collocation"
+      "focus": "be of importance は be important と言い換えられる。of＋抽象名詞で形容詞に近い意味を作る。",
+      "category": "Paraphrase"
     },
     {
       "id": 212,
@@ -310,8 +311,8 @@
         3
       ],
       "answer": "Her intelligence is well above the class average.",
-      "focus": "well above＝「〜をはるかに上回って」。",
-      "category": "Usage & Collocation"
+      "focus": "well は「上手に」以外に比較・前置詞句を強め「はるかに」の意味になる。well above average に注目。",
+      "category": "Vocabulary"
     },
     {
       "id": 213,
@@ -336,7 +337,7 @@
         5
       ],
       "answer": "It sounds as if you are criticizing me.",
-      "focus": "sound as if S V＝「まるで〜のように聞こえる」。",
+      "focus": "as if S V は「まるで～のように」。ここでは実際に批判していると断定せず、そう聞こえることを表す。",
       "category": "Grammar"
     },
     {
@@ -362,8 +363,9 @@
         2
       ],
       "answer": "I really hope you succeed in your exam.",
-      "focus": "hope (that) S V＝「SがVすることを望む」。succeed in ...＝「〜で成功する」。",
-      "category": "Grammar"
+      "focus": "hope (that) S V は「SがVすることを望む」。hope 人 to V とはせず、主語つきの節を使う。",
+      "category": "Grammar",
+      "focusExample": "It sounds like you're criticizing me."
     },
     {
       "id": 215,
@@ -388,7 +390,7 @@
         0
       ],
       "answer": "I think you are not so fat.",
-      "focus": "think (that) S V＝「〜だと思う」。notの位置によって否定の焦点が変わる。",
+      "focus": "I think you are not ... は否定が従属節内にある形。I don't think you are ... のほうが一般的で、判断の否定を示す。",
       "category": "Grammar"
     },
     {
@@ -414,8 +416,8 @@
         2
       ],
       "answer": "He tried to focus on his homework,but he was too tired.",
-      "focus": "try to focus on ...＝「〜に集中しようとする」。",
-      "category": "Grammar"
+      "focus": "focus on homework は concentrate on homework と言い換えられる。try to ～ は試みで、成功したとは限らない。",
+      "category": "Paraphrase"
     },
     {
       "id": 217,
@@ -442,8 +444,8 @@
         5
       ],
       "answer": "Matt got good grades in the end-of-term exam.",
-      "focus": "get good grades in ...＝「〜でよい成績を取る」。",
-      "category": "Grammar"
+      "focus": "grade は「学年」だけでなく「成績・評価」も表す。get good grades は「よい成績を取る」。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 218,
@@ -464,7 +466,7 @@
         1
       ],
       "answer": "Since I started living by myself,I've put on weight.",
-      "focus": "put on weight＝「体重が増える」。現在完了で過去から現在への変化を表す。",
+      "focus": "Since I started ... は過去の起点を示す。I've put on weight は現在完了で、その後の変化を表す。",
       "category": "Grammar"
     },
     {
@@ -490,8 +492,8 @@
         2
       ],
       "answer": "The terrible weather restricted everybody's movement.",
-      "focus": "restrict + 目的語＝「〜を制限する」。",
-      "category": "Usage & Collocation"
+      "focus": "restrict は「制限する」。restrict movement は移動を制限すること。restriction は関連名詞。",
+      "category": "Vocabulary"
     },
     {
       "id": 220,
@@ -516,7 +518,7 @@
         5
       ],
       "answer": "The team had a lot of success in the 2000's.",
-      "focus": "have a lot of success＝「大きな成功を収める」。",
+      "focus": "success は不可算名詞として「成功」を表せる。a lot of success としても successes と区別する。",
       "category": "Usage & Collocation"
     },
     {
@@ -540,8 +542,8 @@
         3
       ],
       "answer": "Eventually,he will marry her.",
-      "focus": "eventually＝「結局、最終的には」。文頭・助動詞の後などに置ける。",
-      "category": "Usage & Collocation"
+      "focus": "eventually は in the end（結局）に近い。文頭や動詞句の中に置けるが、文末との語順の自然さに注意。",
+      "category": "Paraphrase"
     },
     {
       "id": 222,
@@ -566,8 +568,8 @@
         2
       ],
       "answer": "A lack of sleep will have a serious effect on your ability to study.",
-      "focus": "have a serious effect on ...＝「〜に深刻な影響を及ぼす」。",
-      "category": "Grammar"
+      "focus": "have an effect on A は affect A と言い換えられる。effect は名詞、affect は主に動詞。",
+      "category": "Paraphrase"
     },
     {
       "id": 223,
@@ -590,8 +592,8 @@
         2
       ],
       "answer": "Do you often follow fashion?",
-      "focus": "follow fashion＝「流行を追う」。oftenは頻度の副詞。",
-      "category": "Usage & Collocation"
+      "focus": "follow は「後について行く」だけでなく、fashion のような流行・慣行に「従う」という意味がある。",
+      "category": "Vocabulary"
     },
     {
       "id": 224,
@@ -618,8 +620,8 @@
         4
       ],
       "answer": "Are you satisfied with your new post?",
-      "focus": "be satisfied with ...＝「〜に満足している」。疑問文ではbe動詞が主語の前。",
-      "category": "Usage & Collocation"
+      "focus": "be satisfied with A は be happy with A に近い。「満足している」で、satisfying（満足させる）とは区別。",
+      "category": "Paraphrase"
     },
     {
       "id": 225,
@@ -644,7 +646,7 @@
         0
       ],
       "answer": "I have a belief that a person's true beauty lies inside.",
-      "focus": "a person's true beauty＝所有格のあとに名詞句。lie inside＝「内側にある」。",
+      "focus": "a belief that ... の that は「～という信念」を示す同格の接続詞。後ろは完全な文。",
       "category": "Grammar"
     },
     {
@@ -668,8 +670,8 @@
         0
       ],
       "answer": "The man didn't have the benefit of education.",
-      "focus": "have the benefit of ...＝「〜の恩恵を受ける」。",
-      "category": "Usage & Collocation"
+      "focus": "benefit は「利益」以外に教育などから受ける「恩恵」。have the benefit of education と表す。",
+      "category": "Vocabulary"
     },
     {
       "id": 227,
@@ -692,8 +694,8 @@
         3
       ],
       "answer": "He continued to study for over three hours.",
-      "focus": "continue to + 動詞の原形＝「〜し続ける」。",
-      "category": "Grammar"
+      "focus": "continue to study は keep studying と言い換えられる。継続を表すが、後ろの動詞形が異なる。",
+      "category": "Paraphrase"
     },
     {
       "id": 228,
@@ -722,8 +724,8 @@
         5
       ],
       "answer": "The mine produces around 120,000 tons of copper a year.",
-      "focus": "produce + 数量 + of ...＝「〜を（数量）産出する」。",
-      "category": "Usage & Collocation"
+      "focus": "produce は「作る」以外に鉱山が金属を「産出する」という意味がある。tons of copper は産出量。",
+      "category": "Vocabulary"
     },
     {
       "id": 229,
@@ -748,7 +750,7 @@
         1
       ],
       "answer": "Our school has too many rules that are not necessary.",
-      "focus": "too many + 複数名詞＝「多すぎる〜」。that以下が名詞を後置修飾。",
+      "focus": "too many は可算名詞の複数形 rules を修飾。that are not necessary は rules を説明する関係詞節。",
       "category": "Grammar"
     },
     {
@@ -772,8 +774,8 @@
         1
       ],
       "answer": "Your passion counts when you make a speech.",
-      "focus": "count＝「重要である」。when S V＝「SがVする時」。",
-      "category": "Usage & Collocation"
+      "focus": "count は「数える」だけでなく「重要である」。Your passion counts は「情熱がものを言う」。",
+      "category": "Vocabulary"
     },
     {
       "id": 231,
@@ -798,8 +800,8 @@
         2
       ],
       "answer": "The decision of the government is of national importance.",
-      "focus": "be of national importance＝「国家的に重要である」。",
-      "category": "Usage & Collocation"
+      "focus": "be of national importance は be nationally important と言い換えられる。of＋名詞で形容詞的な意味。",
+      "category": "Paraphrase"
     },
     {
       "id": 232,
@@ -822,7 +824,7 @@
         1
       ],
       "answer": "Tell me in detail how the accident happened.",
-      "focus": "Tell + 人 + in detail ...＝「〜を詳しく人に説明する」。",
+      "focus": "Tell me in detail how ... は間接疑問を目的語に取る。how the accident happened と〈疑問詞＋主語＋動詞〉の語順。",
       "category": "Usage & Collocation"
     },
     {
@@ -844,8 +846,8 @@
         0
       ],
       "answer": "Equality of religion and belief is protected by law.",
-      "focus": "be protected by law＝「法律で保護される」。",
-      "category": "Usage & Collocation"
+      "focus": "is protected は受動態で「保護されている」。by law は法律という手段・根拠を示す。",
+      "category": "Grammar"
     },
     {
       "id": 234,
@@ -872,8 +874,8 @@
         5
       ],
       "answer": "This bill will have a great impact on our daily lives.",
-      "focus": "have a great impact on ...＝「〜に大きな影響を与える」。",
-      "category": "Grammar"
+      "focus": "have a great impact on ... は greatly affect ... と言い換えられる。impact は名詞で on を伴う。",
+      "category": "Paraphrase"
     },
     {
       "id": 235,
@@ -896,8 +898,8 @@
         2
       ],
       "answer": "He appears to be rich.",
-      "focus": "appear to be + 形容詞＝「〜であるように見える」。",
-      "category": "Grammar"
+      "focus": "appear to be rich は seem to be rich と言い換え可能。断定せず「～のように見える」と述べる。",
+      "category": "Paraphrase"
     },
     {
       "id": 236,
@@ -922,7 +924,7 @@
         1
       ],
       "answer": "My brother encouraged me to pass the exam.",
-      "focus": "encourage + 人 + to V＝「人にVするよう励ます」。",
+      "focus": "encourage + 人 + to V は第5文型の一種。「人に～するよう励ます」で、to 不定詞が続く。",
       "category": "Grammar"
     },
     {
@@ -944,8 +946,8 @@
         2
       ],
       "answer": "His motive was political rather than academic.",
-      "focus": "rather than＝「〜よりむしろ」。",
-      "category": "Grammar"
+      "focus": "rather than は「～よりむしろ」。political と academic という同じ品詞の語を対比させている。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 238,
@@ -966,8 +968,8 @@
         3
       ],
       "answer": "The major change in economy was driven by globalization.",
-      "focus": "be driven by ...＝「〜によって引き起こされる」。",
-      "category": "Grammar"
+      "focus": "drive は「運転する」だけでなく出来事を「推進する・引き起こす」。was driven by ... はその受動態。",
+      "category": "Vocabulary"
     },
     {
       "id": 239,
@@ -992,8 +994,8 @@
         0
       ],
       "answer": "My dream is to run my own business.",
-      "focus": "My dream is to V＝不定詞の名詞用法で夢の内容を示す。",
-      "category": "Usage & Collocation"
+      "focus": "My dream is to run ... の to不定詞は補語として夢の内容を示す。run a business は「事業を経営する」。",
+      "category": "Grammar"
     },
     {
       "id": 240,
@@ -1018,7 +1020,7 @@
         2
       ],
       "answer": "Police say that over 25 people were involved in the incident.",
-      "focus": "be involved in ...＝「〜に関与している」。",
+      "focus": "were involved in は「関与していた」。受動態に似た形でも、ここでは関与している状態を表す。",
       "category": "Grammar"
     },
     {
@@ -1042,7 +1044,7 @@
         0
       ],
       "answer": "He thought that an individual's action can change society.",
-      "focus": "an individual's action＝「個人の行動」。can + 原形動詞。",
+      "focus": "thought that ... は過去の認識。that 節の can は一般的に成り立つ可能性を示し、必ずしも could にしない。",
       "category": "Grammar"
     },
     {
@@ -1068,8 +1070,8 @@
         4
       ],
       "answer": "His knowledge of Chinese was useful in getting a job.",
-      "focus": "knowledge of ...＝「〜の知識」。be useful in -ing＝「〜するうえで役に立つ」。",
-      "category": "Usage & Collocation"
+      "focus": "knowledge は「知識」で不可算名詞。knowledge of Chinese は「中国語の知識」。",
+      "category": "Vocabulary"
     },
     {
       "id": 243,
@@ -1090,8 +1092,8 @@
         0
       ],
       "answer": "We covered material from page 43 in the last lesson.",
-      "focus": "cover material from ...＝「〜の教材を扱う」。",
-      "category": "Usage & Collocation"
+      "focus": "cover は「覆う」以外に授業で「扱う・学習範囲に含める」。cover material がその例。",
+      "category": "Vocabulary"
     },
     {
       "id": 244,
@@ -1116,8 +1118,8 @@
         0
       ],
       "answer": "Cultural values greatly affect our way of life.",
-      "focus": "greatly + 動詞＝「大いに〜する」。affectは他動詞。",
-      "category": "Usage & Collocation"
+      "focus": "greatly affect our way of life は have a major effect on our way of life と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "id": 245,
@@ -1140,8 +1142,8 @@
         4
       ],
       "answer": "This lake was created through a volcanic eruption.",
-      "focus": "be created through ...＝「〜を通じて作られる」。",
-      "category": "Usage & Collocation"
+      "focus": "was created は受動態。「湖が形成された」で、through は形成に至る過程・原因を示す。",
+      "category": "Grammar"
     },
     {
       "id": 246,
@@ -1166,8 +1168,8 @@
         3
       ],
       "answer": "My sister forced me to carry her bag.",
-      "focus": "force + 人 + to V＝「人に無理やりVさせる」。",
-      "category": "Grammar"
+      "focus": "force + 人 + to V は「人に無理やり～させる」。make 人 V とは違い、to が必要。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 247,
@@ -1192,8 +1194,8 @@
         0
       ],
       "answer": "I had a little trouble finding where you live.",
-      "focus": "have trouble + -ing＝「〜するのに苦労する」。",
-      "category": "Grammar"
+      "focus": "have trouble + ～ing は「～するのに苦労する」。where you live は finding の目的語になる間接疑問。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 248,
@@ -1218,8 +1220,9 @@
         2
       ],
       "answer": "She can't bear the sight of blood.",
-      "focus": "can't bear + 名詞＝「〜に耐えられない」。",
-      "category": "Grammar"
+      "focus": "bear は「クマ」ではなく動詞「耐える・我慢する」。can't bear the sight of blood は血を見るのが苦手という意味。",
+      "category": "Vocabulary",
+      "focusExample": "Kyoto is much quieter than Tokyo."
     },
     {
       "id": 249,
@@ -1246,8 +1249,8 @@
         5
       ],
       "answer": "The red sky is caused by sand from the Gobi Desert.",
-      "focus": "be caused by ...＝「〜によって引き起こされる」。",
-      "category": "Grammar"
+      "focus": "be caused by は result from（～によって生じる）と近い。原因を示すとき by と from を区別する。",
+      "category": "Paraphrase"
     },
     {
       "id": 250,
@@ -1270,8 +1273,8 @@
         2
       ],
       "answer": "The snow all disappeared during the morning.",
-      "focus": "all disappeared＝「すべて消えた」。allは主語にかかる。",
-      "category": "Usage & Collocation",
+      "focus": "The snow all disappeared では all が主語全体を修飾。All the snow disappeared としても同じ意味。",
+      "category": "Grammar",
       "alternatives": [
         {
           "order": [
@@ -1304,8 +1307,8 @@
         3
       ],
       "answer": "These plans were excellent in theory.",
-      "focus": "in theory＝「理論上は」。",
-      "category": "Usage & Collocation"
+      "focus": "in theory は「理論上は」。in practice（実際には）と対比して用いることが多い。",
+      "category": "Vocabulary"
     },
     {
       "id": 252,
@@ -1330,7 +1333,7 @@
         1
       ],
       "answer": "He predicted that the team would win the championship.",
-      "focus": "predict that S would V＝過去から見た未来をwouldで表す。",
+      "focus": "predicted that ... would win は「勝つだろうと予測した」。would は過去から見た未来を表す。",
       "category": "Grammar"
     },
     {
@@ -1352,8 +1355,8 @@
         0
       ],
       "answer": "This shirt fits me very well.",
-      "focus": "fit + 人＝「人に（サイズが）合う」。",
-      "category": "Usage & Collocation"
+      "focus": "fit は「サイズや形が合う」。suit（似合う）と異なり、服が体に合う意味を中心に使う。",
+      "category": "Vocabulary"
     },
     {
       "id": 254,
@@ -1378,7 +1381,7 @@
         2
       ],
       "answer": "Your health is determined partly by what you eat.",
-      "focus": "be determined by ...＝「〜によって決まる」。partlyは修飾範囲に注意。",
+      "focus": "partly は「部分的に」。受動態 is determined の前にも後にも置けるが、修飾範囲を確認する。",
       "category": "Grammar",
       "alternatives": [
         {
@@ -1415,8 +1418,8 @@
         4
       ],
       "answer": "I wish you every happiness in your future marriage.",
-      "focus": "I wish you ...＝「あなたに〜を願う」。",
-      "category": "Usage & Collocation"
+      "focus": "wish は「願う」。wish 人 happiness で「人の幸せを願う」となり、相手への祝福にも使う。",
+      "category": "Vocabulary"
     },
     {
       "id": 256,
@@ -1439,8 +1442,8 @@
         1
       ],
       "answer": "This old car serves me quite well.",
-      "focus": "serve + 人 + well＝「人の役に立つ」。",
-      "category": "Usage & Collocation"
+      "focus": "serve は「給仕する」だけでなく物が人に「役立つ」。serves me well は車が十分機能する意味。",
+      "category": "Vocabulary"
     },
     {
       "id": 257,
@@ -1465,8 +1468,8 @@
         0
       ],
       "answer": "I have good grounds for believing it.",
-      "focus": "have good grounds for -ing＝「〜する十分な根拠がある」。",
-      "category": "Grammar"
+      "focus": "grounds for believing it は「信じる根拠」。for は前置詞なので、後ろは動名詞 believing。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 258,
@@ -1489,8 +1492,8 @@
         2
       ],
       "answer": "Words cannot express my feeling.",
-      "focus": "Words cannot express ...＝「言葉では〜を表せない」。",
-      "category": "Usage & Collocation"
+      "focus": "Words cannot express ... は It's impossible to put ... into words と言い換えられる。感情の強さを示す表現。",
+      "category": "Paraphrase"
     },
     {
       "id": 259,
@@ -1513,8 +1516,9 @@
         3
       ],
       "answer": "This job requires knowledge,not to mention hard work.",
-      "focus": "not to mention ...＝「〜は言うまでもなく」。",
-      "category": "Grammar"
+      "focus": "not to mention は「～は言うまでもなく」。先に述べた内容へ、さらに当然の項目を付け加える。",
+      "category": "Usage & Collocation",
+      "focusExample": "Not to mention the extra costs."
     },
     {
       "id": 260,
@@ -1539,8 +1543,8 @@
         1
       ],
       "answer": "The mill owners still pay less than the minimum wage.",
-      "focus": "less than + 名詞＝「〜より少ない」。主語と動詞の数の一致に注意。",
-      "category": "Usage & Collocation"
+      "focus": "主語 mill owners は複数なので pay を使う。less than は数量・程度を比較する表現。",
+      "category": "Grammar"
     },
     {
       "id": 261,
@@ -1567,8 +1571,8 @@
         3
       ],
       "answer": "Online shopping will save you 20 dollars.",
-      "focus": "online shopping＝「オンラインでの買い物」。save + 人 + 金額＝「人の出費を減らす」。",
-      "category": "Usage & Collocation"
+      "focus": "save + 人 + 金額 は第4文型。「人にその金額を節約させる」で、買い物が主語になる。",
+      "category": "Grammar"
     },
     {
       "id": 262,
@@ -1593,7 +1597,7 @@
         2
       ],
       "answer": "Japan and the EU have just signed a new trade agreement.",
-      "focus": "have just + 過去分詞＝「ちょうど〜したところ」。",
+      "focus": "have just signed は現在完了〈have＋過去分詞〉。「ちょうど署名したところだ」を表す。",
       "category": "Grammar"
     },
     {
@@ -1621,8 +1625,8 @@
         6
       ],
       "answer": "The scale of destruction of the storm is unbelievable.",
-      "focus": "the scale of ...＝「〜の規模」。",
-      "category": "Usage & Collocation"
+      "focus": "scale は「はかり」以外に「規模」。the scale of destruction は破壊の大きさを表す。",
+      "category": "Vocabulary"
     },
     {
       "id": 264,
@@ -1647,7 +1651,7 @@
         4
       ],
       "answer": "The police searched the house for evidence of the murder.",
-      "focus": "search + 場所 + for ...＝「場所を…を求めて捜索する」。",
+      "focus": "search the house for evidence は「証拠を求めて家を捜す」。search の目的語は捜索する場所。",
       "category": "Usage & Collocation"
     },
     {
@@ -1671,8 +1675,8 @@
         2
       ],
       "answer": "He offered me a ride to school.",
-      "focus": "offer + 人 + 物＝「人に物を申し出る」。",
-      "category": "Usage & Collocation"
+      "focus": "offer + 人 + 物 は第4文型。「人に物を申し出る」で、a ride は「車で送ること」。",
+      "category": "Grammar"
     },
     {
       "id": 266,
@@ -1695,8 +1699,8 @@
         2
       ],
       "answer": "The production of cars went up last year.",
-      "focus": "the production of ...＝「〜の生産」。go up＝「増える」。",
-      "category": "Usage & Collocation"
+      "focus": "production は「生産・産出」。go up は数量が増加することを表し、rise と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "id": 267,
@@ -1721,7 +1725,7 @@
         2
       ],
       "answer": "The figures show that the company is making a large profit.",
-      "focus": "The figures show that ...＝「数値は〜を示している」。",
+      "focus": "The figures show that ... の that は名詞節を導き、show の目的語になる。「数値が示す内容」を説明。",
       "category": "Grammar"
     },
     {
@@ -1747,8 +1751,8 @@
         1
       ],
       "answer": "The book was highly recommended by the press.",
-      "focus": "be highly recommended＝「高く評価され薦められる」。",
-      "category": "Usage & Collocation"
+      "focus": "recommend は「勧める」。highly recommended は「強く推奨された」の意味で、highly は過去分詞を修飾。",
+      "category": "Vocabulary"
     },
     {
       "id": 269,
@@ -1771,8 +1775,8 @@
         3
       ],
       "answer": "She decided to follow her lifelong dream and get a degree in language.",
-      "focus": "get a degree in ...＝「〜の学位を得る」。",
-      "category": "Usage & Collocation"
+      "focus": "degree は「程度・角度」だけでなく大学の「学位」。get a degree in ... で専門分野を示す。",
+      "category": "Vocabulary"
     },
     {
       "id": 270,
@@ -1797,8 +1801,9 @@
         1
       ],
       "answer": "Everybody respects him because of all the help he provides.",
-      "focus": "because of + 名詞句＝「〜のために」。",
-      "category": "Grammar"
+      "focus": "because of の後ろは名詞句 all the help ...。because の後ろに節を置く形と区別する。",
+      "category": "Usage & Collocation",
+      "focusExample": "We succeeded because of your support."
     },
     {
       "id": 271,
@@ -1825,8 +1830,8 @@
         6
       ],
       "answer": "I made too many simple mistakes on my math test.",
-      "focus": "too many + 複数名詞＝「多すぎる〜」。",
-      "category": "Usage & Collocation"
+      "focus": "too many は複数名詞 mistakes を修飾。too much は不可算名詞に用いる。",
+      "category": "Grammar"
     },
     {
       "id": 272,
@@ -1851,7 +1856,7 @@
         0
       ],
       "answer": "The company has decided to expand its business abroad.",
-      "focus": "decide to + 動詞の原形＝「〜することを決める」。",
+      "focus": "has decided は現在完了。decide to expand の to不定詞が決めた行動の内容を表す。",
       "category": "Grammar"
     },
     {
@@ -1877,7 +1882,7 @@
         3
       ],
       "answer": "Mr. Sato is one of our most important clients.",
-      "focus": "one of + 最上級 + 複数名詞＝「最も〜な…の一つ」。",
+      "focus": "one of our most important clients では clients は複数形。one が示すのはその中の一人。",
       "category": "Grammar"
     },
     {
@@ -1903,7 +1908,7 @@
         2
       ],
       "answer": "I wonder where the next championship will be played.",
-      "focus": "wonder + 疑問詞 S V＝間接疑問文の語順。",
+      "focus": "I wonder where ... will be played は間接疑問文。where の後に〈主語＋動詞〉、さらに受動態を用いる。",
       "category": "Grammar"
     },
     {
@@ -1929,7 +1934,7 @@
         2
       ],
       "answer": "Some people find it difficult to adapt to living in a different country.",
-      "focus": "find it + 形容詞 + to V＝「Vすることが〜だと思う」。",
+      "focus": "find it difficult to adapt ... の it は形式目的語で、to不定詞が本当の目的語。",
       "category": "Grammar"
     },
     {
@@ -1955,8 +1960,8 @@
         2
       ],
       "answer": "He has a large network of friends and business acquaintances.",
-      "focus": "a large network of ...＝「〜の広い人脈」。",
-      "category": "Usage & Collocation"
+      "focus": "network は「網」だけでなく「人脈・つながり」。friends and business acquaintances をまとめる。",
+      "category": "Vocabulary"
     },
     {
       "id": 277,
@@ -1979,8 +1984,9 @@
         3
       ],
       "answer": "It is worth visiting the castle.",
-      "focus": "It is worth -ing＝「〜する価値がある」。",
-      "category": "Grammar"
+      "focus": "It is worth visiting the castle の worth は形容詞に近く、後ろに動名詞 visiting が続く。",
+      "category": "Usage & Collocation",
+      "focusExample": "The castle is worth visiting."
     },
     {
       "id": 278,
@@ -2007,8 +2013,8 @@
         2
       ],
       "answer": "She had to give up the chance against her will.",
-      "focus": "give up ... against one's will＝「意に反して〜をあきらめる」。",
-      "category": "Grammar"
+      "focus": "against her will は「本人の意思に反して」。unwillingly（いやいや）と近い意味になる。",
+      "category": "Paraphrase"
     },
     {
       "id": 279,
@@ -2031,8 +2037,8 @@
         4
       ],
       "answer": "Work began on the construction of a new bridge.",
-      "focus": "the construction of ...＝「〜の建設」。",
-      "category": "Usage & Collocation"
+      "focus": "construction は「建設」。construct（建設する）と関連し、建設対象は of a new bridge で示す。",
+      "category": "Vocabulary"
     },
     {
       "id": 280,
@@ -2057,8 +2063,8 @@
         2
       ],
       "answer": "Residents of Kyoto are starting to complain about the number of tourists.",
-      "focus": "start to complain about ...＝「〜について不満を述べ始める」。",
-      "category": "Usage & Collocation"
+      "focus": "start to complain about ... は begin to criticize ... と近い。不満の対象は about の後ろ。",
+      "category": "Paraphrase"
     },
     {
       "id": 281,
@@ -2081,8 +2087,8 @@
         3
       ],
       "answer": "I assume that Smith will be the future captain of the team.",
-      "focus": "assume that S V＝「〜だと思う・仮定する」。",
-      "category": "Grammar"
+      "focus": "assume は根拠が十分でなくても「そうだと考える・仮定する」。know（知っている）ほど断定しない。",
+      "category": "Vocabulary"
     },
     {
       "id": 282,
@@ -2111,8 +2117,8 @@
         0
       ],
       "answer": "Politicians are alert to shifts in public opinion.",
-      "focus": "be alert to ...＝「〜に注意を払う」。",
-      "category": "Usage & Collocation"
+      "focus": "alert は「警報」だけでなく形容詞「注意深い」。be alert to changes で変化に敏感なこと。",
+      "category": "Vocabulary"
     },
     {
       "id": 283,
@@ -2141,8 +2147,8 @@
         7
       ],
       "answer": "He had a feeling of awe before the judge.",
-      "focus": "a feeling of awe＝「畏敬の念」。",
-      "category": "Usage & Collocation"
+      "focus": "awe は「畏敬の念」。恐怖だけではなく、相手の偉大さに圧倒される気持ちを表す。",
+      "category": "Vocabulary"
     },
     {
       "id": 284,
@@ -2169,8 +2175,8 @@
         2
       ],
       "answer": "He managed to finish all the tasks by himself.",
-      "focus": "manage to V＝「何とかVする」。",
-      "category": "Grammar"
+      "focus": "manage to finish は succeed in finishing と言い換えられる。「難しかったが何とか終えた」という含みがある。",
+      "category": "Paraphrase"
     },
     {
       "id": 285,
@@ -2193,8 +2199,8 @@
         0
       ],
       "answer": "My hobby is collecting stamps from around the world.",
-      "focus": "My hobby is -ing＝動名詞によって趣味の内容を表す。",
-      "category": "Usage & Collocation"
+      "focus": "collecting stamps は動名詞句で、is の後ろの補語。趣味の内容を表す名詞の役割をする。",
+      "category": "Grammar"
     },
     {
       "id": 286,
@@ -2217,8 +2223,8 @@
         0
       ],
       "answer": "The statue was removed from the park last year.",
-      "focus": "be removed from ...＝「〜から取り除かれる」。",
-      "category": "Usage & Collocation"
+      "focus": "was removed は受動態。「像が取り除かれた」で、from the park が移動の起点を示す。",
+      "category": "Grammar"
     },
     {
       "id": 287,
@@ -2241,7 +2247,7 @@
         2
       ],
       "answer": "Do you know who built the Pyramids?",
-      "focus": "Do you know + 疑問詞 S V＝間接疑問文。疑問詞が主語なら倒置しない。",
+      "focus": "who built the Pyramids は間接疑問。who 自身が主語なので、疑問文でも did は不要。",
       "category": "Grammar"
     },
     {
@@ -2267,8 +2273,8 @@
         2
       ],
       "answer": "I don't like the pattern of this shirt.",
-      "focus": "the pattern of ...＝「〜の模様」。",
-      "category": "Usage & Collocation"
+      "focus": "pattern は「模様・型・傾向」。衣服の模様以外に a pattern of behavior（行動パターン）にも使う。",
+      "category": "Vocabulary"
     },
     {
       "id": 289,
@@ -2293,7 +2299,7 @@
         2
       ],
       "answer": "Now that I have your attention,I will start my presentation.",
-      "focus": "Now that S V＝「今や〜なので」。",
+      "focus": "Now that S V は「今や～なので」。now が時を示し、that 節全体で理由を説明する。",
       "category": "Grammar"
     },
     {
@@ -2319,8 +2325,8 @@
         4
       ],
       "answer": "There is a problem with your understanding of the situation.",
-      "focus": "a problem with ...＝「〜についての問題」。",
-      "category": "Usage & Collocation"
+      "focus": "your understanding of the situation は「状況に対するあなたの理解」。understanding は名詞として使われている。",
+      "category": "Grammar"
     },
     {
       "id": 291,
@@ -2345,7 +2351,7 @@
         5
       ],
       "answer": "Today,salt is produced by an entirely new process.",
-      "focus": "be produced by ...＝「〜によって製造される」。",
+      "focus": "is produced は受動態。entirely は「完全に」で、new を修飾して新しさを強調する。",
       "category": "Grammar"
     },
     {
@@ -2371,7 +2377,7 @@
         0
       ],
       "answer": "It is a waste of time discussing such a trivial matter.",
-      "focus": "It is a waste of time -ing＝「〜するのは時間の無駄だ」。",
+      "focus": "It is a waste of time ～ing は「～するのは時間の無駄」。discussing が何に時間を使うかを表す。",
       "category": "Grammar"
     },
     {
@@ -2395,7 +2401,7 @@
         4
       ],
       "answer": "The project team is now facing financial difficulty.",
-      "focus": "be facing ...＝「〜に直面している」。nowは進行形の直前にも置ける。",
+      "focus": "is facing は進行形で「今直面している」。now は is の後、または文末に置ける。",
       "category": "Grammar",
       "alternatives": [
         {
@@ -2431,8 +2437,8 @@
         3
       ],
       "answer": "We finally got a new car.",
-      "focus": "finally＝「ついに」。動詞の前後の自然な位置を考える。",
-      "category": "Usage & Collocation"
+      "focus": "finally は「ついに」。We finally got ... のように一般動詞の前に置き、長い過程の末を示す。",
+      "category": "Grammar"
     },
     {
       "id": 295,
@@ -2457,8 +2463,8 @@
         4
       ],
       "answer": "He opened the device to show the complex machinery inside.",
-      "focus": "to show ...＝目的を示す不定詞。",
-      "category": "Usage & Collocation"
+      "focus": "to show ... は目的を表す不定詞。「複雑な機械を見せるために」装置を開いたことを示す。",
+      "category": "Grammar"
     },
     {
       "id": 296,
@@ -2481,7 +2487,7 @@
         2
       ],
       "answer": "The elbows of this jacket have worn thin.",
-      "focus": "have worn thin＝現在完了＋補語「薄くすり減った」。",
+      "focus": "have worn thin は現在完了。thin は「薄い」という補語で、すり減った後の状態を示す。",
       "category": "Grammar"
     },
     {
@@ -2507,7 +2513,7 @@
         2
       ],
       "answer": "He wrote a check for 10 dollars.",
-      "focus": "write a check for ...＝「〜の金額の小切手を書く」。",
+      "focus": "check は「確認する」だけでなく米語で「小切手」。金額は for 10 dollars で表す。",
       "category": "Usage & Collocation"
     },
     {
@@ -2533,8 +2539,8 @@
         5
       ],
       "answer": "My father bought the most recent CD of his favorite singer.",
-      "focus": "the most recent + 名詞＝「最新の〜」。",
-      "category": "Usage & Collocation"
+      "focus": "recent は「最近の」、the most recent は「いちばん最近の＝最新の」。newest に近い。",
+      "category": "Vocabulary"
     },
     {
       "id": 299,
@@ -2557,7 +2563,7 @@
         1
       ],
       "answer": "Although he passed the examination,he decided not to study at that university.",
-      "focus": "Although S V, ...＝「〜だけれども」。",
+      "focus": "Although S V は「～だけれども」という譲歩節。後ろの主節との対比を作る。",
       "category": "Grammar"
     },
     {
@@ -2581,8 +2587,8 @@
         3
       ],
       "answer": "You can't apply this rule to every case.",
-      "focus": "apply A to B＝「AをBに適用する」。",
-      "category": "Grammar"
+      "focus": "apply this rule to every case は use this rule in every case と近い。apply A to B の語順に注意。",
+      "category": "Paraphrase"
     }
   ]
 }

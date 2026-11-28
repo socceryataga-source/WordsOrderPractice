@@ -455,14 +455,17 @@ button:focus-visible,select:focus-visible{outline:3px solid var(--mint);outline-
 #play .play-actions button{min-width:0;min-height:54px}
 #play .skip-button{background:#2b3a4d;color:#f6d6a8;border-color:#657188}
 #play .skip-button:hover:not(:disabled){background:#374961}
-/* Insertion guide rendered only during a drag, at the actual drop index. */
+/* Out-of-flow overlay: moving the insertion line never reflows words. */
+#play .zone{position:relative}
 #play .zone .drop-insertion-marker{
-  flex:0 0 7px;align-self:stretch;min-height:42px;
-  margin:1px 2px;border-radius:999px;background:#f7c67f;
+  position:absolute;z-index:6;display:block;width:6px;
+  margin:0;padding:0;min-height:0;flex:none;
+  transform:translateX(-50%);border-radius:999px;background:#f7c67f;
   box-shadow:0 0 0 3px rgba(247,198,127,.2),0 0 16px rgba(247,198,127,.54);
   pointer-events:none;animation:insert-pulse .8s ease-in-out infinite alternate;
 }
-#play .zone .word-tile.drag-source{opacity:.28}
+#play .zone .word-tile.drag-source{opacity:.32}
+#play .dragging-ghost{pointer-events:none!important;touch-action:none;}
 @keyframes insert-pulse{to{box-shadow:0 0 0 5px rgba(247,198,127,.26),0 0 24px rgba(247,198,127,.68)}}
 @media(max-width:540px){
   #play .play-actions{grid-template-columns:.9fr .9fr 1.3fr;gap:6px}

@@ -472,3 +472,32 @@ button:focus-visible,select:focus-visible{outline:3px solid var(--mint);outline-
   #play .play-actions button{font-size:11px;letter-spacing:.3px;min-height:51px;padding:0 7px}
 }
 @media(prefers-reduced-motion:reduce){#play .zone .drop-insertion-marker{animation:none}}
+
+
+/* 2026-11: diagnostic word-order feedback and concise optional examples. */
+#play .answer-zone .word-tile.wrong-order,
+#play .answer-zone .word-tile.wrong-order:hover {
+  background:#f8b7bc;
+  color:#671b2c;
+  border:2px solid #e45569;
+  border-bottom:4px solid #a92d49;
+  box-shadow:0 0 0 2px rgba(255,124,138,.22),0 3px 0 rgba(2,10,20,.14);
+  filter:none;
+}
+#play .ordering-hint {
+  display:flex;align-items:flex-start;gap:9px;
+  border:1px solid #924a5a;border-radius:10px;
+  background:#382937;color:#f8d7de;
+  padding:11px 12px;font-size:13px;line-height:1.55;
+}
+#play .ordering-hint-swatch {
+  width:13px;height:13px;flex:none;margin-top:3px;border-radius:3px;
+  border:1px solid #e45569;background:#f8b7bc;
+}
+#play .language-focus .focus-example {
+  margin:7px 0 0;padding-top:8px;
+  color:#d4e7e0;border-top:1px solid rgba(164,205,185,.18);
+  font-size:13px;line-height:1.55;letter-spacing:.005em;
+  overflow-wrap:anywhere;
+}
+@media(max-width:540px){#play .ordering-hint{font-size:12px;padding:9px 10px}}

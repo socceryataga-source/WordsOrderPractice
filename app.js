@@ -2,6 +2,9 @@
 const $ = (id) => document.getElementById(id);
 const state = {catalog:null,level:'2',range:'501-600',count:20,minutes:8,deck:[],index:0,answer:[],bank:[],result:null,records:[],startedAt:0,deadline:null,ticker:null,done:false,bankSeed:[],cache:{}};
 const storeKey='word-order-review-v1';
+// Incorrect submissions mark the smallest set of tokens that need to move
+// toward an accepted ordering. This is a sequencing hint, not a grammar verdict.
+let wrongTileIds = new Set();
 const shuffle = arr => {let a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function show(name){for(const id of ['home','play','results']) $(id).classList.toggle('hidden',id!==name);window.scrollTo({top:0,behavior:'instant'});}
@@ -11,7 +14,7 @@ function currentRange(){return state.catalog.levels.find(x=>x.id===state.level).
 async function loadData(){const ref=currentRange();if(!ref)throw Error('Select an available vocabulary range.');if(!state.cache[ref.file]){let r=await fetch(ref.file,{cache:'no-cache'});if(!r.ok)throw Error(`Could not load ${ref.file} (HTTP ${r.status})`);let d=await r.json();if(!Array.isArray(d.questions)||!d.questions.length)throw Error('This range contains no questions.');state.cache[ref.file]=d.questions;}return state.cache[ref.file];}
 async function begin(retryIds=null){$('setupMsg').textContent='';$('start').disabled=true;try{const data=await loadData();let selected=retryIds?data.filter(q=>retryIds.includes(q.id)):shuffle(data).slice(0,Math.min(state.count,data.length));if(!selected.length)throw Error('No questions available to retry.');state.deck=shuffle(selected);state.index=0;state.records=[];state.startedAt=Date.now();state.deadline=state.minutes?Date.now()+state.minutes*60000:null;state.done=false;$('playLevel').textContent=`LEVEL ${'★'.repeat(Number(state.level))} · ${state.range}`;show('play');renderQuestion();clearInterval(state.ticker);state.ticker=setInterval(updateClock,250);updateClock();}catch(err){$('setupMsg').textContent=err.message;show('home');}finally{$('start').disabled=false;}}
 function current(){return state.deck[state.index];}
-function renderQuestion(){clearDrag();state.done=false;state.answer=[];let q=current();state.bank=shuffle(q.tiles.map((text,id)=>({id,text})));$('qCounter').textContent=`QUESTION ${String(state.index+1).padStart(2,'0')} / ${String(state.deck.length).padStart(2,'0')}`;$('qNumber').textContent=`SOURCE NO. ${q.id}`;$('japanese').textContent=q.japanese;$('fixedPrefix').textContent=q.prefix;$('fixedSuffix').textContent=q.suffix;
+function renderQuestion(){clearDrag();wrongTileIds.clear();state.done=false;state.answer=[];let q=current();state.bank=shuffle(q.tiles.map((text,id)=>({id,text})));$('qCounter').textContent=`QUESTION ${String(state.index+1).padStart(2,'0')} / ${String(state.deck.length).padStart(2,'0')}`;$('qNumber').textContent=`SOURCE NO. ${q.id}`;$('japanese').textContent=q.japanese;$('fixedPrefix').textContent=q.prefix;$('fixedSuffix').textContent=q.suffix;
   // Punctuation is not a pre-filled word: avoid rendering a large locked tile for "." or "?".
   for (const [id, value] of [['fixedPrefix', q.prefix], ['fixedSuffix', q.suffix]]) {
     const node = $(id);
@@ -20,7 +23,25 @@ function renderQuestion(){clearDrag();state.done=false;state.answer=[];let q=cur
     node.setAttribute('aria-label', punctuationOnly ? `Punctuation: ${value}` : `Given text: ${value}`);
   }$('feedback').classList.add('hidden');$('next').classList.add('hidden');$('submit').classList.remove('hidden');$('reset').disabled=false;$('skip').disabled=false;renderTiles();updateHud();}
 function tileNode(tile,zone){const b=document.createElement('button');b.type='button';b.className='word-tile';b.dataset.id=tile.id;b.dataset.zone=zone;b.textContent=tile.text;b.setAttribute('aria-label',`${tile.text}, ${zone==='bank'?'move to answer':'return to word bank'}`);b.addEventListener('pointerdown',startPointer);b.addEventListener('keydown',e=>{if(state.done)return;if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();moveByKeyboard(tile.id,zone,e.key==='ArrowLeft'?-1:1);}});return b;}
-function renderTiles(focusId=null){if(activeDrag)clearDrag();$('answerZone').replaceChildren(...state.answer.map(t=>tileNode(t,'answer')));$('bankZone').replaceChildren(...state.bank.map(t=>tileNode(t,'bank')));let q=current();$('tileCount').textContent=`${state.answer.length} / ${q.tiles.length} TILES`;$('submit').disabled=state.done||state.answer.length!==q.tiles.length;$('reset').disabled=state.done||state.answer.length===0;if(focusId!==null){let node=[...document.querySelectorAll('.word-tile')].find(t=>Number(t.dataset.id)===focusId);node?.focus({preventScroll:true});}}
+function renderTiles(focusId=null){
+  if(activeDrag)clearDrag();
+  const answerNodes=state.answer.map(tile=>{
+    const node=tileNode(tile,'answer');
+    if(state.done && wrongTileIds.has(tile.id)) {
+      node.classList.add('wrong-order');
+      node.setAttribute('aria-label',`${tile.text} — 語順を直すために移動を検討する単語`);
+      node.title='Move this word to correct the order';
+    }
+    return node;
+  });
+  $('answerZone').replaceChildren(...answerNodes);
+  $('bankZone').replaceChildren(...state.bank.map(t=>tileNode(t,'bank')));
+  let q=current();
+  $('tileCount').textContent=`${state.answer.length} / ${q.tiles.length} TILES`;
+  $('submit').disabled=state.done||state.answer.length!==q.tiles.length;
+  $('reset').disabled=state.done||state.answer.length===0;
+  if(focusId!==null){let node=[...document.querySelectorAll('.word-tile')].find(t=>Number(t.dataset.id)===focusId);node?.focus({preventScroll:true});}
+}
 function moveTile(id,from,to,index=null){if(state.done)return;const source=from==='bank'?state.bank:state.answer;const target=to==='bank'?state.bank:state.answer;const i=source.findIndex(t=>t.id===id);if(i<0)return;const [item]=source.splice(i,1);/* index already excludes the dragged tile */if(index===null)target.push(item);else target.splice(Math.max(0,Math.min(index,target.length)),0,item);renderTiles(id);}
 function moveByKeyboard(id,zone,dir){const list=zone==='answer'?state.answer:state.bank;let i=list.findIndex(t=>t.id===id);let newIndex=Math.max(0,Math.min(list.length-1,i+dir));if(newIndex===i)return;[list[i],list[newIndex]]=[list[newIndex],list[i]];renderTiles(id);}
 // A drag has exactly one owner (pointerId). Document-level listeners survive
@@ -165,6 +186,44 @@ function assessAnswer(q, selectedWords){
   const match=(q.alternatives||[]).find(alt=>key===orderKey(alt.order.map(i=>q.tiles[i])));
   return match?{correct:true,alternative:true,note:match.note||''}:{correct:false,alternative:false,note:''};
 }
+// Longest Common Subsequence (LCS): highlight a minimal number of movable
+// words instead of wrongly highlighting every token after a transposition.
+// Use the displayed text, NOT token IDs: identical duplicate words are interchangeable.
+function longestOrderedMatch(actual, expected) {
+  const a=actual.map(w=>String(w).normalize('NFKC').toLocaleLowerCase());
+  const b=expected.map(w=>String(w).normalize('NFKC').toLocaleLowerCase());
+  const n=a.length, m=b.length;
+  const dp=Array.from({length:n+1},()=>new Uint16Array(m+1));
+  for(let i=n-1;i>=0;i--){
+    for(let j=m-1;j>=0;j--){
+      dp[i][j]=a[i]===b[j]?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);
+    }
+  }
+  const keep=new Set();
+  let i=0,j=0;
+  while(i<n && j<m){
+    if(a[i]===b[j]){keep.add(i);i++;j++;}
+    else if(dp[i+1][j]>=dp[i][j+1]) i++;
+    else j++;
+  }
+  return keep;
+}
+function nearestOrderCorrection(q, answerTiles) {
+  const displayed=answerTiles.map(t=>t.text);
+  const orders=[q.correctOrder,...(q.alternatives||[]).map(a=>a.order)];
+  let best=null;
+  for(const order of orders){
+    if(!Array.isArray(order)||order.length!==displayed.length)continue;
+    const target=order.map(idx=>q.tiles[idx]);
+    const keep=longestOrderedMatch(displayed,target);
+    const exact=displayed.filter((v,i)=>orderKey([v])===orderKey([target[i]])).length;
+    if(!best||keep.size>best.keep.size||(keep.size===best.keep.size&&exact>best.exact)){
+      best={keep,exact};
+    }
+  }
+  if(!best)return new Set(answerTiles.map(t=>t.id));
+  return new Set(answerTiles.filter((t,i)=>!best.keep.has(i)).map(t=>t.id));
+}
 function skipQuestion(){
   clearDrag();
   if(state.done||!state.deck.length)return;
@@ -183,18 +242,23 @@ function submit(){
   const chosen=state.answer.map(t=>t.text);
   const assessment=assessAnswer(q,chosen);
   const correct=assessment.correct;
+  wrongTileIds=correct?new Set():nearestOrderCorrection(q,state.answer);
   state.done=true;
   state.records.push({id:q.id,japanese:q.japanese,chosen:chosen.join(' '),answer:q.answer,focus:q.focus,status:correct?'correct':'incorrect',alternative:assessment.alternative,prefix:q.prefix,suffix:q.suffix,punctuationAfter:q.punctuationAfter||[]});
   const altNote=assessment.alternative?`<div class="alternative-note" lang="ja">${escapeHtml(assessment.note)}</div>`:'';
   const submittedAnswer=assessment.alternative?`<div class="feedback-label">YOUR ANSWER — ACCEPTED</div><div class="feedback-answer accepted-answer">${escapeHtml(assemble(q,chosen.join(' ')))}</div>`:'';
+  const errorHint=!correct?`<div class="ordering-hint" lang="ja"><span class="ordering-hint-swatch" aria-hidden="true"></span><span>赤い単語は、正しい語順に直すための移動候補です。別解も考慮しています。</span></div>`:'';
+  const extraExample=q.focusExample?`<p class="focus-example" lang="en">${escapeHtml(q.focusExample)}</p>`:'';
   $('feedback').classList.remove('hidden');
-  $('feedback').innerHTML=`<div class="feedback-status ${correct?'is-correct':'is-wrong'}">${assessment.alternative?'✓ CORRECT — ALTERNATIVE ANSWER':correct?'✓ CORRECT':'✕ NOT QUITE'}</div>${!correct?`<div class="feedback-label">YOUR ANSWER</div><div class="feedback-answer">${escapeHtml(assemble(q,chosen.join(' ')))}</div>`:submittedAnswer}<div class="feedback-label">${assessment.alternative?'TEXTBOOK ANSWER':'CORRECT ANSWER'}</div><div class="feedback-answer right-answer">${escapeHtml(pretty(q.answer))}</div>${altNote}<div class="language-focus"><div class="focus-kicker">✳ LANGUAGE FOCUS <span>${escapeHtml(q.category)}</span></div><p lang="ja">${escapeHtml(q.focus)}</p></div>`;
+  $('feedback').innerHTML=`<div class="feedback-status ${correct?'is-correct':'is-wrong'}">${assessment.alternative?'✓ CORRECT — ALTERNATIVE ANSWER':correct?'✓ CORRECT':'✕ NOT QUITE'}</div>${errorHint}${!correct?`<div class="feedback-label">YOUR ANSWER</div><div class="feedback-answer">${escapeHtml(assemble(q,chosen.join(' ')))}</div>`:submittedAnswer}<div class="feedback-label">${assessment.alternative?'TEXTBOOK ANSWER':'CORRECT ANSWER'}</div><div class="feedback-answer right-answer">${escapeHtml(pretty(q.answer))}</div>${altNote}<div class="language-focus"><div class="focus-kicker">✳ LANGUAGE FOCUS <span>${escapeHtml(q.category||'Usage & Collocation')}</span></div><p lang="ja">${escapeHtml(q.focus||'')}</p>${extraExample}</div>`;
   $('submit').classList.add('hidden');
   $('skip').disabled=true;
   $('next').classList.remove('hidden');
   $('next').textContent=state.index===state.deck.length-1?'VIEW RESULTS →':'NEXT QUESTION →';
   renderTiles();updateHud();
-  $('feedback').scrollIntoView({behavior:'smooth',block:'nearest'});
+  // Keep highlighted words on screen for an incorrect answer.
+  (correct?$('feedback'):document.querySelector('#play .sentence-frame'))
+    .scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 function pretty(s){return s.replace(/,([^\s])/g,', $1');}
 function assemble(q,arr){

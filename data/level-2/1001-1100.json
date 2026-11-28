@@ -1,0 +1,2585 @@
+{
+  "level": "2",
+  "range": "1001-1100",
+  "title": "Level ★★ · 1001–1100",
+  "questions": [
+    {
+      "id": 1001,
+      "sourceNumber": 1,
+      "japanese": "私の電話会社は私のインターネットの使用を月に20ギガバイトに制限している。",
+      "prefix": "My phone company",
+      "suffix": "20 gigabytes per month.",
+      "tiles": [
+        "restricts",
+        "usage",
+        "my",
+        "Internet",
+        "to"
+      ],
+      "correctOrder": [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      "answer": "My phone company restricts my Internet usage to 20 gigabytes per month.",
+      "focus": "restrict A to B＝「AをBに制限する」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1002,
+      "sourceNumber": 2,
+      "japanese": "考え方を変えなければ成功はない。",
+      "prefix": "",
+      "suffix": ",you will never succeed.",
+      "tiles": [
+        "your",
+        "change",
+        "mindset",
+        "if",
+        "you",
+        "don't"
+      ],
+      "correctOrder": [
+        3,
+        4,
+        5,
+        1,
+        0,
+        2
+      ],
+      "answer": "If you don't change your mindset, you will never succeed.",
+      "focus": "if節の中は現在形で、主節に will never succeed を使う。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1003,
+      "sourceNumber": 3,
+      "japanese": "雨が降っているにもかかわらず，地面はまだとても固い。",
+      "prefix": "Despite the rain,",
+      "suffix": ".",
+      "tiles": [
+        "still",
+        "is",
+        "firm",
+        "ground",
+        "very",
+        "the"
+      ],
+      "correctOrder": [
+        5,
+        3,
+        1,
+        0,
+        4,
+        2
+      ],
+      "answer": "Despite the rain, the ground is still very firm.",
+      "focus": "still は be動詞の後ろに置くのが基本。very firm は形容詞句。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1004,
+      "sourceNumber": 4,
+      "japanese": "地球の 中心は熱い。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "hot",
+        "earth",
+        "of",
+        "the",
+        "is",
+        "core",
+        "the"
+      ],
+      "correctOrder": [
+        3,
+        5,
+        2,
+        6,
+        1,
+        4,
+        0
+      ],
+      "answer": "The core of the earth is hot.",
+      "focus": "the core of A＝「Aの中心」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1005,
+      "sourceNumber": 5,
+      "japanese": "彼の研究には 商業的な価値はほとんどない。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "commercial",
+        "research",
+        "has",
+        "his",
+        "value",
+        "little"
+      ],
+      "correctOrder": [
+        3,
+        1,
+        2,
+        5,
+        0,
+        4
+      ],
+      "answer": "His research has little commercial value.",
+      "focus": "little は不可算名詞 value を修飾して「ほとんどない」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1006,
+      "sourceNumber": 6,
+      "japanese": "彼は正直な人だ。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "is",
+        "an",
+        "person",
+        "honest",
+        "he"
+      ],
+      "correctOrder": [
+        4,
+        0,
+        1,
+        3,
+        2
+      ],
+      "answer": "He is an honest person.",
+      "focus": "an honest person：honest は母音で始まる発音なので an。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1007,
+      "sourceNumber": 7,
+      "japanese": "書類に署名をしていただけますか。",
+      "prefix": "Could",
+      "suffix": "the document?",
+      "tiles": [
+        "you",
+        "on",
+        "write",
+        "your",
+        "signature"
+      ],
+      "correctOrder": [
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      "answer": "Could you write your signature on the document?",
+      "focus": "write your signature on A＝「Aに署名を書く」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1008,
+      "sourceNumber": 8,
+      "japanese": "その会社は新製品をウェブサイトで宣伝するだろう。",
+      "prefix": "",
+      "suffix": "on its website.",
+      "tiles": [
+        "new",
+        "company",
+        "products",
+        "the",
+        "will",
+        "its",
+        "advertise"
+      ],
+      "correctOrder": [
+        3,
+        1,
+        4,
+        6,
+        5,
+        0,
+        2
+      ],
+      "answer": "The company will advertise its new products on its website.",
+      "focus": "advertise A on B＝「BでAを広告する」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1009,
+      "sourceNumber": 9,
+      "japanese": "このたるの容量は100リットルです。",
+      "prefix": "",
+      "suffix": "100 liters.",
+      "tiles": [
+        "this",
+        "of",
+        "capacity",
+        "barrel",
+        "the",
+        "is"
+      ],
+      "correctOrder": [
+        4,
+        2,
+        1,
+        0,
+        3,
+        5
+      ],
+      "answer": "The capacity of this barrel is 100 liters.",
+      "focus": "the capacity of A＝「Aの容量」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1010,
+      "sourceNumber": 10,
+      "japanese": "彼は2件の強盗事件を起こしたので，刑務所に入った。",
+      "prefix": "He went to prison as",
+      "suffix": ".",
+      "tiles": [
+        "had",
+        "two",
+        "robberies",
+        "committed",
+        "he"
+      ],
+      "correctOrder": [
+        4,
+        0,
+        3,
+        1,
+        2
+      ],
+      "answer": "He went to prison as he had committed two robberies.",
+      "focus": "過去の理由を示す as 節で had committed（過去完了）。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1011,
+      "sourceNumber": 11,
+      "japanese": "私はIT企業との仕事に応募している。",
+      "prefix": "I am applying for a",
+      "suffix": ".",
+      "tiles": [
+        "an",
+        "corporation",
+        "job",
+        "with",
+        "IT"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        0,
+        4,
+        1
+      ],
+      "answer": "I am applying for a job with an IT corporation.",
+      "focus": "a job with an IT corporation：ITは /aɪ/ で始まるので an。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1012,
+      "sourceNumber": 12,
+      "japanese": "あなたを批判するつもりはありませんが，いくつか提案があります。",
+      "prefix": "I don't",
+      "suffix": "but I have some suggestions.",
+      "tiles": [
+        "criticise",
+        "your",
+        "mean",
+        "idea",
+        "to"
+      ],
+      "correctOrder": [
+        2,
+        4,
+        0,
+        1,
+        3
+      ],
+      "answer": "I don't mean to criticise your idea but I have some suggestions.",
+      "focus": "mean to do＝「〜するつもりだ」。原本の criticise（英国式）を使う。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1013,
+      "sourceNumber": 13,
+      "japanese": "私には大手小売りチェーンで働く友人がいる。",
+      "prefix": "I have a friend",
+      "suffix": ".",
+      "tiles": [
+        "large",
+        "for",
+        "chain",
+        "who",
+        "a",
+        "works",
+        "retail"
+      ],
+      "correctOrder": [
+        3,
+        5,
+        1,
+        4,
+        0,
+        6,
+        2
+      ],
+      "answer": "I have a friend who works for a large retail chain.",
+      "focus": "関係代名詞 who は a friend を説明する。work for＝「〜に勤める」。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1014,
+      "sourceNumber": 14,
+      "japanese": "その画家は彼らからたくさんの仕事の依頼を受けた。",
+      "prefix": "The artist",
+      "suffix": "them.",
+      "tiles": [
+        "commissions",
+        "a",
+        "from",
+        "received",
+        "of",
+        "lot"
+      ],
+      "correctOrder": [
+        3,
+        1,
+        5,
+        4,
+        0,
+        2
+      ],
+      "answer": "The artist received a lot of commissions from them.",
+      "focus": "receive A from B＝「BからAを受け取る」。a lot of commissions をひとまとまりに。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1015,
+      "sourceNumber": 15,
+      "japanese": "彼らはその企てを断念した。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "abandoned",
+        "attempt",
+        "they",
+        "the"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "answer": "They abandoned the attempt.",
+      "focus": "abandon the attempt＝「試みを断念する」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1016,
+      "sourceNumber": 16,
+      "japanese": "彼は会社からお金を盗んだので，その結果職を失った。",
+      "prefix": "He stole money from the company so,",
+      "suffix": ".",
+      "tiles": [
+        "job",
+        "his",
+        "he",
+        "consequently",
+        "lost"
+      ],
+      "correctOrder": [
+        3,
+        2,
+        4,
+        1,
+        0
+      ],
+      "answer": "He stole money from the company so, consequently, he lost his job.",
+      "focus": "consequently＝「結果として」。主語 he と動詞 lost の順序を確認。",
+      "category": "Grammar",
+      "punctuationAfter": [
+        "consequently"
+      ]
+    },
+    {
+      "id": 1017,
+      "sourceNumber": 17,
+      "japanese": "このリストは、読むべき本を探すのに役立つ。",
+      "prefix": "The list",
+      "suffix": "you should read.",
+      "tiles": [
+        "in",
+        "you",
+        "finding",
+        "books",
+        "assist",
+        "will"
+      ],
+      "correctOrder": [
+        5,
+        4,
+        1,
+        0,
+        2,
+        3
+      ],
+      "answer": "The list will assist you in finding books you should read.",
+      "focus": "assist A in doing＝「Aが〜するのを手助けする」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1018,
+      "sourceNumber": 18,
+      "japanese": "「私の言うことはすべてうそだ」は逆説のよく知られた例だ。",
+      "prefix": "“Everything I say is a lie”",
+      "suffix": ".",
+      "tiles": [
+        "of",
+        "example",
+        "a",
+        "paradox",
+        "a",
+        "is",
+        "popular"
+      ],
+      "correctOrder": [
+        5,
+        2,
+        6,
+        1,
+        0,
+        4,
+        3
+      ],
+      "answer": "“Everything I say is a lie”  is a popular example of a paradox.",
+      "focus": "a popular example of A＝「Aのよく知られた例」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1019,
+      "sourceNumber": 19,
+      "japanese": "がけの端から離れなさい。",
+      "prefix": "",
+      "suffix": "of the cliff.",
+      "tiles": [
+        "away",
+        "stay",
+        "the",
+        "edge",
+        "from"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        4,
+        2,
+        3
+      ],
+      "answer": "Stay away from the edge of the cliff.",
+      "focus": "stay away from A＝「Aから離れている」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1020,
+      "sourceNumber": 20,
+      "japanese": "私は新聞で新しいアパートの広告を見た。",
+      "prefix": "I",
+      "suffix": "for a new apartment.",
+      "tiles": [
+        "in",
+        "at",
+        "the",
+        "looked",
+        "ads",
+        "the",
+        "newspaper"
+      ],
+      "correctOrder": [
+        3,
+        1,
+        2,
+        4,
+        0,
+        5,
+        6
+      ],
+      "answer": "I looked at the ads in the newspaper for a new apartment.",
+      "focus": "look at A＝「Aを見る」。in the newspaper は媒体を示す。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1021,
+      "sourceNumber": 21,
+      "japanese": "それは昨日あなたが言ったことと矛盾している。",
+      "prefix": "",
+      "suffix": "yesterday.",
+      "tiles": [
+        "said",
+        "contradicts",
+        "that",
+        "you",
+        "what"
+      ],
+      "correctOrder": [
+        2,
+        1,
+        4,
+        3,
+        0
+      ],
+      "answer": "That contradicts what you said yesterday.",
+      "focus": "contradict A＝「Aと矛盾する」。what you said が目的語。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1022,
+      "sourceNumber": 22,
+      "japanese": "クラブの主将を選ぶのに3人の候補がいる。",
+      "prefix": "There are",
+      "suffix": "for club captain.",
+      "tiles": [
+        "from",
+        "choose",
+        "candidates",
+        "to",
+        "three"
+      ],
+      "correctOrder": [
+        4,
+        2,
+        3,
+        1,
+        0
+      ],
+      "answer": "There are three candidates to choose from for club captain.",
+      "focus": "three candidates to choose from：不定詞の前置詞 from を忘れない。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1023,
+      "sourceNumber": 23,
+      "japanese": "彼は生徒に厳しい。",
+      "prefix": "",
+      "suffix": "his students.",
+      "tiles": [
+        "with",
+        "he",
+        "is",
+        "strict"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "answer": "He is strict with his students.",
+      "focus": "be strict with A＝「Aに厳しい」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1024,
+      "sourceNumber": 24,
+      "japanese": "すべての教師の予想に反して，彼は簡単に試験に合格した。",
+      "prefix": "",
+      "suffix": ",he passed the examination easily.",
+      "tiles": [
+        "expectations",
+        "to",
+        "teachers'",
+        "his",
+        "all",
+        "contrary"
+      ],
+      "correctOrder": [
+        5,
+        1,
+        4,
+        3,
+        2,
+        0
+      ],
+      "answer": "Contrary to all his teachers' expectations, he passed the examination easily.",
+      "focus": "contrary to A＝「Aに反して」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1025,
+      "sourceNumber": 25,
+      "japanese": "彼は教育改革の熱心な提唱者だった。",
+      "prefix": "He",
+      "suffix": "education reform.",
+      "tiles": [
+        "a",
+        "advocate",
+        "was",
+        "passionate",
+        "for"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        3,
+        1,
+        4
+      ],
+      "answer": "He was a passionate advocate for education reform.",
+      "focus": "a passionate advocate for A＝「Aの熱心な支持者」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1026,
+      "sourceNumber": 26,
+      "japanese": "私は不誠実な言い訳をしたことを後悔している。",
+      "prefix": "I",
+      "suffix": ".",
+      "tiles": [
+        "having",
+        "a",
+        "excuse",
+        "dishonest",
+        "made",
+        "regret"
+      ],
+      "correctOrder": [
+        5,
+        0,
+        4,
+        1,
+        3,
+        2
+      ],
+      "answer": "I regret having made a dishonest excuse.",
+      "focus": "regret having done＝「〜したことを後悔する」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1027,
+      "sourceNumber": 27,
+      "japanese": "ふと考えが浮かび，問題を解決する方法に気づいた。",
+      "prefix": "I",
+      "suffix": "how to solve the problem.",
+      "tiles": [
+        "sudden",
+        "realized",
+        "had",
+        "thought",
+        "and",
+        "a"
+      ],
+      "correctOrder": [
+        2,
+        5,
+        0,
+        3,
+        4,
+        1
+      ],
+      "answer": "I had a sudden thought and realized how to solve the problem.",
+      "focus": "have a sudden thought＝「ふと考えが浮かぶ」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1028,
+      "sourceNumber": 28,
+      "japanese": "彼らはその事故の原因を徹底的に調査するだろう。",
+      "prefix": "They will thoroughly",
+      "suffix": "the accident.",
+      "tiles": [
+        "of",
+        "the",
+        "cause",
+        "investigate"
+      ],
+      "correctOrder": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "answer": "They will thoroughly investigate the cause of the accident.",
+      "focus": "investigate the cause of A＝「Aの原因を調べる」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1029,
+      "sourceNumber": 29,
+      "japanese": "自由という概念はアメリカの政治において非常に重要だ。",
+      "prefix": "",
+      "suffix": "in American politics.",
+      "tiles": [
+        "liberty",
+        "of",
+        "very",
+        "concept",
+        "is",
+        "the",
+        "important"
+      ],
+      "correctOrder": [
+        5,
+        3,
+        1,
+        0,
+        4,
+        2,
+        6
+      ],
+      "answer": "The concept of liberty is very important in American politics.",
+      "focus": "the concept of A＝「Aという概念」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1030,
+      "sourceNumber": 30,
+      "japanese": "選挙に勝つには世論に訴えなければならない。",
+      "prefix": "We must",
+      "suffix": "win the election.",
+      "tiles": [
+        "opinion",
+        "public",
+        "to",
+        "to",
+        "appeal"
+      ],
+      "correctOrder": [
+        4,
+        2,
+        1,
+        0,
+        3
+      ],
+      "answer": "We must appeal to public opinion to win the election.",
+      "focus": "appeal to public opinion＝「世論に訴える」。to win は目的。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1031,
+      "sourceNumber": 31,
+      "japanese": "多くの格闘技は，危険な状況で自分自身を守るのに役立つ。",
+      "prefix": "Many martial arts",
+      "suffix": "a dangerous situation.",
+      "tiles": [
+        "in",
+        "yourself",
+        "you",
+        "help",
+        "defend"
+      ],
+      "correctOrder": [
+        3,
+        2,
+        4,
+        1,
+        0
+      ],
+      "answer": "Many martial arts help you defend yourself in a dangerous situation.",
+      "focus": "help A do＝「Aが〜するのを助ける」。defend yourself をひとまとまりに。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1032,
+      "sourceNumber": 32,
+      "japanese": "その販売員は機械がどのように機能するかを実演した。",
+      "prefix": "",
+      "suffix": "worked.",
+      "tiles": [
+        "the",
+        "salesperson",
+        "machine",
+        "the",
+        "how",
+        "demonstrated"
+      ],
+      "correctOrder": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2
+      ],
+      "answer": "The salesperson demonstrated how the machine worked.",
+      "focus": "demonstrate how S V＝「どのように〜するかを実演する」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1033,
+      "sourceNumber": 33,
+      "japanese": "警察はその火事の 調査を始めた。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "started",
+        "fire",
+        "an",
+        "police",
+        "into",
+        "inquiry",
+        "the",
+        "the"
+      ],
+      "correctOrder": [
+        6,
+        3,
+        0,
+        2,
+        5,
+        4,
+        7,
+        1
+      ],
+      "answer": "The police started an inquiry into the fire.",
+      "focus": "start an inquiry into A＝「Aの調査を始める」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1034,
+      "sourceNumber": 34,
+      "japanese": "動物実験に関しては倫理的な問題がある。",
+      "prefix": "",
+      "suffix": "animal experiments.",
+      "tiles": [
+        "concerning",
+        "are",
+        "issues",
+        "ethical",
+        "some",
+        "there"
+      ],
+      "correctOrder": [
+        5,
+        1,
+        4,
+        3,
+        2,
+        0
+      ],
+      "answer": "There are some ethical issues concerning animal experiments.",
+      "focus": "There are＋複数名詞。concerning は「〜に関する」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1035,
+      "sourceNumber": 35,
+      "japanese": "前もって予約することを忘れないように。",
+      "prefix": "",
+      "suffix": "in advance.",
+      "tiles": [
+        "reservations",
+        "make",
+        "don't",
+        "neglect",
+        "to"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        4,
+        1,
+        0
+      ],
+      "answer": "Don't neglect to make reservations in advance.",
+      "focus": "neglect to do＝「〜するのを怠る」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1036,
+      "sourceNumber": 36,
+      "japanese": "最初の学期にはこのコースを取る必要がある。",
+      "prefix": "You need to",
+      "suffix": ".",
+      "tiles": [
+        "the",
+        "this",
+        "first",
+        "take",
+        "during",
+        "course",
+        "semester"
+      ],
+      "correctOrder": [
+        3,
+        1,
+        5,
+        4,
+        0,
+        2,
+        6
+      ],
+      "answer": "You need to take this course during the first semester.",
+      "focus": "take a course＝「講座を受講する」。during the first semester が時期。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1037,
+      "sourceNumber": 37,
+      "japanese": "あなたは多くのすばらしい考え方を理解し記憶する ことができる。",
+      "prefix": "",
+      "suffix": "many wonderful ideas.",
+      "tiles": [
+        "remembering",
+        "are",
+        "of",
+        "understanding",
+        "you",
+        "and",
+        "capable"
+      ],
+      "correctOrder": [
+        4,
+        1,
+        6,
+        2,
+        3,
+        5,
+        0
+      ],
+      "answer": "You are capable of understanding and remembering many wonderful ideas.",
+      "focus": "be capable of doing＝「〜する能力がある」。and で2つの動名詞を並列。",
+      "category": "Grammar",
+      "alternatives": [
+        {
+          "order": [
+            4,
+            1,
+            6,
+            2,
+            0,
+            5,
+            3
+          ],
+          "note": "「理解する」と「覚える」の並列順序を入れ替えても自然です。"
+        }
+      ]
+    },
+    {
+      "id": 1038,
+      "sourceNumber": 38,
+      "japanese": "スピーチを終えるにあたって，改善すべき点をいくつか提案したいと思います。",
+      "prefix": "",
+      "suffix": ",I would like to make some suggestions for improvement.",
+      "tiles": [
+        "conclude",
+        "speech",
+        "my",
+        "to"
+      ],
+      "correctOrder": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "answer": "To conclude my speech, I would like to make some suggestions for improvement.",
+      "focus": "To conclude my speech は文全体にかかる目的の不定詞。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1039,
+      "sourceNumber": 39,
+      "japanese": "その女性は偽物の毛皮のコートを着ていた。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "fur",
+        "a",
+        "coat",
+        "fake",
+        "wore",
+        "the",
+        "woman"
+      ],
+      "correctOrder": [
+        5,
+        6,
+        4,
+        1,
+        3,
+        0,
+        2
+      ],
+      "answer": "The woman wore a fake fur coat.",
+      "focus": "a fake fur coat＝「偽物の毛皮のコート」。語の修飾順序に注意。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1040,
+      "sourceNumber": 40,
+      "japanese": "ここに工場を建設することは地元の野生生物をおびやかすことになるだろう。",
+      "prefix": "Building a factory here",
+      "suffix": ".",
+      "tiles": [
+        "will",
+        "local",
+        "threaten",
+        "the",
+        "wildlife"
+      ],
+      "correctOrder": [
+        0,
+        2,
+        3,
+        1,
+        4
+      ],
+      "answer": "Building a factory here will threaten the local wildlife.",
+      "focus": "threaten A＝「Aを脅かす」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1041,
+      "sourceNumber": 41,
+      "japanese": "医者は普通の風邪の治療法を見つけたと思っている。",
+      "prefix": "Doctors think that",
+      "suffix": "the common cold.",
+      "tiles": [
+        "a",
+        "cure",
+        "they",
+        "have",
+        "for",
+        "found"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        5,
+        0,
+        1,
+        4
+      ],
+      "answer": "Doctors think that they have found a cure for the common cold.",
+      "focus": "find a cure for A＝「Aの治療法を見つける」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1042,
+      "sourceNumber": 42,
+      "japanese": "図書館は勉強するには静かでいいところだ。",
+      "prefix": "",
+      "suffix": "place to study.",
+      "tiles": [
+        "nice",
+        "a",
+        "quiet",
+        "the",
+        "library",
+        "is"
+      ],
+      "correctOrder": [
+        3,
+        4,
+        5,
+        1,
+        0,
+        2
+      ],
+      "answer": "The library is a nice quiet place to study.",
+      "focus": "a nice quiet place：形容詞を続けて名詞を修飾する。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1043,
+      "sourceNumber": 43,
+      "japanese": "その侵略で多くの人々が死んだ。",
+      "prefix": "A lot of",
+      "suffix": ".",
+      "tiles": [
+        "people",
+        "the",
+        "died",
+        "invasion",
+        "in"
+      ],
+      "correctOrder": [
+        0,
+        2,
+        4,
+        1,
+        3
+      ],
+      "answer": "A lot of people died in the invasion.",
+      "focus": "A lot of people＝複数主語。die in A＝「Aで亡くなる」。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1044,
+      "sourceNumber": 44,
+      "japanese": "私たちの教授はクローン技術の分野の先駆者だ。",
+      "prefix": "Our professor",
+      "suffix": "of cloning.",
+      "tiles": [
+        "a",
+        "field",
+        "is",
+        "pioneer",
+        "the",
+        "in"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        3,
+        5,
+        4,
+        1
+      ],
+      "answer": "Our professor is a pioneer in the field of cloning.",
+      "focus": "a pioneer in the field of A＝「Aの分野の先駆者」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1045,
+      "sourceNumber": 45,
+      "japanese": "私の年老いた母は，病気のために1日に3錠の薬を飲んでいる。",
+      "prefix": "My elderly mother",
+      "suffix": "her medical condition.",
+      "tiles": [
+        "for",
+        "three",
+        "day",
+        "a",
+        "pills",
+        "takes"
+      ],
+      "correctOrder": [
+        5,
+        1,
+        4,
+        3,
+        2,
+        0
+      ],
+      "answer": "My elderly mother takes three pills a day for her medical condition.",
+      "focus": "three pills a day＝「1日3錠」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1046,
+      "sourceNumber": 46,
+      "japanese": "警察は彼が無実であることがわかり釈放した。",
+      "prefix": "The police released the man",
+      "suffix": ".",
+      "tiles": [
+        "was",
+        "he",
+        "innocent",
+        "they",
+        "when",
+        "realized"
+      ],
+      "correctOrder": [
+        4,
+        3,
+        5,
+        1,
+        0,
+        2
+      ],
+      "answer": "The police released the man when they realized he was innocent.",
+      "focus": "when they realized S V＝「〜と気づいたとき」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1047,
+      "sourceNumber": 47,
+      "japanese": "宝くじに当たったことで，彼の人生は一夜にして変わった。",
+      "prefix": "Winning",
+      "suffix": "overnight.",
+      "tiles": [
+        "lottery",
+        "the",
+        "his",
+        "changed",
+        "life"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      "answer": "Winning the lottery changed his life overnight.",
+      "focus": "Winning the lottery は動名詞句が主語。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1048,
+      "sourceNumber": 48,
+      "japanese": "日本語は学ぶのが非常に難しい言語であると一般的に 主張されている。",
+      "prefix": "",
+      "suffix": "an extremely difficult language to learn.",
+      "tiles": [
+        "is",
+        "that",
+        "asserted",
+        "is",
+        "Japanese",
+        "it",
+        "commonly"
+      ],
+      "correctOrder": [
+        5,
+        0,
+        6,
+        2,
+        1,
+        4,
+        3
+      ],
+      "answer": "It is commonly asserted that Japanese is an extremely difficult language to learn.",
+      "focus": "It is commonly asserted that S V＝「一般に〜と主張されている」。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1049,
+      "sourceNumber": 49,
+      "japanese": "私の国ではマスメディアが過剰な権力を享受している。",
+      "prefix": "",
+      "suffix": "in my country.",
+      "tiles": [
+        "media",
+        "power",
+        "the",
+        "enjoys",
+        "much",
+        "too"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        3,
+        5,
+        4,
+        1
+      ],
+      "answer": "The media enjoys too much power in my country.",
+      "focus": "too much＋不可算名詞 power＝「過剰な権力」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1050,
+      "sourceNumber": 50,
+      "japanese": "チャンピオンは新人選手に簡単に勝った。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "beat",
+        "easily",
+        "new",
+        "champion",
+        "the",
+        "the",
+        "player"
+      ],
+      "correctOrder": [
+        4,
+        3,
+        1,
+        0,
+        5,
+        2,
+        6
+      ],
+      "answer": "The champion easily beat the new player.",
+      "focus": "easily は動詞 beat の前にも、目的語の後にも置ける。",
+      "category": "Usage & Collocation",
+      "alternatives": [
+        {
+          "order": [
+            4,
+            3,
+            0,
+            5,
+            2,
+            6,
+            1
+          ],
+          "note": "easily は他動詞 beat の前だけでなく、目的語の後にも置けます。"
+        }
+      ]
+    },
+    {
+      "id": 1051,
+      "sourceNumber": 51,
+      "japanese": "妹は両親を怒らせたことで私を責めた。",
+      "prefix": "My sister",
+      "suffix": "angry.",
+      "tiles": [
+        "our",
+        "me",
+        "parents",
+        "blamed",
+        "making",
+        "for"
+      ],
+      "correctOrder": [
+        3,
+        1,
+        5,
+        4,
+        0,
+        2
+      ],
+      "answer": "My sister blamed me for making our parents angry.",
+      "focus": "blame A for doing＝「〜したことでAを責める」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1052,
+      "sourceNumber": 52,
+      "japanese": "彼は人生の問題に対して実践的なアドバイスをするのが非常に得意だ。",
+      "prefix": "He is very",
+      "suffix": "life's problems.",
+      "tiles": [
+        "giving",
+        "on",
+        "good",
+        "practical",
+        "advice",
+        "at"
+      ],
+      "correctOrder": [
+        2,
+        5,
+        0,
+        3,
+        4,
+        1
+      ],
+      "answer": "He is very good at giving practical advice on life's problems.",
+      "focus": "be good at doing＝「〜するのが得意」。practical advice は不可算名詞。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1053,
+      "sourceNumber": 53,
+      "japanese": "私たちは庭にカボチャの種をまいた。",
+      "prefix": "We",
+      "suffix": "the yard.",
+      "tiles": [
+        "around",
+        "the",
+        "scattered",
+        "pumpkin",
+        "seeds"
+      ],
+      "correctOrder": [
+        2,
+        1,
+        3,
+        4,
+        0
+      ],
+      "answer": "We scattered the pumpkin seeds around the yard.",
+      "focus": "scatter A around B＝「Bの周りにAをまき散らす」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1054,
+      "sourceNumber": 54,
+      "japanese": "不幸にも，彼女は末期の病気を抱えていて来年はここにはいないだろう。",
+      "prefix": "Unfortunately,she",
+      "suffix": "may not be here next year.",
+      "tiles": [
+        "a",
+        "and",
+        "terminal",
+        "has",
+        "disease"
+      ],
+      "correctOrder": [
+        3,
+        0,
+        2,
+        4,
+        1
+      ],
+      "answer": "Unfortunately, she has a terminal disease and may not be here next year.",
+      "focus": "have a terminal disease＝「末期の病気を抱えている」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1055,
+      "sourceNumber": 55,
+      "japanese": "写真1部をこのメールに添付します。",
+      "prefix": "A copy of the photograph",
+      "suffix": ".",
+      "tiles": [
+        "email",
+        "this",
+        "is",
+        "attached",
+        "to"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        4,
+        1,
+        0
+      ],
+      "answer": "A copy of the photograph is attached to this email.",
+      "focus": "be attached to A＝「Aに添付されている」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1056,
+      "sourceNumber": 56,
+      "japanese": "合理的な選択をするためには，多くの要素を考慮すべきだ。",
+      "prefix": "You should consider",
+      "suffix": ".",
+      "tiles": [
+        "a",
+        "make",
+        "decision",
+        "rational",
+        "to",
+        "factors",
+        "many"
+      ],
+      "correctOrder": [
+        6,
+        5,
+        4,
+        1,
+        0,
+        3,
+        2
+      ],
+      "answer": "You should consider many factors to make a rational decision.",
+      "focus": "consider many factors＝「多くの要素を考慮する」。to make は目的。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1057,
+      "sourceNumber": 57,
+      "japanese": "何が悪とみなされるかは文化によって異なる。",
+      "prefix": "",
+      "suffix": "from culture to culture.",
+      "tiles": [
+        "vice",
+        "a",
+        "differs",
+        "what",
+        "is",
+        "considered"
+      ],
+      "correctOrder": [
+        3,
+        4,
+        5,
+        1,
+        0,
+        2
+      ],
+      "answer": "What is considered a vice differs from culture to culture.",
+      "focus": "what is considered a vice が名詞節となり、主語になる。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1058,
+      "sourceNumber": 58,
+      "japanese": "公職に就く人は権力を乱用してはいけない。",
+      "prefix": "People in public",
+      "suffix": ".",
+      "tiles": [
+        "mustn't",
+        "power",
+        "their",
+        "abuse",
+        "office"
+      ],
+      "correctOrder": [
+        4,
+        0,
+        3,
+        2,
+        1
+      ],
+      "answer": "People in public office mustn't abuse their power.",
+      "focus": "People in public office＝「公職にある人々」。abuse their power に注目。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1059,
+      "sourceNumber": 59,
+      "japanese": "祖父は蔵書をすべて図書館に寄付した。",
+      "prefix": "My grandfather",
+      "suffix": "the library.",
+      "tiles": [
+        "books",
+        "his",
+        "to",
+        "all",
+        "donated"
+      ],
+      "correctOrder": [
+        4,
+        3,
+        1,
+        0,
+        2
+      ],
+      "answer": "My grandfather donated all his books to the library.",
+      "focus": "donate A to B＝「AをBに寄付する」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1060,
+      "sourceNumber": 60,
+      "japanese": "コンピューターにゲームソフトをインストールした。",
+      "prefix": "I",
+      "suffix": "my computer.",
+      "tiles": [
+        "installed",
+        "on",
+        "have",
+        "the",
+        "software",
+        "game"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        3,
+        5,
+        4,
+        1
+      ],
+      "answer": "I have installed the game software on my computer.",
+      "focus": "install A on B＝「BにAをインストールする」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1061,
+      "sourceNumber": 61,
+      "japanese": "お酒を飲んだ後に運転するのは違法です。",
+      "prefix": "",
+      "suffix": "after drinking alcohol.",
+      "tiles": [
+        "is",
+        "drive",
+        "to",
+        "it",
+        "illegal"
+      ],
+      "correctOrder": [
+        3,
+        0,
+        4,
+        2,
+        1
+      ],
+      "answer": "It is illegal to drive after drinking alcohol.",
+      "focus": "It is illegal to do＝「〜するのは違法だ」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1062,
+      "sourceNumber": 62,
+      "japanese": "状況は，だれも解決法を思いつかないほど 厳しかった。",
+      "prefix": "",
+      "suffix": "that nobody could come up with a solution.",
+      "tiles": [
+        "so",
+        "was",
+        "situation",
+        "tough",
+        "the"
+      ],
+      "correctOrder": [
+        4,
+        2,
+        1,
+        0,
+        3
+      ],
+      "answer": "The situation was so tough that nobody could come up with a solution.",
+      "focus": "so＋形容詞＋that SV＝「とても〜なので…」。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1063,
+      "sourceNumber": 63,
+      "japanese": "その映画には多くの残酷なシーンがある。",
+      "prefix": "There are",
+      "suffix": ".",
+      "tiles": [
+        "of",
+        "lot",
+        "movie",
+        "cruel",
+        "in",
+        "scenes",
+        "the",
+        "a"
+      ],
+      "correctOrder": [
+        7,
+        1,
+        0,
+        3,
+        5,
+        4,
+        6,
+        2
+      ],
+      "answer": "There are a lot of cruel scenes in the movie.",
+      "focus": "a lot of＋複数名詞。cruel scenes は「残酷な場面」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1064,
+      "sourceNumber": 64,
+      "japanese": "２人の生徒が教室の後ろでひそひそ話を続けていた。",
+      "prefix": "The two students",
+      "suffix": "the back of the classroom.",
+      "tiles": [
+        "to",
+        "at",
+        "kept",
+        "each",
+        "other",
+        "whispering"
+      ],
+      "correctOrder": [
+        2,
+        5,
+        0,
+        3,
+        4,
+        1
+      ],
+      "answer": "The two students kept whispering to each other at the back of the classroom.",
+      "focus": "keep doing＝「〜し続ける」。whisper to each other＝「互いにささやく」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1065,
+      "sourceNumber": 65,
+      "japanese": "彼は気づかないふりをした。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "he",
+        "not",
+        "pretended",
+        "notice",
+        "to"
+      ],
+      "correctOrder": [
+        0,
+        2,
+        1,
+        4,
+        3
+      ],
+      "answer": "He pretended not to notice.",
+      "focus": "pretend not to do＝「〜しないふりをする」。not は to の前。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1066,
+      "sourceNumber": 66,
+      "japanese": "現実の生活はしばしばもっと繊細なものである。",
+      "prefix": "Real life is",
+      "suffix": ".",
+      "tiles": [
+        "more",
+        "often",
+        "a",
+        "affair",
+        "delicate"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        0,
+        4,
+        3
+      ],
+      "answer": "Real life is often a more delicate affair.",
+      "focus": "a more delicate affair＝「より繊細な事柄」。often は be動詞の後。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1067,
+      "sourceNumber": 67,
+      "japanese": "彼は深刻な負傷をすることなくその車の事故から逃れた。",
+      "prefix": "He escaped the car crash",
+      "suffix": ".",
+      "tiles": [
+        "serious",
+        "with",
+        "no",
+        "injuries"
+      ],
+      "correctOrder": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "answer": "He escaped the car crash with no serious injuries.",
+      "focus": "with no serious injuries＝「重傷を負わずに」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1068,
+      "sourceNumber": 68,
+      "japanese": "私の家族はこの町を作った人々の子孫です。",
+      "prefix": "My family",
+      "suffix": "created this town.",
+      "tiles": [
+        "descendants",
+        "who",
+        "the",
+        "people",
+        "of",
+        "are"
+      ],
+      "correctOrder": [
+        5,
+        0,
+        4,
+        2,
+        3,
+        1
+      ],
+      "answer": "My family are descendants of the people who created this town.",
+      "focus": "be descendants of A＝「Aの子孫である」。who 以下が people を修飾。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1069,
+      "sourceNumber": 69,
+      "japanese": "彼女は彼が車を盗んだと言って 責めた。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "accused",
+        "car",
+        "him",
+        "her",
+        "she",
+        "of",
+        "stealing"
+      ],
+      "correctOrder": [
+        4,
+        0,
+        2,
+        5,
+        6,
+        3,
+        1
+      ],
+      "answer": "She accused him of stealing her car.",
+      "focus": "accuse A of doing＝「Aを〜したと非難する」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1070,
+      "sourceNumber": 70,
+      "japanese": "驚いたことに，彼は大企業に就職した。",
+      "prefix": "",
+      "suffix": "at the big company.",
+      "tiles": [
+        "surprisingly,",
+        "got",
+        "he",
+        "job",
+        "a"
+      ],
+      "correctOrder": [
+        0,
+        2,
+        1,
+        4,
+        3
+      ],
+      "answer": "Surprisingly, he got a job at the big company.",
+      "focus": "surprisingly は文全体にかかる副詞。文頭に置く。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1071,
+      "sourceNumber": 71,
+      "japanese": "その問題はもっと広い視野で考えるべきだ。",
+      "prefix": "We should consider",
+      "suffix": ".",
+      "tiles": [
+        "perspective",
+        "problem",
+        "broader",
+        "a",
+        "from",
+        "the"
+      ],
+      "correctOrder": [
+        5,
+        1,
+        4,
+        3,
+        2,
+        0
+      ],
+      "answer": "We should consider the problem from a broader perspective.",
+      "focus": "consider A from a broader perspective＝「より広い視点からAを考える」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1072,
+      "sourceNumber": 72,
+      "japanese": "ようやくあなたに直接お会いできて光栄です。",
+      "prefix": "",
+      "suffix": "finally meet you in person.",
+      "tiles": [
+        "to",
+        "honor",
+        "it",
+        "is",
+        "an"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        4,
+        1,
+        0
+      ],
+      "answer": "It is an honor to finally meet you in person.",
+      "focus": "It is an honor to do＝「〜できて光栄です」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1073,
+      "sourceNumber": 73,
+      "japanese": "その言葉は思い出せないが，舌の先にはある〔すぐそこまで出かかっている〕。",
+      "prefix": "I can't remember the word,but",
+      "suffix": "tongue.",
+      "tiles": [
+        "tip",
+        "is",
+        "of",
+        "it",
+        "the",
+        "on",
+        "my"
+      ],
+      "correctOrder": [
+        3,
+        1,
+        5,
+        4,
+        0,
+        2,
+        6
+      ],
+      "answer": "I can't remember the word, but it is on the tip of my tongue.",
+      "focus": "on the tip of one's tongue＝「喉まで出かかっている」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1074,
+      "sourceNumber": 74,
+      "japanese": "児童労働の問題に取り組むのは非常に難しい。",
+      "prefix": "It is very",
+      "suffix": "child labor.",
+      "tiles": [
+        "problem",
+        "the",
+        "of",
+        "to",
+        "difficult",
+        "tackle"
+      ],
+      "correctOrder": [
+        4,
+        3,
+        5,
+        1,
+        0,
+        2
+      ],
+      "answer": "It is very difficult to tackle the problem of child labor.",
+      "focus": "it is difficult to do の形。tackle the problem of A＝「Aの問題に取り組む」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1075,
+      "sourceNumber": 75,
+      "japanese": "増大する仕事量にどのように対処していいのかわからない。",
+      "prefix": "I have",
+      "suffix": "the increasing workload.",
+      "tiles": [
+        "to",
+        "cope",
+        "no",
+        "idea",
+        "with",
+        "how"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        5,
+        0,
+        1,
+        4
+      ],
+      "answer": "I have no idea how to cope with the increasing workload.",
+      "focus": "have no idea how to do＝「どう〜するのかわからない」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1076,
+      "sourceNumber": 76,
+      "japanese": "21世紀になっても人々は民主主義のために戦っている。",
+      "prefix": "Even in the 21st century",
+      "suffix": ".",
+      "tiles": [
+        "people",
+        "democracy",
+        "are",
+        "fighting",
+        "for"
+      ],
+      "correctOrder": [
+        0,
+        2,
+        3,
+        4,
+        1
+      ],
+      "answer": "Even in the 21st century people are fighting for democracy.",
+      "focus": "fight for A＝「Aのために戦う」。進行形 are fighting。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1077,
+      "sourceNumber": 77,
+      "japanese": "私は締切よりもかなり前にレポートを提出することができた。",
+      "prefix": "I was able to submit",
+      "suffix": ".",
+      "tiles": [
+        "before",
+        "well",
+        "deadline",
+        "report",
+        "the",
+        "the"
+      ],
+      "correctOrder": [
+        4,
+        3,
+        1,
+        0,
+        5,
+        2
+      ],
+      "answer": "I was able to submit the report well before the deadline.",
+      "focus": "well before the deadline＝「締切よりかなり前に」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1078,
+      "sourceNumber": 78,
+      "japanese": "疲れていると感染症にかかりやすい。",
+      "prefix": "",
+      "suffix": "when you are tired.",
+      "tiles": [
+        "are",
+        "you",
+        "to",
+        "vulnerable",
+        "infections"
+      ],
+      "correctOrder": [
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      "answer": "You are vulnerable to infections when you are tired.",
+      "focus": "be vulnerable to A＝「Aにかかりやすい／弱い」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1079,
+      "sourceNumber": 79,
+      "japanese": "彼の計画には賛成できない。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "his",
+        "of",
+        "plan",
+        "can't",
+        "I",
+        "approve"
+      ],
+      "correctOrder": [
+        4,
+        3,
+        5,
+        1,
+        0,
+        2
+      ],
+      "answer": "I can't approve of his plan.",
+      "focus": "approve of A＝「Aに賛成する」。of を忘れない。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1080,
+      "sourceNumber": 80,
+      "japanese": "その会社を使うことで時間を節約でき，さらにお金も節約できる。",
+      "prefix": "We can save time",
+      "suffix": "using the company.",
+      "tiles": [
+        "by",
+        "save",
+        "money",
+        "moreover",
+        "and"
+      ],
+      "correctOrder": [
+        4,
+        3,
+        1,
+        2,
+        0
+      ],
+      "answer": "We can save time and moreover save money by using the company.",
+      "focus": "moreover は「さらに」。save time と save money を並列で捉える。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1081,
+      "sourceNumber": 81,
+      "japanese": "この会社では多様な経歴の人が働いている。",
+      "prefix": "",
+      "suffix": "this company.",
+      "tiles": [
+        "backgrounds",
+        "work",
+        "people",
+        "from",
+        "for",
+        "diverse"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        5,
+        0,
+        1,
+        4
+      ],
+      "answer": "People from diverse backgrounds work for this company.",
+      "focus": "from diverse backgrounds が people を後ろから修飾する。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1082,
+      "sourceNumber": 82,
+      "japanese": "日本政府はアジア諸国に多くの支援を提供している。",
+      "prefix": "The Japanese government",
+      "suffix": "asian countries.",
+      "tiles": [
+        "a",
+        "to",
+        "provides",
+        "lot",
+        "aid",
+        "of"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        3,
+        5,
+        4,
+        1
+      ],
+      "answer": "The Japanese government provides a lot of aid to Asian countries.",
+      "focus": "provide A to B＝「AをBに提供する」。a lot of aid をまとめる。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1083,
+      "sourceNumber": 83,
+      "japanese": "厳しい天候のため，その屋外コンサートは中止された。",
+      "prefix": "",
+      "suffix": ",the outdoor concert was canceled.",
+      "tiles": [
+        "the",
+        "due",
+        "harsh",
+        "weather",
+        "to"
+      ],
+      "correctOrder": [
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "answer": "Due to the harsh weather, the outdoor concert was canceled.",
+      "focus": "due to A＝「Aのために」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1084,
+      "sourceNumber": 84,
+      "japanese": "第三者の多くは，この 硬直した階級制度を好ましくないと考えている。",
+      "prefix": "Many outsiders believe",
+      "suffix": ".",
+      "tiles": [
+        "not",
+        "good",
+        "system",
+        "rigid",
+        "class",
+        "is",
+        "this"
+      ],
+      "correctOrder": [
+        6,
+        3,
+        4,
+        2,
+        5,
+        0,
+        1
+      ],
+      "answer": "Many outsiders believe this rigid class system is not good.",
+      "focus": "believe (that) S V の that が省略されている形。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1085,
+      "sourceNumber": 85,
+      "japanese": "私はカナダによい印象を持っている。",
+      "prefix": "I",
+      "suffix": "Canada.",
+      "tiles": [
+        "impression",
+        "have",
+        "of",
+        "a",
+        "good"
+      ],
+      "correctOrder": [
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "answer": "I have a good impression of Canada.",
+      "focus": "have a good impression of A＝「Aによい印象を持つ」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1086,
+      "sourceNumber": 86,
+      "japanese": "言葉を使わないコミュニケーションの主な 側面には顔の表情による感情表現がある。",
+      "prefix": "",
+      "suffix": "the facial expression of emotions.",
+      "tiles": [
+        "of",
+        "communication",
+        "major",
+        "one",
+        "is",
+        "aspect",
+        "non-verbal"
+      ],
+      "correctOrder": [
+        3,
+        2,
+        5,
+        0,
+        6,
+        1,
+        4
+      ],
+      "answer": "One major aspect of non-verbal communication is the facial expression of emotions.",
+      "focus": "One major aspect of A is B＝「Aの主な側面の一つはB」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1087,
+      "sourceNumber": 87,
+      "japanese": "自由の女神は比較的壊れやすい。",
+      "prefix": "",
+      "suffix": ".",
+      "tiles": [
+        "is",
+        "fragile",
+        "relatively",
+        "The Statue of Liberty"
+      ],
+      "correctOrder": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "answer": "The Statue of Liberty is relatively fragile.",
+      "focus": "relatively は形容詞 fragile の直前に置く。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1088,
+      "sourceNumber": 88,
+      "japanese": "けがは時間が経てば治るから心配しないで。",
+      "prefix": "Don't worry,",
+      "suffix": ".",
+      "tiles": [
+        "heal",
+        "will",
+        "time",
+        "injuries",
+        "over",
+        "your"
+      ],
+      "correctOrder": [
+        5,
+        3,
+        1,
+        0,
+        4,
+        2
+      ],
+      "answer": "Don't worry, your injuries will heal over time.",
+      "focus": "heal over time＝「時間とともに治る」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1089,
+      "sourceNumber": 89,
+      "japanese": "週末のサッカーの試合の相手はどこですか。",
+      "prefix": "",
+      "suffix": "the soccer game this weekend?",
+      "tiles": [
+        "opponents",
+        "our",
+        "who",
+        "are",
+        "for"
+      ],
+      "correctOrder": [
+        2,
+        3,
+        1,
+        0,
+        4
+      ],
+      "answer": "Who are our opponents for the soccer game this weekend?",
+      "focus": "Who are our opponents for A?＝「Aでの対戦相手は誰か」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1090,
+      "sourceNumber": 90,
+      "japanese": "彼はソフトウェアの開発方法を学ぶコースに申し込んだ。",
+      "prefix": "He enrolled in a course",
+      "suffix": ".",
+      "tiles": [
+        "to",
+        "how",
+        "to",
+        "software",
+        "learn",
+        "develop"
+      ],
+      "correctOrder": [
+        0,
+        4,
+        1,
+        2,
+        5,
+        3
+      ],
+      "answer": "He enrolled in a course to learn how to develop software.",
+      "focus": "learn how to do＝「〜する方法を学ぶ」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1091,
+      "sourceNumber": 91,
+      "japanese": "厳密に言うと，プロジェクトは完了したが対処すべき問題がいくつかあった。",
+      "prefix": "",
+      "suffix": ",but there were several issues that needed to be addressed.",
+      "tiles": [
+        "the",
+        "was",
+        "technically",
+        "project",
+        "completed"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        3,
+        1,
+        4
+      ],
+      "answer": "Technically, the project was completed, but there were several issues that needed to be addressed.",
+      "focus": "Technically は文全体にかかる副詞。カンマに注意。",
+      "category": "Grammar",
+      "punctuationAfter": [
+        "Technically"
+      ]
+    },
+    {
+      "id": 1092,
+      "sourceNumber": 92,
+      "japanese": "ここに翻訳したい文を 挿入してください。",
+      "prefix": "",
+      "suffix": "to translate here.",
+      "tiles": [
+        "want",
+        "the",
+        "that",
+        "insert",
+        "sentence",
+        "please",
+        "you"
+      ],
+      "correctOrder": [
+        5,
+        3,
+        1,
+        4,
+        2,
+        6,
+        0
+      ],
+      "answer": "Please insert the sentence that you want to translate here.",
+      "focus": "insert the sentence that S V：that は関係代名詞。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1093,
+      "sourceNumber": 93,
+      "japanese": "批判されると，彼女はすぐにその提案を引っ込めた。",
+      "prefix": "She",
+      "suffix": "she was criticized for it.",
+      "tiles": [
+        "suggestion",
+        "as",
+        "withdrew",
+        "as",
+        "soon",
+        "that"
+      ],
+      "correctOrder": [
+        2,
+        5,
+        0,
+        1,
+        4,
+        3
+      ],
+      "answer": "She withdrew that suggestion as soon as she was criticized for it.",
+      "focus": "as soon as S V＝「〜するとすぐに」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1094,
+      "sourceNumber": 94,
+      "japanese": "私たちは永遠に思えるほど長い間バスの到着を待った。",
+      "prefix": "We waited",
+      "suffix": "time for the bus to arrive.",
+      "tiles": [
+        "a",
+        "of",
+        "for",
+        "seemingly",
+        "amount",
+        "endless"
+      ],
+      "correctOrder": [
+        2,
+        0,
+        3,
+        5,
+        4,
+        1
+      ],
+      "answer": "We waited for a seemingly endless amount of time for the bus to arrive.",
+      "focus": "a seemingly endless amount of time＝「果てしなく感じられる時間」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1095,
+      "sourceNumber": 95,
+      "japanese": "私はあなたがたった今言ったことに当惑している。",
+      "prefix": "",
+      "suffix": "just said.",
+      "tiles": [
+        "by",
+        "you",
+        "what",
+        "I'm",
+        "confused"
+      ],
+      "correctOrder": [
+        3,
+        4,
+        0,
+        2,
+        1
+      ],
+      "answer": "I'm confused by what you just said.",
+      "focus": "be confused by A＝「Aに困惑する」。what you just said がA。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1096,
+      "sourceNumber": 96,
+      "japanese": "研究者たちは，類人猿が人間の行動をまねることを発見した。",
+      "prefix": "",
+      "suffix": "the actions of humans.",
+      "tiles": [
+        "found",
+        "imitate",
+        "apes",
+        "that",
+        "researchers"
+      ],
+      "correctOrder": [
+        4,
+        0,
+        3,
+        2,
+        1
+      ],
+      "answer": "Researchers found that apes imitate the actions of humans.",
+      "focus": "find that S V＝「〜ということを発見する」。",
+      "category": "Grammar"
+    },
+    {
+      "id": 1097,
+      "sourceNumber": 97,
+      "japanese": "ソーシャルメディアは最もよくある選挙運動の道具の１つだ。",
+      "prefix": "Social media is one of",
+      "suffix": ".",
+      "tiles": [
+        "campaign",
+        "election",
+        "tools",
+        "most",
+        "the",
+        "common"
+      ],
+      "correctOrder": [
+        4,
+        3,
+        5,
+        1,
+        0,
+        2
+      ],
+      "answer": "Social media is one of the most common election campaign tools.",
+      "focus": "one of the most common A＝「最も一般的なAの一つ」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1098,
+      "sourceNumber": 98,
+      "japanese": "大統領は投票した人の数を誇張した。",
+      "prefix": "The president",
+      "suffix": "who voted.",
+      "tiles": [
+        "people",
+        "the",
+        "number",
+        "exaggerated",
+        "of"
+      ],
+      "correctOrder": [
+        3,
+        1,
+        2,
+        4,
+        0
+      ],
+      "answer": "The president exaggerated the number of people who voted.",
+      "focus": "exaggerate the number of A＝「Aの数を誇張する」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1099,
+      "sourceNumber": 99,
+      "japanese": "そのファッションデザイナーは彼の顧客の間で大変な 評判になっている。",
+      "prefix": "The fashion designer",
+      "suffix": ".",
+      "tiles": [
+        "his",
+        "among",
+        "a",
+        "customers",
+        "reputation",
+        "has",
+        "tremendous"
+      ],
+      "correctOrder": [
+        5,
+        2,
+        6,
+        4,
+        1,
+        0,
+        3
+      ],
+      "answer": "The fashion designer has a tremendous reputation among his customers.",
+      "focus": "have a tremendous reputation among A＝「Aの間で非常に評判が高い」。",
+      "category": "Usage & Collocation"
+    },
+    {
+      "id": 1100,
+      "sourceNumber": 100,
+      "japanese": "その会社は在庫管理システムを自動化した。",
+      "prefix": "",
+      "suffix": "system.",
+      "tiles": [
+        "inventory",
+        "their",
+        "automated",
+        "management",
+        "company",
+        "the"
+      ],
+      "correctOrder": [
+        5,
+        4,
+        2,
+        1,
+        0,
+        3
+      ],
+      "answer": "The company automated their inventory management system.",
+      "focus": "automate A＝「Aを自動化する」。inventory management system は名詞の連続。",
+      "category": "Usage & Collocation"
+    }
+  ]
+}

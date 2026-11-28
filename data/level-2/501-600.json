@@ -26,8 +26,8 @@
         2
       ],
       "answer": "The problem is deeply rooted in the history of the region.",
-      "focus": "be rooted in：〜に根ざしている。受動態＋前置詞inの組み合わせ。",
-      "category": "Grammar",
+      "focus": "root は「根」。be rooted in history は歴史に「根ざしている」という比喩で、問題の背景が深いことを表す。",
+      "category": "Vocabulary",
       "alternatives": [
         {
           "order": [
@@ -63,7 +63,7 @@
         2
       ],
       "answer": "He sent his servant to buy food.",
-      "focus": "send A to do：Aを〜するために行かせる。目的を表す不定詞。",
+      "focus": "sent his servant to buy food の to不定詞は目的。「食べ物を買うために召使いを行かせた」。",
       "category": "Grammar"
     },
     {
@@ -87,8 +87,8 @@
         1
       ],
       "answer": "She gained fame in proportion to her success.",
-      "focus": "in proportion to：〜に比例して。まとまりで覚えよう。",
-      "category": "Collocation & Usage"
+      "focus": "in proportion to her success は as her success increased（成功が増すにつれて）と近い意味。",
+      "category": "Paraphrase"
     },
     {
       "id": 504,
@@ -111,8 +111,8 @@
         3
       ],
       "answer": "Too much alcohol may affect your body.",
-      "focus": "too much＋不可算名詞：量が多すぎる。「many」との違いに注目。",
-      "category": "Collocation & Usage"
+      "focus": "too much は不可算名詞 alcohol を修飾。too many は可算名詞の複数形に使う。",
+      "category": "Grammar"
     },
     {
       "id": 505,
@@ -137,8 +137,8 @@
         1
       ],
       "answer": "There was a thin layer of ice on the pond.",
-      "focus": "There was＋名詞：存在を表す構文。a thin layer ofもひとまとまり。",
-      "category": "Collocation & Usage"
+      "focus": "layer は「層」。a thin layer of ice は「薄い氷の層」で、layer of paint（塗料の層）とも使える。",
+      "category": "Vocabulary"
     },
     {
       "id": 506,
@@ -161,7 +161,7 @@
         4
       ],
       "answer": "Most dogs like to chase other animals.",
-      "focus": "like to do：〜するのが好き。動詞likeのあとに不定詞。",
+      "focus": "like to chase は不定詞を目的語に取る形。like chasing も可能だが、個々の行動を述べる時に to を使える。",
       "category": "Grammar"
     },
     {
@@ -193,8 +193,8 @@
         6
       ],
       "answer": "It's hard for me to get rid of excess fat because I like meat.",
-      "focus": "It is＋形容詞＋for A＋to do：Aにとって〜するのは…。get rid ofも重要。",
-      "category": "Collocation & Usage"
+      "focus": "It's hard for me to ... の it は形式主語。to get rid of ... が実際の内容で、for me はその行為者。",
+      "category": "Grammar"
     },
     {
       "id": 508,
@@ -217,7 +217,7 @@
         4
       ],
       "answer": "I didn't know that this flower is edible.",
-      "focus": "know that＋SV：that節がknowの目的語になっている。",
+      "focus": "know that ... の that 節が目的語。this flower is edible は今も成り立つ性質を表すため現在形。",
       "category": "Grammar"
     },
     {
@@ -241,8 +241,8 @@
         3
       ],
       "answer": "She will run for Mayor of Yokohama next year.",
-      "focus": "run for＋役職：〜に立候補する。forを忘れない。",
-      "category": "Collocation & Usage"
+      "focus": "run は「走る」以外に役職に「立候補する」。run for mayor は選挙に出る意味。",
+      "category": "Vocabulary"
     },
     {
       "id": 510,
@@ -267,8 +267,8 @@
         1
       ],
       "answer": "The generation gap is common these days.",
-      "focus": "the generation gap：世代間の隔たり。these daysは「最近では」。",
-      "category": "Collocation & Usage"
+      "focus": "generation は「世代」。generation gap は世代間の価値観・考え方の隔たりを表す。",
+      "category": "Vocabulary"
     },
     {
       "id": 511,
@@ -289,8 +289,8 @@
         0
       ],
       "answer": "I can't resist chocolate.",
-      "focus": "can't resist＋名詞：〜を我慢できない。resistは他動詞。",
-      "category": "Collocation & Usage"
+      "focus": "can't resist chocolate は can't help eating chocolate（チョコを食べずにいられない）に近い。",
+      "category": "Paraphrase"
     },
     {
       "id": 512,
@@ -313,8 +313,8 @@
         4
       ],
       "answer": "Please express your opinion freely.",
-      "focus": "express one's opinion：意見を述べる。freelyの位置にも注目。",
-      "category": "Collocation & Usage",
+      "focus": "express は「表現する・述べる」。opinion と組み合わせ意見表明を意味する。freely は「自由に」。",
+      "category": "Vocabulary",
       "alternatives": [
         {
           "order": [
@@ -347,7 +347,7 @@
         2
       ],
       "answer": "He is not poor,nor is he old.",
-      "focus": "nor＋助動詞／be動詞＋主語：否定の追加に伴う倒置。",
+      "focus": "nor is he old は否定を追加する倒置。nor の後は be動詞＋主語の順になり、通常の語順と異なる。",
       "category": "Grammar"
     },
     {
@@ -371,8 +371,8 @@
         3
       ],
       "answer": "I can't understand the definition of the word that is in the dictionary.",
-      "focus": "the definition of：〜の定義。understandは他動詞。",
-      "category": "Collocation & Usage"
+      "focus": "that is in the dictionary は word を説明する関係詞節。that は主語として働いている。",
+      "category": "Grammar"
     },
     {
       "id": 515,
@@ -393,8 +393,8 @@
         2
       ],
       "answer": "Stubbornness is her fault.",
-      "focus": "主語Stubbornness（強情さ）＋is＋補語。抽象名詞も主語になる。",
-      "category": "Collocation & Usage"
+      "focus": "fault は「欠点・責任・過失」。ここでは性格上の欠点で、機械の故障を指す用法とは異なる。",
+      "category": "Vocabulary"
     },
     {
       "id": 516,
@@ -419,7 +419,7 @@
         2
       ],
       "answer": "She has been practicing ballet since she was five years old.",
-      "focus": "have been doing since：過去から現在まで続く動作を表す現在完了進行形。",
+      "focus": "has been practicing は現在完了進行形。since she was five は練習開始時点を示し、今までの継続を表す。",
       "category": "Grammar"
     },
     {
@@ -443,8 +443,8 @@
         1
       ],
       "answer": "I was the victim of crime last year.",
-      "focus": "the victim of：〜の被害者。ofと組み合わせる。",
-      "category": "Collocation & Usage"
+      "focus": "victim は「被害者」。victim of crime は犯罪の被害者、victim of an accident は事故の被害者。",
+      "category": "Vocabulary"
     },
     {
       "id": 518,
@@ -469,8 +469,8 @@
         2
       ],
       "answer": "The comedian supplements his income with part-time jobs.",
-      "focus": "supplement A with B：BでAを補う。語順を覚えよう。",
-      "category": "Collocation & Usage"
+      "focus": "supplement は「補う」。本業の収入をアルバイトで補う意味で、名詞「補助・追加分」にもなる。",
+      "category": "Vocabulary"
     },
     {
       "id": 519,
@@ -493,8 +493,8 @@
         3
       ],
       "answer": "None of the students failed the test.",
-      "focus": "none of the＋複数名詞：〜の誰も／どれも…ない。",
-      "category": "Collocation & Usage"
+      "focus": "None of the students failed は「生徒は誰も不合格でなかった」。none は全体を否定する代名詞。",
+      "category": "Grammar"
     },
     {
       "id": 520,
@@ -517,8 +517,8 @@
         1
       ],
       "answer": "The apes are the closest relatives to humans.",
-      "focus": "the closest relatives to：〜に最も近い同族。最上級の位置に注目。",
-      "category": "Grammar"
+      "focus": "relative は「親戚」のほか生物の「近縁種」を指す。closest relatives は進化上近い仲間。",
+      "category": "Vocabulary"
     },
     {
       "id": 521,
@@ -543,8 +543,8 @@
         2
       ],
       "answer": "I have no money so I can't afford a new car.",
-      "focus": "can't afford＋名詞：〜を買う余裕がない。affordの目的語。",
-      "category": "Collocation & Usage"
+      "focus": "can't afford a new car は don't have enough money to buy a new car と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "id": 522,
@@ -567,7 +567,7 @@
         3
       ],
       "answer": "I do not have the necessary expertise to program the computer.",
-      "focus": "have the expertise to do：〜する専門知識がある。不定詞が名詞を修飾。",
+      "focus": "expertise to program ... の不定詞は expertise を後ろから説明。「プログラムする専門知識」。",
       "category": "Grammar"
     },
     {
@@ -589,8 +589,9 @@
         3
       ],
       "answer": "He resembles his grandfather.",
-      "focus": "resemble＋名詞：〜に似ている。通常、前置詞toは不要。",
-      "category": "Collocation & Usage"
+      "focus": "resemble は「～に似ている」他動詞。resemble his grandfather とし、resemble to とはしない。",
+      "category": "Usage & Collocation",
+      "focusExample": "He resembles his grandfather."
     },
     {
       "id": 524,
@@ -613,8 +614,8 @@
         1
       ],
       "answer": "Your comments really offended her,so you should say sorry.",
-      "focus": "offend＋人：人を怒らせる。reallyは動詞を修飾する副詞。",
-      "category": "Collocation & Usage"
+      "focus": "offend は「不快にさせる・怒らせる」。offensive は「人を不快にさせる・攻撃的な」。",
+      "category": "Vocabulary"
     },
     {
       "id": 525,
@@ -633,8 +634,8 @@
         1
       ],
       "answer": "Let's go elsewhere.",
-      "focus": "Let's＋動詞原形：「〜しよう」。elsewhereは副詞。",
-      "category": "Collocation & Usage"
+      "focus": "elsewhere は「ほかの場所へ／で」という副詞。go elsewhere なら「別の場所に行く」。",
+      "category": "Vocabulary"
     },
     {
       "id": 526,
@@ -657,7 +658,7 @@
         2
       ],
       "answer": "Have you harvested the rice?",
-      "focus": "Have＋主語＋過去分詞…?：現在完了の疑問文。",
+      "focus": "Have you harvested ...? は現在完了の疑問文。have＋主語＋過去分詞で経験・完了を尋ねる。",
       "category": "Grammar"
     },
     {
@@ -681,8 +682,8 @@
         0
       ],
       "answer": "The store is offering an exclusive deal on the new computer.",
-      "focus": "offer an exclusive deal：限定的な取引条件を提供する。冠詞と形容詞の位置。",
-      "category": "Collocation & Usage"
+      "focus": "exclusive は「限定の・独占的な」。exclusive deal は限られた条件の特別な取引を意味する。",
+      "category": "Vocabulary"
     },
     {
       "id": 528,
@@ -703,8 +704,8 @@
         1
       ],
       "answer": "Why don't we split these candies between us?",
-      "focus": "split A between B：AをBの間で分ける。",
-      "category": "Collocation & Usage"
+      "focus": "split these candies between us は share these candies between us と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "id": 529,
@@ -727,8 +728,8 @@
         0
       ],
       "answer": "She wore a hostile look.",
-      "focus": "wear a＋形容詞＋look：〜な表情をしている。",
-      "category": "Collocation & Usage"
+      "focus": "hostile は「敵意をもった」。a hostile look は敵意のこもった表情。hostility は関連名詞。",
+      "category": "Vocabulary"
     },
     {
       "id": 530,
@@ -751,8 +752,9 @@
         1
       ],
       "answer": "My cousin gave birth to a son last month.",
-      "focus": "give birth to A：「Aを産む」。birth の前に a を置かない固定表現。",
-      "category": "Collocation & Usage"
+      "focus": "give birth to ... は「～を産む」。birth はここで冠詞なしの名詞で、gave a birth にはしない。",
+      "category": "Usage & Collocation",
+      "focusExample": "She gave birth to a baby girl."
     },
     {
       "id": 531,
@@ -775,7 +777,7 @@
         0
       ],
       "answer": "You need to define what the concept is.",
-      "focus": "need to define＋疑問詞節：what the concept isは間接疑問でSV順。",
+      "focus": "what the concept is は間接疑問。疑問詞の後ろは〈主語＋動詞〉で、what is the concept とはしない。",
       "category": "Grammar"
     },
     {
@@ -799,8 +801,8 @@
         1
       ],
       "answer": "Ants use pheromones to mark their trail.",
-      "focus": "use A to do：〜するためにAを使う。mark their trailにも注目。",
-      "category": "Collocation & Usage"
+      "focus": "to mark their trail は目的の不定詞。「道しるべを付けるために」フェロモンを使う。",
+      "category": "Grammar"
     },
     {
       "id": 533,
@@ -823,8 +825,8 @@
         1
       ],
       "answer": "Some of this data appears false.",
-      "focus": "some of this data：このデータの一部。appear＋形容詞で「〜のようだ」。",
-      "category": "Collocation & Usage"
+      "focus": "appears false は第2文型〈SVC〉。false は「偽の」という補語で、動詞を修飾する副詞ではない。",
+      "category": "Grammar"
     },
     {
       "id": 534,
@@ -853,8 +855,8 @@
         2
       ],
       "answer": "The aim is to compensate for the financial losses of people who invested in the project.",
-      "focus": "compensate for A：「Aを埋め合わせる」。financial losses（経済的損失）と一緒に覚える。",
-      "category": "Grammar"
+      "focus": "who invested in the project は people を修飾する関係詞節。compensate for は損失を補償する語法。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 535,
@@ -883,8 +885,8 @@
         0
       ],
       "answer": "A key characteristic of the new game machine is the quality of the graphics.",
-      "focus": "a key characteristic of：〜の重要な特徴。of句が前の名詞を修飾。",
-      "category": "Collocation & Usage"
+      "focus": "characteristic は「特徴・特性」。quality は「品質」で、画質を言う場合にも使える。",
+      "category": "Vocabulary"
     },
     {
       "id": 536,
@@ -909,8 +911,8 @@
         2
       ],
       "answer": "He carefully opened the door so as not to wake the sleeping child.",
-      "focus": "so as not to do：〜しないように。notの位置に注目。",
-      "category": "Collocation & Usage",
+      "focus": "so as not to wake は「起こさないように」。否定の not は to の前、so as の後ろに置く。",
+      "category": "Grammar",
       "alternatives": [
         {
           "order": [
@@ -948,8 +950,8 @@
         2
       ],
       "answer": "We should judge a person without racial prejudice.",
-      "focus": "without＋名詞：〜なしに。racial prejudiceは名詞句。",
-      "category": "Collocation & Usage"
+      "focus": "prejudice は「偏見」。racial は「人種に関する」で、without prejudice は偏見なしに判断すること。",
+      "category": "Vocabulary"
     },
     {
       "id": 538,
@@ -976,8 +978,8 @@
         2
       ],
       "answer": "The death toll of the bus accident amounted to 20.",
-      "focus": "the death toll of：〜の死者数。amount toは「合計〜にのぼる」。",
-      "category": "Collocation & Usage"
+      "focus": "toll は「犠牲者数・通行料金」などの意味。death toll は死者数、amount to で合計を述べる。",
+      "category": "Vocabulary"
     },
     {
       "id": 539,
@@ -1000,7 +1002,7 @@
         4
       ],
       "answer": "The train fare has increased slightly this year.",
-      "focus": "the train fare：電車の料金。has increased は現在完了。slightly は increased の後にも、has と increased の間にも置ける。",
+      "focus": "has increased は現在完了。slightly は「わずかに」で、has と increased の間にも置ける。",
       "category": "Grammar",
       "alternatives": [
         {
@@ -1038,8 +1040,8 @@
         2
       ],
       "answer": "You should study hard,otherwise you won't pass the test.",
-      "focus": "otherwise：さもなければ。後ろの文の語順は通常のSV。",
-      "category": "Collocation & Usage"
+      "focus": "otherwise は if not（そうしなければ）と近い。前の行動を取らない場合の結果をつなぐ。",
+      "category": "Paraphrase"
     },
     {
       "id": 541,
@@ -1062,8 +1064,8 @@
         1
       ],
       "answer": "The opposite is also true.",
-      "focus": "The opposite is also true：「逆もまた真」。alsoの位置に注目。",
-      "category": "Collocation & Usage"
+      "focus": "The opposite is also true は This is true in reverse と言い換えられる。「逆もまた正しい」。",
+      "category": "Paraphrase"
     },
     {
       "id": 542,
@@ -1086,8 +1088,8 @@
         1
       ],
       "answer": "The plant produces a poison which kills some insects.",
-      "focus": "produce＋目的語：〜を生み出す。which以下はpoisonを修飾。",
-      "category": "Collocation & Usage"
+      "focus": "which kills some insects は poison を説明する主格関係詞節。which 自身が kills の主語。",
+      "category": "Grammar"
     },
     {
       "id": 543,
@@ -1110,8 +1112,9 @@
         3
       ],
       "answer": "We will begin by reviewing the previous lesson.",
-      "focus": "begin by doing：まず〜することから始める。byのあとに動名詞。",
-      "category": "Grammar"
+      "focus": "begin by reviewing の by は前置詞で、動名詞 reviewing を取る。「復習することから始める」。",
+      "category": "Usage & Collocation",
+      "focusExample": "We began by reviewing the previous lesson."
     },
     {
       "id": 544,
@@ -1132,8 +1135,8 @@
         2
       ],
       "answer": "We should avoid stereotypes.",
-      "focus": "should＋動詞原形：〜すべきだ。avoid＋名詞で「〜を避ける」。",
-      "category": "Collocation & Usage"
+      "focus": "stereotype は「固定観念・決めつけ」。avoid stereotypes は人を先入観で判断しないこと。",
+      "category": "Vocabulary"
     },
     {
       "id": 545,
@@ -1156,7 +1159,7 @@
         2
       ],
       "answer": "The bicycle is the most convenient way to explore the city.",
-      "focus": "the most＋形容詞＋名詞：最上級。way to doは「〜する方法」。",
+      "focus": "the most convenient way to explore ... の to不定詞は way を後ろから修飾。「探索する方法」。",
       "category": "Grammar"
     },
     {
@@ -1180,8 +1183,8 @@
         2
       ],
       "answer": "I reserved the meeting room on the second floor.",
-      "focus": "reserve＋目的語：〜を予約する。on the second floorの前置詞。",
-      "category": "Collocation & Usage"
+      "focus": "reserve the meeting room の reserve は他動詞。on the second floor では建物内の階を on で表す。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 547,
@@ -1208,8 +1211,9 @@
         5
       ],
       "answer": "You may also find it helpful to compare the unknown word with similar words in your own language.",
-      "focus": "find it＋形容詞＋to do：形式目的語itと真の目的語to do。",
-      "category": "Collocation & Usage"
+      "focus": "find it helpful to compare ... の it は形式目的語。to compare ... が本当の目的語になる。",
+      "category": "Grammar",
+      "focusExample": "I found it helpful to compare the plans."
     },
     {
       "id": 548,
@@ -1234,8 +1238,8 @@
         3
       ],
       "answer": "My perception of many simple things was much stronger.",
-      "focus": "my perception of：〜についての認識。of句が名詞を説明。",
-      "category": "Collocation & Usage"
+      "focus": "perception は「認識・知覚」。単なる視覚だけでなく物事をどう理解するかの意味にも使う。",
+      "category": "Vocabulary"
     },
     {
       "id": 549,
@@ -1262,8 +1266,8 @@
         2
       ],
       "answer": "I thoroughly checked all the windows and doors before I left home.",
-      "focus": "副詞thoroughlyはcheckedを修飾。all the＋複数名詞。",
-      "category": "Collocation & Usage"
+      "focus": "thoroughly checked は checked carefully and completely と言い換えられる。thoroughly は「徹底的に」。",
+      "category": "Paraphrase"
     },
     {
       "id": 550,
@@ -1286,7 +1290,7 @@
         0
       ],
       "answer": "The thing that excites me the most is the chance to help lots of people.",
-      "focus": "The thing that＋動詞：関係代名詞thatがthingを修飾。",
+      "focus": "that excites me ... は thing を修飾する関係詞節。主語は The thing なので is を使う。",
       "category": "Grammar"
     },
     {
@@ -1310,8 +1314,8 @@
         2
       ],
       "answer": "He ran so fast that he overtook all the other runners.",
-      "focus": "so＋形容詞／副詞＋that SV：とても〜なので…。",
-      "category": "Collocation & Usage"
+      "focus": "so fast that ... は結果を表す〈so＋副詞＋that節〉。「非常に速かったので追い抜いた」。",
+      "category": "Grammar"
     },
     {
       "id": 552,
@@ -1334,8 +1338,8 @@
         1
       ],
       "answer": "All mammals feed their babies on milk.",
-      "focus": "feed A on B：AにBを与える。feed their babies on milk。",
-      "category": "Collocation & Usage"
+      "focus": "feed A on B は「AにBを与えて育てる」。A は子ども・動物、B は与える食べ物。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 553,
@@ -1360,8 +1364,8 @@
         1
       ],
       "answer": "The river is very shallow here,so it is easy to walk across.",
-      "focus": "主語The river＋is＋補語shallow。veryは形容詞を修飾。",
-      "category": "Collocation & Usage",
+      "focus": "The river is very shallow は The water is not deep here に近い。shallow は「浅い」。",
+      "category": "Paraphrase",
       "alternatives": [
         {
           "order": [
@@ -1410,8 +1414,8 @@
         4
       ],
       "answer": "My hobbies occupy most of my free time.",
-      "focus": "occupy＋時間／場所：〜を占める。most of my free time。",
-      "category": "Collocation & Usage"
+      "focus": "occupy は「占める・使う」。時間にも場所にも使い、occupy most of my free time は趣味に時間を費やす意味。",
+      "category": "Vocabulary"
     },
     {
       "id": 555,
@@ -1438,8 +1442,8 @@
         5
       ],
       "answer": "The police have traced her to London.",
-      "focus": "have traced A to B：AをBまで追跡した。現在完了。",
-      "category": "Grammar"
+      "focus": "have traced は現在完了。trace A to B は人や物の足取りをBまで追う語法。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 556,
@@ -1462,8 +1466,8 @@
         1
       ],
       "answer": "These politicians want to reform the tax system.",
-      "focus": "want to do：〜したい。reform the tax systemは動詞＋目的語。",
-      "category": "Collocation & Usage"
+      "focus": "reform は「改革する」で動詞・名詞の両方。tax system は税制の意味。",
+      "category": "Vocabulary"
     },
     {
       "id": 557,
@@ -1488,8 +1492,8 @@
         0
       ],
       "answer": "The problem puzzled me for a while until I saw the answer.",
-      "focus": "puzzle＋人：人を悩ませる。for a whileは「しばらく」。",
-      "category": "Collocation & Usage"
+      "focus": "puzzle は名詞「パズル」以外に動詞「困惑させる」。The problem puzzled me の形。",
+      "category": "Vocabulary"
     },
     {
       "id": 558,
@@ -1510,8 +1514,8 @@
         0
       ],
       "answer": "You can overcome fears with practice.",
-      "focus": "overcome＋目的語：〜を克服する。with practiceは手段。",
-      "category": "Collocation & Usage"
+      "focus": "overcome fears は get over fears と近い。「恐怖を乗り越える」で、overcome は前置詞不要。",
+      "category": "Paraphrase"
     },
     {
       "id": 559,
@@ -1534,7 +1538,7 @@
         3
       ],
       "answer": "The lesson was canceled because our teacher was sick.",
-      "focus": "was canceled：受動態。because＋SVは理由を表す接続詞。",
+      "focus": "was canceled は過去の受動態。because our teacher was sick は理由を示す接続詞節。",
       "category": "Grammar"
     },
     {
@@ -1564,8 +1568,8 @@
         1
       ],
       "answer": "The house is surrounded by a lot of rose trees.",
-      "focus": "be surrounded by：〜に囲まれている。a lot of＋複数名詞。",
-      "category": "Collocation & Usage"
+      "focus": "is surrounded by ... は受動態で「～に囲まれている」。何に囲まれたかを by で示す。",
+      "category": "Grammar"
     },
     {
       "id": 561,
@@ -1588,8 +1592,8 @@
         2
       ],
       "answer": "The gender difference in wages is still very high.",
-      "focus": "the difference in：〜における違い。gender differenceが主語。",
-      "category": "Collocation & Usage"
+      "focus": "gender は「社会的・文化的な性」。gender difference in wages は賃金面の性別差を表す。",
+      "category": "Vocabulary"
     },
     {
       "id": 562,
@@ -1612,8 +1616,8 @@
         3
       ],
       "answer": "Scientists were curious to know whether animals can see color.",
-      "focus": "be curious to know：〜を知りたがっている。whether節が内容。",
-      "category": "Collocation & Usage"
+      "focus": "whether animals can see color は know の目的語になる間接疑問節。whether の後は平叙文語順。",
+      "category": "Grammar"
     },
     {
       "id": 563,
@@ -1636,8 +1640,8 @@
         2
       ],
       "answer": "We need to introduce stricter laws against discrimination.",
-      "focus": "introduce laws against：〜に対する法律を導入する。",
-      "category": "Collocation & Usage"
+      "focus": "discrimination は「差別」。discriminate は動詞で、against discrimination は差別に反対する意味。",
+      "category": "Vocabulary"
     },
     {
       "id": 564,
@@ -1660,8 +1664,8 @@
         2
       ],
       "answer": "The animals appeared lean after a long winter.",
-      "focus": "appear＋形容詞：〜のように見える。afterは前置詞。",
-      "category": "Collocation & Usage"
+      "focus": "appeared lean は「痩せて見えた」。appear は〈SVC〉で、lean が補語になる。",
+      "category": "Grammar"
     },
     {
       "id": 565,
@@ -1684,8 +1688,8 @@
         3
       ],
       "answer": "Let's find a more efficient process.",
-      "focus": "find a more efficient process：比較級more＋形容詞＋名詞。",
-      "category": "Collocation & Usage"
+      "focus": "a more efficient process は a process that works better と言い換えられる。efficient は効率がよいこと。",
+      "category": "Paraphrase"
     },
     {
       "id": 566,
@@ -1712,8 +1716,8 @@
         6
       ],
       "answer": "The product will pose a threat to the earth in the future.",
-      "focus": "pose a threat to：〜に脅威をもたらす。前置詞toに注目。",
-      "category": "Collocation & Usage"
+      "focus": "pose は「姿勢を取る」以外に「問題・脅威を引き起こす」。pose a threat はその例。",
+      "category": "Vocabulary"
     },
     {
       "id": 567,
@@ -1736,8 +1740,8 @@
         0
       ],
       "answer": "Your speech was appropriate to the occasion.",
-      "focus": "be appropriate to：〜にふさわしい。形容詞と前置詞の組み合わせ。",
-      "category": "Collocation & Usage"
+      "focus": "appropriate to the occasion は suitable for the occasion に近い。「場にふさわしい」。",
+      "category": "Paraphrase"
     },
     {
       "id": 568,
@@ -1762,8 +1766,8 @@
         3
       ],
       "answer": "The police officer pinned the robber to the ground.",
-      "focus": "pin A to B：AをBに押さえつける。目的語の位置。",
-      "category": "Collocation & Usage"
+      "focus": "pin は名詞「ピン」以外に「押さえつける」。pin A to the ground は地面に押さえる意味。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 569,
@@ -1786,8 +1790,8 @@
         4
       ],
       "answer": "Regular check-ups can help monitor liver function.",
-      "focus": "help＋動詞原形：〜するのを助ける。monitor liver function。",
-      "category": "Collocation & Usage"
+      "focus": "help monitor は〈help＋動詞の原形〉。help to monitor も可能で、monitor は「監視・点検する」。",
+      "category": "Grammar"
     },
     {
       "id": 570,
@@ -1812,8 +1816,8 @@
         2
       ],
       "answer": "Osaka and Tokyo differ in many ways.",
-      "focus": "differ in：〜の点で異なる。in many waysはまとまり。",
-      "category": "Collocation & Usage"
+      "focus": "Osaka and Tokyo differ in many ways は are different in many ways と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "id": 571,
@@ -1836,8 +1840,8 @@
         0
       ],
       "answer": "These two factors are independent of each other.",
-      "focus": "be independent of：〜から独立している。each otherもセット。",
-      "category": "Collocation & Usage"
+      "focus": "independent は「独立した」。be independent of ... は何から独立しているかを示す。",
+      "category": "Vocabulary"
     },
     {
       "id": 572,
@@ -1858,8 +1862,8 @@
         1
       ],
       "answer": "Altogether,that comes to $256.",
-      "focus": "come to＋金額：合計〜になる。altogetherは「全部で」。",
-      "category": "Collocation & Usage",
+      "focus": "that comes to $256 は the total is $256 と言い換えられる。come to は合計額を述べる。",
+      "category": "Paraphrase",
       "punctuationAfter": [
         "altogether"
       ]
@@ -1889,7 +1893,7 @@
         0
       ],
       "answer": "They have a dog to guard the house when they are away.",
-      "focus": "have A to do：〜するためのAを持つ。不定詞がdogを修飾。",
+      "focus": "a dog to guard the house の不定詞は dog を後ろから修飾。「家を守るための犬」。",
       "category": "Grammar"
     },
     {
@@ -1913,8 +1917,8 @@
         0
       ],
       "answer": "He fell deeply in love with a girl in school.",
-      "focus": "fall deeply in love with：〜と深く恋に落ちる。語の順序を確認。",
-      "category": "Collocation & Usage"
+      "focus": "deeply は「深く・強く」。fell deeply in love は恋愛感情の強さを表す。",
+      "category": "Vocabulary"
     },
     {
       "id": 575,
@@ -1939,8 +1943,8 @@
         5
       ],
       "answer": "Access to quality healthcare services is essential for this country.",
-      "focus": "access to：〜へのアクセス。ここでaccessは名詞。",
-      "category": "Collocation & Usage"
+      "focus": "Access to healthcare は名詞 Access が主語。動詞 access healthcare（医療にアクセスする）と品詞に注意。",
+      "category": "Grammar"
     },
     {
       "id": 576,
@@ -1965,8 +1969,8 @@
         4
       ],
       "answer": "The island's population are the descendants of freed slaves.",
-      "focus": "be descendants of：〜の子孫である。ofのあとに祖先。",
-      "category": "Collocation & Usage"
+      "focus": "descendant は「子孫」。ancestor は「祖先」で、be descendants of A はAの子孫であること。",
+      "category": "Usage & Collocation"
     },
     {
       "id": 577,
@@ -1989,8 +1993,8 @@
         3
       ],
       "answer": "Life satisfaction is closely tied to health.",
-      "focus": "be closely tied to：〜と密接に結びついている。受動態の形。",
-      "category": "Grammar",
+      "focus": "is closely tied to health は is strongly connected with health と言い換えられる。",
+      "category": "Paraphrase",
       "alternatives": [
         {
           "order": [
@@ -2027,8 +2031,8 @@
         2
       ],
       "answer": "The soldiers sacrificed their lives for their country.",
-      "focus": "sacrifice A for B：BのためにAを犠牲にする。",
-      "category": "Collocation & Usage"
+      "focus": "sacrifice は「犠牲にする」。sacrifice their lives は自分の命を犠牲にすること。",
+      "category": "Vocabulary"
     },
     {
       "id": 579,
@@ -2053,8 +2057,8 @@
         0
       ],
       "answer": "We experience the most change in our lives when we are adolescents.",
-      "focus": "when＋SV：〜するとき。our livesのあとに時を表す節。",
-      "category": "Collocation & Usage"
+      "focus": "when we are adolescents は時を示す節。adolescent は「青年期の人」で、複数形 adolescents。",
+      "category": "Grammar"
     },
     {
       "id": 580,
@@ -2077,8 +2081,8 @@
         1
       ],
       "answer": "You are partly correct but not 100%.",
-      "focus": "be partly correct：部分的に正しい。butで対比をつなぐ。",
-      "category": "Collocation & Usage"
+      "focus": "partly は「部分的に」。partly correct は完全に正しいわけではないことを意味する。",
+      "category": "Vocabulary"
     },
     {
       "id": 581,
@@ -2103,8 +2107,8 @@
         4
       ],
       "answer": "The soccer team is ranked third in the world.",
-      "focus": "be ranked＋順位：〜位にランクされる。in the worldもまとまり。",
-      "category": "Collocation & Usage"
+      "focus": "is ranked third は受動態で「3位に位置づけられる」。順位の数字の前に the は必須ではない。",
+      "category": "Grammar"
     },
     {
       "id": 582,
@@ -2127,8 +2131,9 @@
         3
       ],
       "answer": "Some teenagers are addicted to social media.",
-      "focus": "be addicted to＋名詞：〜に依存している。toは前置詞。",
-      "category": "Collocation & Usage"
+      "focus": "addicted は「依存している」。be addicted to social media の to は前置詞。",
+      "category": "Usage & Collocation",
+      "focusExample": "He is addicted to social media."
     },
     {
       "id": 583,
@@ -2151,7 +2156,7 @@
         1
       ],
       "answer": "There is plenty to eat,so don't worry about being hungry.",
-      "focus": "There is plenty to do：〜するものがたくさんある。不定詞の後置修飾。",
+      "focus": "plenty to eat の to不定詞は plenty を後ろから修飾。「食べるものが十分ある」。",
       "category": "Grammar"
     },
     {
@@ -2175,8 +2180,8 @@
         4
       ],
       "answer": "People protested against the war.",
-      "focus": "protest against：〜に抗議する。against＋名詞。",
-      "category": "Collocation & Usage"
+      "focus": "protest against the war は express opposition to the war と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "id": 585,
@@ -2199,8 +2204,8 @@
         3
       ],
       "answer": "He dislikes running a risk at any time.",
-      "focus": "dislike doing：〜するのを嫌う。run a riskもまとまり。",
-      "category": "Collocation & Usage"
+      "focus": "risk は「危険」。run a risk は「危険を冒す」で、take a risk とも言う。",
+      "category": "Vocabulary"
     },
     {
       "id": 586,
@@ -2223,7 +2228,7 @@
         0
       ],
       "answer": "Are you sure that luggage is secure?",
-      "focus": "be sure that＋SV：〜だと確信している。that節に注目。",
+      "focus": "Are you sure that ...? の that 節は sure の内容を示す。luggage は通常不可算名詞。",
       "category": "Grammar"
     },
     {
@@ -2249,8 +2254,8 @@
         2
       ],
       "answer": "Our preferences are often influenced by unconscious biases.",
-      "focus": "be influenced by：〜に影響される。oftenの位置に注目。",
-      "category": "Collocation & Usage"
+      "focus": "are often influenced は受動態。頻度副詞 often は be動詞と過去分詞の間に置く。",
+      "category": "Grammar"
     },
     {
       "id": 588,
@@ -2273,7 +2278,7 @@
         0
       ],
       "answer": "Water has become scarce in this region due to the long summer.",
-      "focus": "become＋形容詞：〜になる。現在完了has become。",
+      "focus": "has become scarce は現在完了の〈SVC〉。scarce が「不足した状態」を表す補語。",
       "category": "Grammar"
     },
     {
@@ -2303,8 +2308,8 @@
         7
       ],
       "answer": "He masked his true feelings with a smile.",
-      "focus": "mask A with B：BでAを隠す。his true feelingsは目的語。",
-      "category": "Collocation & Usage"
+      "focus": "mask は「仮面」以外に「隠す」という動詞。mask feelings with a smile は笑顔で本心を隠す意味。",
+      "category": "Vocabulary"
     },
     {
       "id": 590,
@@ -2327,8 +2332,8 @@
         0
       ],
       "answer": "Monkeys,apes and humans are all primates.",
-      "focus": "A, B and C are all…：並列した主語とbe動詞の一致。",
-      "category": "Collocation & Usage"
+      "focus": "primate は「霊長類」。monkeys、apes、humans はいずれも primates に属する。",
+      "category": "Vocabulary"
     },
     {
       "id": 591,
@@ -2351,8 +2356,8 @@
         0
       ],
       "answer": "In the meantime I will do my homework.",
-      "focus": "in the meantime：その間に。will＋動詞原形で未来を表す。",
-      "category": "Collocation & Usage",
+      "focus": "In the meantime は meanwhile（その間に）と言い換えられる。別の出来事までの時間を表す。",
+      "category": "Paraphrase",
       "alternatives": [
         {
           "order": [
@@ -2387,8 +2392,8 @@
         2
       ],
       "answer": "Even within our class there is a variation in the English ability of the students.",
-      "focus": "there is＋名詞：〜がある。a variation inは「〜のばらつき」。",
-      "category": "Collocation & Usage"
+      "focus": "variation は「違い・ばらつき」。a variation in ability は能力に個人差があること。",
+      "category": "Vocabulary"
     },
     {
       "id": 593,
@@ -2415,7 +2420,7 @@
         3
       ],
       "answer": "Everybody thought that he was an ordinary young man.",
-      "focus": "think that＋SV：that節が目的語。an ordinary young manの語順。",
+      "focus": "thought that ... の that 以下は目的語となる名詞節。ordinary は「普通の」で形容詞。",
       "category": "Grammar"
     },
     {
@@ -2447,8 +2452,8 @@
         0
       ],
       "answer": "Nowadays,you can know the sex of your baby before it's born.",
-      "focus": "the sex of your baby：赤ん坊の性別。before＋SVで時を表す。",
-      "category": "Collocation & Usage"
+      "focus": "before it's born は「生まれる前に」。受動態 is born で「誕生する」を表す。",
+      "category": "Grammar"
     },
     {
       "id": 595,
@@ -2473,8 +2478,8 @@
         0
       ],
       "answer": "The police pursued the thieves into the shopping center.",
-      "focus": "pursue A into B：AをBの中まで追いかける。",
-      "category": "Collocation & Usage"
+      "focus": "pursue は「追跡する・追い求める」。追跡の目的地は into the shopping center が示す。",
+      "category": "Vocabulary"
     },
     {
       "id": 596,
@@ -2497,8 +2502,8 @@
         0
       ],
       "answer": "The answer was only partially correct.",
-      "focus": "only partially correct：部分的にしか正しくない。副詞の並び。",
-      "category": "Collocation & Usage"
+      "focus": "only partially correct は「部分的にしか正しくない」。only が partially を限定し、全部は正しくないことを示す。",
+      "category": "Grammar"
     },
     {
       "id": 597,
@@ -2521,7 +2526,7 @@
         2
       ],
       "answer": "The class was divided into three groups.",
-      "focus": "be divided into：〜に分けられる。受動態＋into。",
+      "focus": "was divided into three groups は受動態。divide A into B の A が主語になった形。",
       "category": "Grammar"
     },
     {
@@ -2549,8 +2554,8 @@
         0
       ],
       "answer": "There was a shortage of water in the mountains after the hot summer some years ago.",
-      "focus": "a shortage of water：水不足。in the mountainsで場所を表す。",
-      "category": "Collocation & Usage"
+      "focus": "shortage は「不足」。a shortage of water は水不足で、short は形容詞「短い・不足した」。",
+      "category": "Vocabulary"
     },
     {
       "id": 599,
@@ -2573,8 +2578,8 @@
         3
       ],
       "answer": "I was somewhat surprised to hear that you had changed schools.",
-      "focus": "be surprised to do：〜して驚く。somewhatは程度の副詞。",
-      "category": "Collocation & Usage"
+      "focus": "somewhat は「いくぶん・多少」。very より控えめな程度を表す副詞。",
+      "category": "Vocabulary"
     },
     {
       "id": 600,
@@ -2597,7 +2602,7 @@
         1
       ],
       "answer": "Wealthy people are not always happy.",
-      "focus": "not always：必ずしも〜ではない。部分否定に注目。",
+      "focus": "not always は「いつも～とは限らない」という部分否定。never（決して～ない）とは異なる。",
       "category": "Grammar"
     }
   ]

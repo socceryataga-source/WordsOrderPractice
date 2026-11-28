@@ -22,7 +22,7 @@
       "answer": "He's a little overweight.",
       "id": 901,
       "sourceNumber": 1,
-      "focus": "a little＋形容詞は「少し～」。a little overweight で「少し太りすぎ」。",
+      "focus": "a little overweight は「少し太り気味」。a little は形容詞を修飾する程度の副詞句。",
       "category": "Grammar"
     },
     {
@@ -48,8 +48,8 @@
       "answer": "They worshiped him as a hero.",
       "id": 902,
       "sourceNumber": 2,
-      "focus": "worship A as B は「AをBとして崇拝する」。as の後は名詞句。",
-      "category": "Usage & Collocation"
+      "focus": "worship は「崇拝する・礼拝する」。as a hero は彼を英雄とみなしていることを示す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "水は 水素と酸素から成る。",
@@ -74,7 +74,7 @@
       "answer": "Water consists of hydrogen and oxygen.",
       "id": 903,
       "sourceNumber": 3,
-      "focus": "consist of A は「Aから成る」。hydrogen and oxygen をひとまとまりで捉える。",
+      "focus": "consist of A は「Aから成る」。consist は自動詞なので be consisted of とはしない。",
       "category": "Usage & Collocation"
     },
     {
@@ -98,8 +98,8 @@
       "answer": "Please send your complaint by email to the manager.",
       "id": 904,
       "sourceNumber": 4,
-      "focus": "send A by email は「Aをメールで送る」。your complaint が目的語。",
-      "category": "Usage & Collocation"
+      "focus": "complaint は「苦情・不満」。complain は動詞で、complaint はその内容を表す名詞。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "店長は新しい客にとても丁寧に挨拶した。",
@@ -124,8 +124,9 @@
       "answer": "The manager greeted his new clients very politely.",
       "id": 905,
       "sourceNumber": 5,
-      "focus": "greet A は「Aに挨拶する」。his new clients が目的語となる。",
-      "category": "Usage & Collocation"
+      "focus": "greet は「挨拶する」他動詞。greet clients と直接目的語を取り、to は不要。",
+      "category": "Usage & Collocation",
+      "focusExample": "She greeted the visitors warmly."
     },
     {
       "japanese": "食べ物はよく噛んでから飲み込みましょう。",
@@ -150,7 +151,7 @@
       "answer": "Chew your food well before you swallow it.",
       "id": 906,
       "sourceNumber": 6,
-      "focus": "命令文は動詞原形から。chew A well before S V の形を確認。",
+      "focus": "Chew ... は命令文。before you swallow it は時を示す節で、飲み込む前に噛むこと。",
       "category": "Grammar"
     },
     {
@@ -174,8 +175,9 @@
       "answer": "The Titanic sank after hitting an iceberg.",
       "id": 907,
       "sourceNumber": 7,
-      "focus": "after doing は「～した後に」。after hitting an iceberg が時を表す。",
-      "category": "Grammar"
+      "focus": "after hitting an iceberg の after は前置詞で、後ろに動名詞 hitting を置く。",
+      "category": "Usage & Collocation",
+      "focusExample": "The ship sank after hitting a rock."
     },
     {
       "japanese": "この本は知的生活の送り方を取り上げている。",
@@ -200,8 +202,8 @@
       "answer": "This book features how to lead an intellectual life.",
       "id": 908,
       "sourceNumber": 8,
-      "focus": "how to do は「～する方法」。lead an intellectual life も一まとまり。",
-      "category": "Grammar"
+      "focus": "feature は「特徴」だけでなく動詞で「取り上げる・特集する」。how to lead ... は方法。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "この機械は電気で操作するということを知っていますか。",
@@ -222,7 +224,7 @@
       "answer": "Do you know the machine is operated by electricity?",
       "id": 909,
       "sourceNumber": 9,
-      "focus": "be operated by A は「Aによって操作される」。受動態の形。",
+      "focus": "is operated by electricity は受動態。「電気で動かされる」で、operate は機械を動かす動詞。",
       "category": "Grammar"
     },
     {
@@ -246,8 +248,8 @@
       "answer": "I can't concentrate on my study with this loud music.",
       "id": 910,
       "sourceNumber": 10,
-      "focus": "concentrate on A は「Aに集中する」。on my study を続ける。",
-      "category": "Usage & Collocation"
+      "focus": "concentrate on my study は focus on my study と言い換えられる。on は対象を示す。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "基本的に私たちには海外旅行に行くほどのお金はありません。",
@@ -274,7 +276,7 @@
       "answer": "Basically,we do not have enough money to travel abroad.",
       "id": 911,
       "sourceNumber": 11,
-      "focus": "Basically, は文全体を修飾する副詞。do not have enough＋名詞 の語順。",
+      "focus": "Basically は文全体を修飾する副詞。enough money to travel の不定詞は用途を示す。",
       "category": "Grammar"
     },
     {
@@ -298,8 +300,8 @@
       "answer": "The company regulations are listed in this manual.",
       "id": 912,
       "sourceNumber": 12,
-      "focus": "be listed in A は「Aに載っている」。受動態＋場所の前置詞句。",
-      "category": "Usage & Collocation"
+      "focus": "are listed in this manual は受動態。「説明書に記載されている」。",
+      "category": "Grammar"
     },
     {
       "japanese": "彼はその点についてグラフを使って説明した。",
@@ -322,8 +324,8 @@
       "answer": "He illustrated that point with a graph.",
       "id": 913,
       "sourceNumber": 13,
-      "focus": "illustrate A with B は「Bを使ってAを説明する」。",
-      "category": "Usage & Collocation"
+      "focus": "illustrate は「図解する・例示する」。with a graph は説明の手段を表す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼はよく自分でコーヒー豆を炒る。",
@@ -346,7 +348,7 @@
       "answer": "He often roasts coffee beans himself.",
       "id": 914,
       "sourceNumber": 14,
-      "focus": "often は一般動詞roastsの前が基本。himself は「自分で」を強調する。",
+      "focus": "often は頻度の副詞で roasts の前。himself は「自分自身で」と主語を強調する。",
       "category": "Grammar"
     },
     {
@@ -372,7 +374,7 @@
       "answer": "The university has one of the leading physics departments in the country.",
       "id": 915,
       "sourceNumber": 15,
-      "focus": "one of the＋最上級＋複数名詞 は「最も～なものの一つ」。",
+      "focus": "one of the leading ... departments は「有力な学科の一つ」。one of の後は複数形 departments。",
       "category": "Grammar"
     },
     {
@@ -400,8 +402,8 @@
       "answer": "Rabbits were able to thrive in Australia as they had no natural enemies.",
       "id": 916,
       "sourceNumber": 16,
-      "focus": "be able to do は「～できる」。thrive in Australia で「豪州で繁栄する」。",
-      "category": "Grammar"
+      "focus": "thrive は「繁栄する・よく育つ」。敵が少なく増えやすい環境にも使う。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼はその殺人事件の 第一容疑者だ。",
@@ -432,8 +434,8 @@
       "answer": "He is the prime suspect of the murder case.",
       "id": 917,
       "sourceNumber": 17,
-      "focus": "the prime suspect of A は「Aの第一容疑者」。the murder case が対象。",
-      "category": "Usage & Collocation"
+      "focus": "suspect は「容疑者」の名詞にも「疑う」の動詞にもなる。prime suspect は第一容疑者。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私たちの報告はある科学雑誌に掲載された。",
@@ -456,8 +458,8 @@
       "answer": "Our report was published in a scientific journal.",
       "id": 918,
       "sourceNumber": 18,
-      "focus": "be published in A は「Aに掲載される」。受動態＋in。",
-      "category": "Usage & Collocation"
+      "focus": "was published は受動態。journal は学術雑誌で、published in a journal と使う。",
+      "category": "Grammar"
     },
     {
       "japanese": "彼の成功は彼が一生懸命働いた事実を反映している。",
@@ -482,7 +484,7 @@
       "answer": "His success reflects the fact that he worked so hard.",
       "id": 919,
       "sourceNumber": 19,
-      "focus": "reflect the fact that S V は「～という事実を反映する」。that節がfactを説明。",
+      "focus": "the fact that he worked so hard の that は同格の接続詞。後ろは完全な節。",
       "category": "Grammar"
     },
     {
@@ -510,8 +512,8 @@
       "answer": "The principal delivers the same speech at the entrance ceremony every year.",
       "id": 920,
       "sourceNumber": 20,
-      "focus": "deliver a speech は「演説する」。at the entrance ceremony は場所・機会。",
-      "category": "Usage & Collocation"
+      "focus": "deliver は「配達する」以外に演説を「行う」。deliver a speech は演説する意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その車は凍った道で滑った。",
@@ -538,8 +540,8 @@
       "answer": "The car slipped on the frozen road.",
       "id": 921,
       "sourceNumber": 21,
-      "focus": "slip on A は「Aの上で滑る」。the frozen road が前置詞onの目的語。",
-      "category": "Usage & Collocation"
+      "focus": "slip は「滑る」。on the frozen road の on は滑った場所を示す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼はその店で 食料雑貨を数点買った。",
@@ -566,8 +568,8 @@
       "answer": "He bought some groceries at the store.",
       "id": 922,
       "sourceNumber": 22,
-      "focus": "buy A at B は「BでAを買う」。some groceries が目的語。",
-      "category": "Usage & Collocation"
+      "focus": "groceries は「食料品・日用品」。通常複数形で日々の買い物の商品を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "運動会は晴れの日まで延期された。",
@@ -592,8 +594,8 @@
       "answer": "The athletic meeting was postponed till a fine day.",
       "id": 923,
       "sourceNumber": 23,
-      "focus": "be postponed till A は「Aまで延期される」。受動態の形。",
-      "category": "Usage & Collocation"
+      "focus": "was postponed は受動態。「延期された」で、till は延期先の時を示す。",
+      "category": "Grammar"
     },
     {
       "japanese": "その事件についての新たな証拠が明らかになった。",
@@ -616,8 +618,8 @@
       "answer": "Some new evidence about the case has emerged.",
       "id": 924,
       "sourceNumber": 24,
-      "focus": "some new evidence が主語。has emerged は現在完了形。",
-      "category": "Grammar"
+      "focus": "emerge は「現れる・明らかになる」。証拠や事実が後から出てくる場合にも使う。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "大音量の音楽のせいでまったく集中できなかった。",
@@ -646,7 +648,7 @@
       "answer": "I couldn't concentrate at all because of the loud music.",
       "id": 925,
       "sourceNumber": 25,
-      "focus": "not ... at all は「まったく～ない」。because of＋名詞 は原因を表す。",
+      "focus": "not ... at all は「まったく～ない」。because of の後には名詞句 the loud music を置く。",
       "category": "Grammar"
     },
     {
@@ -670,7 +672,7 @@
       "answer": "He rescued a child drowning in the lake.",
       "id": 926,
       "sourceNumber": 26,
-      "focus": "rescue A は「Aを救出する」。drowning in the lake はchildを後置修飾。",
+      "focus": "drowning in the lake は child を後ろから修飾する現在分詞句。「溺れている子ども」。",
       "category": "Grammar"
     },
     {
@@ -696,8 +698,9 @@
       "answer": "His preference for sweet food is not healthy.",
       "id": 927,
       "sourceNumber": 27,
-      "focus": "preference for A は「Aへの好み」。his preference for sweet food が主語。",
-      "category": "Usage & Collocation"
+      "focus": "preference は「好み・選好」。have a preference for A として対象を示す。",
+      "category": "Usage & Collocation",
+      "focusExample": "I have a preference for tea."
     },
     {
       "japanese": "私の国についての記事を読んだ時，私は侮辱されたと感じた。",
@@ -718,7 +721,7 @@
       "answer": "I felt insulted when I read the article about my country.",
       "id": 928,
       "sourceNumber": 28,
-      "focus": "feel＋形容詞 は「～と感じる」。when節でその時を示す。",
+      "focus": "felt insulted は〈feel＋形容詞的な過去分詞〉。「侮辱されたと感じた」という感情。",
       "category": "Grammar"
     },
     {
@@ -742,8 +745,8 @@
       "answer": "This apparatus produces harmful radiation.",
       "id": 929,
       "sourceNumber": 29,
-      "focus": "produce A は「Aを生み出す」。harmful radiation が目的語。",
-      "category": "Usage & Collocation"
+      "focus": "radiation は「放射線・放射」。harmful radiation は有害な放射線を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "母はいつもI love youと言って私を 抱きしめる。",
@@ -768,7 +771,7 @@
       "answer": "My mother always embraces me,saying \"I love you.\"",
       "id": 930,
       "sourceNumber": 30,
-      "focus": "always は動詞embracesの前。saying ～ は同時の動作を表す分詞構文。",
+      "focus": "saying \"I love you\" は同時の動作を示す分詞構文。抱きしめながら言っている。",
       "category": "Grammar",
       "punctuationAfter": [
         "me"
@@ -795,8 +798,8 @@
       "answer": "The two friends formed a close bond in elementary school.",
       "id": 931,
       "sourceNumber": 31,
-      "focus": "form a close bond は「親しい絆を結ぶ」。in elementary school は時期。",
-      "category": "Usage & Collocation"
+      "focus": "bond は「絆・結びつき」。close bond は親密な関係で、form a bond は絆を作ること。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼は英語を母国語のように話す。",
@@ -821,8 +824,8 @@
       "answer": "He speaks English like his mother tongue.",
       "id": 932,
       "sourceNumber": 32,
-      "focus": "speak A like B は「BのようにAを話す」。mother tongue は「母語」。",
-      "category": "Usage & Collocation"
+      "focus": "mother tongue は「母語」。tongue は「舌」だけでなく言語を指す比喩にも使う。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "成功のカギとなる要因は何ですか。",
@@ -845,8 +848,8 @@
       "answer": "What is the key element in success?",
       "id": 933,
       "sourceNumber": 33,
-      "focus": "the key element in A は「Aの鍵となる要素」。key は形容詞として働く。",
-      "category": "Usage & Collocation"
+      "focus": "element は「要素・成分」。key element は重要な構成要素という意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "犬は裏庭に骨を埋めた。",
@@ -871,7 +874,7 @@
       "answer": "The dog buried the bone in the backyard.",
       "id": 934,
       "sourceNumber": 34,
-      "focus": "bury A in B は「AをBに埋める」。the bone が目的語。",
+      "focus": "buried the bone in the backyard は〈動詞＋目的語＋場所〉。bury は「埋める」。",
       "category": "Usage & Collocation"
     },
     {
@@ -901,8 +904,8 @@
       "answer": "This is an extract from a newspaper article.",
       "id": 935,
       "sourceNumber": 35,
-      "focus": "an extract from A は「Aからの抜粋」。from a newspaper article が後置修飾。",
-      "category": "Usage & Collocation"
+      "focus": "extract は「抜粋」。from a newspaper article で元の文章を示す。動詞では「抽出する」。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私はシャワーを浴びながら声を出して歌うのが好きだ。",
@@ -927,8 +930,8 @@
       "answer": "I like to sing aloud in the shower.",
       "id": 936,
       "sourceNumber": 36,
-      "focus": "like to do は「～するのが好き」。sing aloud は「声に出して歌う」。",
-      "category": "Grammar"
+      "focus": "aloud は「声に出して」。loud は「大きな音の」で、品詞と用法が異なる。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼の説明で彼女の好奇心は満たされた。",
@@ -951,8 +954,8 @@
       "answer": "His explanation satisfied her curiosity.",
       "id": 937,
       "sourceNumber": 37,
-      "focus": "satisfy A は「Aを満たす」。her curiosity が目的語。",
-      "category": "Usage & Collocation"
+      "focus": "curiosity は「好奇心」。satisfy curiosity は知りたい気持ちを満たすこと。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "先生は夏期セミナーの申し込み方法を明確に指示した。",
@@ -977,8 +980,8 @@
       "answer": "The teacher gave clear instructions on how to apply for the summer seminar.",
       "id": 938,
       "sourceNumber": 38,
-      "focus": "give instructions on how to do は「～の方法について指示を与える」。",
-      "category": "Usage & Collocation"
+      "focus": "instructions on how to apply は「応募方法に関する説明」。how to V は疑問詞＋不定詞。",
+      "category": "Grammar"
     },
     {
       "japanese": "「あなたの一番好きな 味は何?」と彼女が聞いた。",
@@ -999,7 +1002,7 @@
       "answer": "“What's your favorite flavor?” she asked.",
       "id": 939,
       "sourceNumber": 39,
-      "focus": "What's your favorite flavor? という疑問文の語順。",
+      "focus": "What's your favorite flavor? は be動詞の疑問文。flavor は「味・風味」で、favorite は形容詞。",
       "category": "Grammar"
     },
     {
@@ -1027,8 +1030,8 @@
       "answer": "Radical political changes are now taking place in the country.",
       "id": 940,
       "sourceNumber": 40,
-      "focus": "be taking place は「起きている」の進行形。radical political changes が主語。",
-      "category": "Usage & Collocation",
+      "focus": "radical は「根本的な・急進的な」。radical political changes は政治上の大きな変化。",
+      "category": "Vocabulary",
       "alternatives": [
         {
           "order": [
@@ -1067,8 +1070,8 @@
       "answer": "He is the chief of our section.",
       "id": 941,
       "sourceNumber": 41,
-      "focus": "be the chief of A は「Aの責任者である」。our section が対象。",
-      "category": "Usage & Collocation"
+      "focus": "chief は「長・責任者」。名詞にも形容詞「主要な」にもなり、chief of a section で課長。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "橋の建設にはかなりの時間がかかる。",
@@ -1093,8 +1096,8 @@
       "answer": "Construction of the bridge takes a considerable amount of time.",
       "id": 942,
       "sourceNumber": 42,
-      "focus": "take a considerable amount of time：「かなりの時間がかかる」。単数の amount に冠詞 a が必要。",
-      "category": "Usage & Collocation"
+      "focus": "a considerable amount of time は数量表現。amount は可算の単数名詞なので冠詞 a が必要。",
+      "category": "Grammar"
     },
     {
       "japanese": "私たちは問題に出くわす心づもりをしておくべきだ。",
@@ -1117,8 +1120,8 @@
       "answer": "We should be prepared to encounter some problems.",
       "id": 943,
       "sourceNumber": 43,
-      "focus": "be prepared to do は「～する準備ができている」。",
-      "category": "Grammar"
+      "focus": "be prepared to encounter problems は be ready to face problems と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "トンは重さを測るのに使われる。",
@@ -1145,7 +1148,7 @@
       "answer": "A ton is used to measure weight.",
       "id": 944,
       "sourceNumber": 44,
-      "focus": "be used to do：「～するために使われる」。数えられる単数名詞 ton には冠詞 a が必要。",
+      "focus": "is used to measure ... は目的を示す受動態。be used to ～ing（～に慣れている）とは別。",
       "category": "Grammar"
     },
     {
@@ -1171,7 +1174,7 @@
       "answer": "He has a calm voice that makes everybody feel relaxed.",
       "id": 945,
       "sourceNumber": 45,
-      "focus": "have a calm voice で「落ち着いた声を持つ」。that makes ～ は関係代名詞節。",
+      "focus": "that makes everybody feel relaxed は voice を修飾する関係詞節。make 人 feel は使役の構造。",
       "category": "Grammar"
     },
     {
@@ -1197,8 +1200,8 @@
       "answer": "He always stays calm in an emergency.",
       "id": 946,
       "sourceNumber": 46,
-      "focus": "stay calm は「落ち着いている」。in an emergency は「非常時に」。",
-      "category": "Usage & Collocation"
+      "focus": "stays calm は〈SVC〉で「落ち着いたままでいる」。calm は形容詞の補語。",
+      "category": "Grammar"
     },
     {
       "japanese": "店主は私にそれを買うよう しきりに勧めた。",
@@ -1225,8 +1228,8 @@
       "answer": "The shopkeeper urged me to buy it.",
       "id": 947,
       "sourceNumber": 47,
-      "focus": "urge A to do は「Aに～するよう強く勧める」。",
-      "category": "Usage & Collocation"
+      "focus": "urge は「強く促す」。urge 人 to V は persuade 人 to V に近いが、促しの強さを含む。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "男は私をじっと見ており本当に不快だった。",
@@ -1251,8 +1254,8 @@
       "answer": "The man was staring at me and I felt really uncomfortable.",
       "id": 948,
       "sourceNumber": 48,
-      "focus": "stare at A は「Aをじっと見る」。was staring は過去進行形。",
-      "category": "Usage & Collocation"
+      "focus": "was staring at me は過去進行形。stare は「じっと見る」で、look at より強い視線。",
+      "category": "Grammar"
     },
     {
       "japanese": "私は週に2回英語の家庭教師をつけています。",
@@ -1279,8 +1282,8 @@
       "answer": "I have an English tutor twice a week.",
       "id": 949,
       "sourceNumber": 49,
-      "focus": "have an English tutor は「英語の家庭教師をつける」。twice a week は頻度。",
-      "category": "Usage & Collocation"
+      "focus": "tutor は「家庭教師・個人指導者」。twice a week は「週2回」という頻度表現。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "英語でいくつか簡単な語句を使ってみましょう。",
@@ -1307,7 +1310,7 @@
       "answer": "Let's try using some simple words and phrases in English.",
       "id": 950,
       "sourceNumber": 50,
-      "focus": "try doing は「試しに～してみる」。using は動名詞。",
+      "focus": "try using は「試しに使ってみる」。try to use（使おうと試みる）との意味の違いに注意。",
       "category": "Grammar"
     },
     {
@@ -1331,8 +1334,8 @@
       "answer": "Ann grabbed Mika by the arm.",
       "id": 951,
       "sourceNumber": 51,
-      "focus": "grab A by the arm は「Aの腕をつかむ」。前置詞byに注意。",
-      "category": "Usage & Collocation"
+      "focus": "grab 人 by the arm は「人の腕をつかむ」。身体部位には the を用いることが多い。",
+      "category": "Grammar"
     },
     {
       "japanese": "音楽は我々の文化の重要な構成要素であり続けている。",
@@ -1357,8 +1360,8 @@
       "answer": "Music has been a key component of our culture.",
       "id": 952,
       "sourceNumber": 52,
-      "focus": "be a key component of A は「Aの主要構成要素である」。現在完了にも注意。",
-      "category": "Usage & Collocation"
+      "focus": "component は「構成要素・部品」。key component は欠かせない重要な部分。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "今日は東西線に遅延がある。",
@@ -1381,8 +1384,8 @@
       "answer": "There is a delay on the Tozai Line today.",
       "id": 953,
       "sourceNumber": 53,
-      "focus": "There is＋単数名詞 で「～がある」。a delay on the Tozai Line をつなぐ。",
-      "category": "Grammar"
+      "focus": "delay は「遅延・遅れ」。There is a delay on the line で路線の遅れを表す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "食物は人間が存在する上で必須だ。",
@@ -1403,8 +1406,8 @@
       "answer": "Food is fundamental to human existence.",
       "id": 954,
       "sourceNumber": 54,
-      "focus": "be fundamental to A は「Aにとって不可欠だ」。to は前置詞。",
-      "category": "Usage & Collocation"
+      "focus": "fundamental は「根本的な・不可欠な」。be fundamental to ... は基盤となる重要性を表す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "失ったデータを修復することはできますか。",
@@ -1427,7 +1430,7 @@
       "answer": "Is it possible to restore the data we lost?",
       "id": 955,
       "sourceNumber": 55,
-      "focus": "Is it possible to do ...? は形式主語itを使う疑問文。",
+      "focus": "Is it possible to restore ...? の it は形式主語。we lost は data を修飾する関係詞節の省略。",
       "category": "Grammar"
     },
     {
@@ -1451,8 +1454,8 @@
       "answer": "He emphasized the point by banging his hand on the table.",
       "id": 956,
       "sourceNumber": 56,
-      "focus": "emphasize A by doing は「～することでAを強調する」。",
-      "category": "Grammar"
+      "focus": "by banging his hand ... は手段を示す〈by＋動名詞〉。「机をたたくことで強調した」。",
+      "category": "Usage & Collocation"
     },
     {
       "japanese": "彼らは水をくみ上げ、それをバケツに注いだ。",
@@ -1483,8 +1486,8 @@
       "answer": "They pumped water up and poured it into a bucket.",
       "id": 957,
       "sourceNumber": 57,
-      "focus": "pump water up は「水をくみ上げる」。pour it into a bucket で「それをバケツに注ぐ」。",
-      "category": "Usage & Collocation"
+      "focus": "pumped water up は lifted water using a pump と言い換えられる。poured it into ... は水の移動先。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "地図には南北と東西に格子線が引かれている。",
@@ -1509,8 +1512,8 @@
       "answer": "The map has grid lines from north to south and from east to west.",
       "id": 958,
       "sourceNumber": 58,
-      "focus": "have grid lines は「格子線がある」。from A to B は範囲を表す。",
-      "category": "Usage & Collocation"
+      "focus": "grid は「格子」。grid lines は縦横の区切り線で、from north to south が方向を示す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "うちのテレビは4つのチャンネルしか映らない。",
@@ -1533,8 +1536,8 @@
       "answer": "Our television picks up only four channels.",
       "id": 959,
       "sourceNumber": 59,
-      "focus": "pick up は「（放送を）受信する」。only four channels が目的語。",
-      "category": "Usage & Collocation"
+      "focus": "pick up は「拾う」以外に電波・放送を「受信する」。ここではテレビのチャンネル。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "夏の間，私は建築現場で肉体労働者として働いた。",
@@ -1559,8 +1562,8 @@
       "answer": "Over the summer I worked as a manual laborer on a building site.",
       "id": 960,
       "sourceNumber": 60,
-      "focus": "work as A は「Aとして働く」。a manual laborer は職業名。",
-      "category": "Usage & Collocation"
+      "focus": "manual は「手作業の」。manual laborer は肉体労働者で、manual は名詞「説明書」にもなる。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "子供たちのパーティーのあと，親たちは散らかしたものを片付けるのを手伝った。",
@@ -1583,8 +1586,8 @@
       "answer": "After the children's party,the parents helped clean up the mess.",
       "id": 961,
       "sourceNumber": 61,
-      "focus": "help (to) do は「～するのを手伝う」。clean up the mess は「散らかりを片付ける」。",
-      "category": "Grammar"
+      "focus": "help clean up は〈help＋動詞原形〉。help to clean up とも言える。",
+      "category": "Usage & Collocation"
     },
     {
       "japanese": "装置を分解した後，彼は簡単に元に戻せることに気づいた。",
@@ -1607,8 +1610,9 @@
       "answer": "After taking the mechanism apart,he found it easy to put it back together.",
       "id": 962,
       "sourceNumber": 62,
-      "focus": "after doing は「～した後に」。take A apart は「Aを分解する」。",
-      "category": "Usage & Collocation"
+      "focus": "found it easy to put ... の it は形式目的語。to put ... が本当の目的語で、easy は補語。",
+      "category": "Usage & Collocation",
+      "focusExample": "I found it easy to understand the instructions."
     },
     {
       "japanese": "医師は患者を眠らせるために薬を注射した。",
@@ -1633,8 +1637,8 @@
       "answer": "The doctor injected the patient with some medicine to make her sleep.",
       "id": 963,
       "sourceNumber": 63,
-      "focus": "inject A with B は「AにBを注射する」。patient が目的語。",
-      "category": "Usage & Collocation"
+      "focus": "inject 人 with 薬 は「人に薬を注射する」。to make her sleep は目的を表す不定詞。",
+      "category": "Grammar"
     },
     {
       "japanese": "私に数分割いてくださいますか。",
@@ -1659,7 +1663,7 @@
       "answer": "Could you spare me a few minutes?",
       "id": 964,
       "sourceNumber": 64,
-      "focus": "spare A B は「AにBを割く」。Could you ...? は丁寧な依頼。",
+      "focus": "spare me a few minutes は第4文型。「私のために数分割いてくれますか」という依頼。",
       "category": "Grammar"
     },
     {
@@ -1683,8 +1687,8 @@
       "answer": "I regularly visit the dentist.",
       "id": 965,
       "sourceNumber": 65,
-      "focus": "regularly は一般動詞visitを修飾する副詞。",
-      "category": "Grammar",
+      "focus": "visit the dentist regularly は go to the dentist regularly と言い換えられる。regularly は頻度の副詞。",
+      "category": "Paraphrase",
       "alternatives": [
         {
           "order": [
@@ -1719,8 +1723,8 @@
       "answer": "The benefits of the new policy will outweigh the costs in the long run.",
       "id": 966,
       "sourceNumber": 66,
-      "focus": "outweigh A は「Aより重要・大きい」。in the long run は「長い目で見れば」。",
-      "category": "Usage & Collocation"
+      "focus": "outweigh は「重さ・重要性で上回る」。利益が費用を超える比喩で使われている。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "人々の生活様式に明らかな変化が起きている。",
@@ -1745,7 +1749,7 @@
       "answer": "There has been a distinct change in people's style of life.",
       "id": 967,
       "sourceNumber": 67,
-      "focus": "There has been a ... は存在を表す現在完了形。a distinct change が主語相当。",
+      "focus": "There has been ... は存在を表す現在完了。a distinct change は「はっきりした変化」。",
       "category": "Grammar"
     },
     {
@@ -1771,8 +1775,8 @@
       "answer": "I seized him by the arm.",
       "id": 968,
       "sourceNumber": 68,
-      "focus": "seize A by the arm は「Aの腕をつかむ」。him を先に置く。",
-      "category": "Usage & Collocation"
+      "focus": "seize 人 by the arm は身体部位の表現。seize は grab より強く「つかむ・取り押さえる」。",
+      "category": "Grammar"
     },
     {
       "japanese": "この国の読み書きできる人の割合〔識字率〕は低い。",
@@ -1793,8 +1797,8 @@
       "answer": "The literacy rate in this country is low.",
       "id": 969,
       "sourceNumber": 69,
-      "focus": "the literacy rate in A は「Aの識字率」。in A が名詞句を後ろから修飾。",
-      "category": "Usage & Collocation"
+      "focus": "literacy は「読み書きの能力」。literacy rate は識字率で、rate は割合を表す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私は60歳で引退するつもりだ。",
@@ -1819,7 +1823,7 @@
       "answer": "My intention is to retire when I am 60 years old.",
       "id": 970,
       "sourceNumber": 70,
-      "focus": "My intention is to do は「私の意図は～すること」。",
+      "focus": "My intention is to retire ... の to不定詞は補語。when I am 60 は時を示す節。",
       "category": "Grammar"
     },
     {
@@ -1843,7 +1847,7 @@
       "answer": "Ann entered the room and glanced around.",
       "id": 971,
       "sourceNumber": 71,
-      "focus": "enter the room and glance around：and が２つの動詞を結ぶ。",
+      "focus": "entered ... and glanced ... は2つの過去形動詞の並列。glance は「ちらっと見る」。",
       "category": "Grammar"
     },
     {
@@ -1867,7 +1871,7 @@
       "answer": "This year,let's celebrate Dad's birthday in a restaurant.",
       "id": 972,
       "sourceNumber": 72,
-      "focus": "Let's＋動詞原形 は誘い。celebrate A in B で「BでAを祝う」。",
+      "focus": "Let's celebrate ... は〈Let's＋動詞原形〉の提案。所有格 Dad's が birthday を修飾。",
       "category": "Grammar"
     },
     {
@@ -1893,7 +1897,7 @@
       "answer": "I tend to skip breakfast even though it is not a good idea.",
       "id": 973,
       "sourceNumber": 73,
-      "focus": "tend to do は「～する傾向がある」。even though S V は譲歩。",
+      "focus": "even though it is not ... は譲歩節。「よい考えではないけれども」の意味。",
       "category": "Grammar"
     },
     {
@@ -1921,8 +1925,8 @@
       "answer": "Finally,I could begin to grasp the meaning of the lecture.",
       "id": 974,
       "sourceNumber": 74,
-      "focus": "begin to do は「～し始める」。grasp the meaning of A は「Aの意味を理解する」。",
-      "category": "Usage & Collocation"
+      "focus": "grasp は「握る」だけでなく「理解する」。grasp the meaning は意味をつかむこと。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私はそのことに関して ほとんど何も知らない。",
@@ -1943,8 +1947,8 @@
       "answer": "I know virtually nothing about it.",
       "id": 975,
       "sourceNumber": 75,
-      "focus": "virtually nothing は「ほとんど何も～ない」。know nothing about A の形。",
-      "category": "Usage & Collocation"
+      "focus": "virtually nothing は「ほとんど何もない」。virtually は否定語 nothing の程度を強める。",
+      "category": "Grammar"
     },
     {
       "japanese": "そのパーティーの全体の費用は約10万円だった。",
@@ -1971,8 +1975,8 @@
       "answer": "The overall cost of the party was about 100,000 yen.",
       "id": 976,
       "sourceNumber": 76,
-      "focus": "the overall cost of A は「Aの総費用」。",
-      "category": "Usage & Collocation"
+      "focus": "overall は「全体の・総合的な」。overall cost は諸費用を合わせた総額。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私はアメリカに2年間留学するための奨学金を得た。",
@@ -1997,8 +2001,8 @@
       "answer": "I won a scholarship to study in the US for two years.",
       "id": 977,
       "sourceNumber": 77,
-      "focus": "win a scholarship to do は「～するための奨学金を得る」。",
-      "category": "Usage & Collocation"
+      "focus": "a scholarship to study ... の to不定詞は奨学金の目的。「留学するための奨学金」。",
+      "category": "Grammar"
     },
     {
       "japanese": "彼は土地を息子たちに分けた。",
@@ -2021,8 +2025,8 @@
       "answer": "He distributed the land among his sons.",
       "id": 978,
       "sourceNumber": 78,
-      "focus": "distribute A among B は「AをBに分配する」。",
-      "category": "Usage & Collocation"
+      "focus": "distributed the land among his sons は divided the land among his sons と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "彼女は大学で流体 力学を専攻している。",
@@ -2049,8 +2053,8 @@
       "answer": "She majors in fluid mechanics at college.",
       "id": 979,
       "sourceNumber": 79,
-      "focus": "major in A は「Aを専攻する」。at college は場所を表す。",
-      "category": "Usage & Collocation"
+      "focus": "fluid は「流体」。fluid mechanics は流体力学で、mechanics は「力学」。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "会社は25％の事業拡大を目指している。",
@@ -2075,8 +2079,8 @@
       "answer": "The company aims to expand its business by 25%.",
       "id": 980,
       "sourceNumber": 80,
-      "focus": "aim to do は「～を目指す」。expand by 25% で増加率を示す。",
-      "category": "Usage & Collocation"
+      "focus": "expand its business by 25% の by は増加率を示す。「25％だけ拡大する」。",
+      "category": "Grammar"
     },
     {
       "japanese": "彼女は深呼吸をして冷静に計画を説明した。",
@@ -2099,7 +2103,7 @@
       "answer": "She took a deep breath and calmly explained her plan.",
       "id": 981,
       "sourceNumber": 81,
-      "focus": "calmly は動詞explainedを修飾する副詞。語順の別解も確認。",
+      "focus": "calmly は explained の前にも置ける。「落ち着いて説明した」で、動作を修飾。",
       "category": "Grammar",
       "alternatives": [
         {
@@ -2137,7 +2141,7 @@
       "answer": "The use of nuclear power has fallen in that country.",
       "id": 982,
       "sourceNumber": 82,
-      "focus": "the use of A は「Aの使用」。has fallen は現在完了。",
+      "focus": "the use of nuclear power が主語で中心は use。has fallen は「減少してきた」現在完了。",
       "category": "Grammar"
     },
     {
@@ -2161,8 +2165,8 @@
       "answer": "Obesity is a major public health problem these days.",
       "id": 983,
       "sourceNumber": 83,
-      "focus": "obesity is a major public health problem の名詞句のまとまりを確認。",
-      "category": "Grammar"
+      "focus": "obesity は「肥満」。obese（肥満の）という形容詞と関連する。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私は最新のハイキング道具を身に付けた。",
@@ -2183,8 +2187,8 @@
       "answer": "I equipped myself with the latest hiking gear.",
       "id": 984,
       "sourceNumber": 84,
-      "focus": "equip oneself with A は「Aを身につける・装備する」。",
-      "category": "Usage & Collocation"
+      "focus": "gear は「装備・道具」。hiking gear は登山用装備で、通常不可算的に使う。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "義務を果たすように努力しなさい。",
@@ -2207,8 +2211,8 @@
       "answer": "Try to fulfill your duty.",
       "id": 985,
       "sourceNumber": 85,
-      "focus": "try to do は「～するよう努力する」。fulfill one's duty は「義務を果たす」。",
-      "category": "Usage & Collocation"
+      "focus": "fulfill は「果たす・満たす」。fulfill one's duty は義務を果たす意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私は学習者がどのように語彙の項目を記憶するかについて論文を書いた。",
@@ -2235,7 +2239,7 @@
       "answer": "I wrote my thesis on how learners remember items of vocabulary.",
       "id": 986,
       "sourceNumber": 86,
-      "focus": "write a thesis on A は「Aについて論文を書く」。how S V は間接疑問。",
+      "focus": "how learners remember ... は間接疑問節。語順は〈疑問詞＋主語＋動詞〉になる。",
       "category": "Grammar"
     },
     {
@@ -2261,8 +2265,8 @@
       "answer": "In autumn you can see spider webs on the trees in the morning.",
       "id": 987,
       "sourceNumber": 87,
-      "focus": "see A on B は「Bの上でAを見る」。spider webs が目的語。",
-      "category": "Usage & Collocation"
+      "focus": "spider web は「クモの巣」。web はインターネットのウェブにも使われる。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私が勉強しようとすると，弟がいつも私の気をそらしてくる。",
@@ -2287,8 +2291,8 @@
       "answer": "My younger brother always distracts me when I am trying to study.",
       "id": 988,
       "sourceNumber": 88,
-      "focus": "always は一般動詞distractsの前。distract A は「Aの気をそらす」。",
-      "category": "Grammar"
+      "focus": "distract は「気をそらす」。distract 人 from ～ing なら何から気をそらすかを示せる。",
+      "category": "Usage & Collocation"
     },
     {
       "japanese": "彼らは犯罪と貧困には関係があると言っている。",
@@ -2311,7 +2315,7 @@
       "answer": "They say there is some relation between crime and poverty.",
       "id": 989,
       "sourceNumber": 89,
-      "focus": "There is＋名詞 で「～がある」。between A and B は「AとBの間に」。",
+      "focus": "there is some relation between A and B は存在構文。between が関係する両者を示す。",
       "category": "Grammar"
     },
     {
@@ -2335,8 +2339,8 @@
       "answer": "I was a witness to a robbery.",
       "id": 990,
       "sourceNumber": 90,
-      "focus": "a witness to A は「Aの目撃者」。to は前置詞。",
-      "category": "Usage & Collocation"
+      "focus": "witness は「目撃者・証人」。a witness to a robbery は強盗事件の目撃者。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "化石から得た証拠は，恐竜がこの地域に住んでいたことを示している。",
@@ -2359,7 +2363,7 @@
       "answer": "Evidence from fossils shows that dinosaurs lived in this area.",
       "id": 991,
       "sourceNumber": 91,
-      "focus": "Evidence from A shows that S V は「Aからの証拠は～と示す」。",
+      "focus": "Evidence ... shows that ... の that 節は show の目的語。恐竜が住んだ事実を表す。",
       "category": "Grammar"
     },
     {
@@ -2381,7 +2385,7 @@
       "answer": "I sent the washing machine back to the manufacturer.",
       "id": 992,
       "sourceNumber": 92,
-      "focus": "send A back to B は「AをBに送り返す」。",
+      "focus": "sent A back to B は「AをBへ送り返した」。back が元の場所へ戻す意味。",
       "category": "Usage & Collocation"
     },
     {
@@ -2405,7 +2409,7 @@
       "answer": "The railway line was closed as it was no longer profitable.",
       "id": 993,
       "sourceNumber": 93,
-      "focus": "no longer は「もはや～ない」。was no longer profitable が原因節。",
+      "focus": "as it was no longer profitable の as は理由。no longer は「もはや～ない」。",
       "category": "Grammar"
     },
     {
@@ -2431,8 +2435,9 @@
       "answer": "I attended a lecture on the history of Europe.",
       "id": 994,
       "sourceNumber": 94,
-      "focus": "attend A は「Aに出席する」。目的語を直接取る他動詞。",
-      "category": "Usage & Collocation"
+      "focus": "attend は「出席する」という他動詞。attend a lecture とし、to は不要。",
+      "category": "Usage & Collocation",
+      "focusExample": "She attended the lecture yesterday."
     },
     {
       "japanese": "実際の話は映画よりおもしろくない。",
@@ -2457,7 +2462,7 @@
       "answer": "The actual story is less interesting than in the movie.",
       "id": 995,
       "sourceNumber": 95,
-      "focus": "less＋形容詞＋than は劣等比較。比較対象に注意。",
+      "focus": "less interesting than ... は劣等比較。「映画のほうより面白くない」で、比較対象の形を意識。",
       "category": "Grammar"
     },
     {
@@ -2483,7 +2488,7 @@
       "answer": "Working for that company is really stressful.",
       "id": 996,
       "sourceNumber": 96,
-      "focus": "Working ... が動名詞句の主語。be stressful は「ストレスが多い」。",
+      "focus": "Working for that company は動名詞句で主語。単数扱いなので is stressful。",
       "category": "Grammar"
     },
     {
@@ -2511,8 +2516,8 @@
       "answer": "We have a reservation for a block of seats.",
       "id": 997,
       "sourceNumber": 97,
-      "focus": "a reservation for a block of seats は「ひと区画の席の予約」。",
-      "category": "Usage & Collocation"
+      "focus": "block は「区画・ひとかたまり」。a block of seats はまとまって確保した座席群。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "そのサンプルは完全に 無作為に集めたものだ。",
@@ -2533,8 +2538,8 @@
       "answer": "The sample is perfectly random.",
       "id": 998,
       "sourceNumber": 98,
-      "focus": "perfectly random は副詞＋形容詞。「完全に無作為な」。",
-      "category": "Grammar"
+      "focus": "random は「無作為の」。perfectly random は完全にランダムで、perfectly は形容詞を修飾。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "母の誕生日にケーキを焼きました。",
@@ -2561,8 +2566,8 @@
       "answer": "I baked a cake for my mother's birthday.",
       "id": 999,
       "sourceNumber": 99,
-      "focus": "bake A for B は「BのためにAを焼く」。",
-      "category": "Usage & Collocation"
+      "focus": "baked a cake for ... の for は受益者・目的を示す。「母の誕生日のためにケーキを焼いた」。",
+      "category": "Grammar"
     },
     {
       "japanese": "車を運転する時はまっすぐ前を見るべきだ。",
@@ -2585,8 +2590,8 @@
       "answer": "You should look straight ahead when you drive a car.",
       "id": 1000,
       "sourceNumber": 100,
-      "focus": "look straight ahead は「まっすぐ前を見る」。when S V は時の節。",
-      "category": "Usage & Collocation"
+      "focus": "straight ahead は「まっすぐ前へ」。when you drive は運転する時の条件を表す節。",
+      "category": "Grammar"
     }
   ]
 }

@@ -24,7 +24,7 @@
       "answer": "My wedding was probably the most emotional day of my life.",
       "id": 801,
       "sourceNumber": 1,
-      "focus": "probably は「おそらく」。be動詞の後ろに置き、the most＋形容詞 の最上級を修飾する。",
+      "focus": "the most emotional day は最上級。probably は「おそらく」で、be動詞の後に置いて判断を和らげる。",
       "category": "Grammar"
     },
     {
@@ -44,7 +44,7 @@
       "answer": "Whenever you come,you will find my room clean.",
       "id": 802,
       "sourceNumber": 2,
-      "focus": "whenever S V は「いつ～しても」。時を表す従属節の後には主節が続く。",
+      "focus": "Whenever you come は「いつ来ても」。whenever は時の条件を広く示す接続詞。",
       "category": "Grammar"
     },
     {
@@ -68,8 +68,8 @@
       "answer": "A man was finally arrested for the murder of the student.",
       "id": 803,
       "sourceNumber": 3,
-      "focus": "arrest A for B は「Bの罪でAを逮捕する」。the murder of ～ は「～の殺害」。",
-      "category": "Usage & Collocation"
+      "focus": "was arrested for ... は受動態。「～の容疑で逮捕された」で、for が理由を示す。",
+      "category": "Grammar"
     },
     {
       "japanese": "今，東京にはたくさんの外国人がいる。",
@@ -94,7 +94,7 @@
       "answer": "There are so many foreigners in Tokyo now.",
       "id": 804,
       "sourceNumber": 4,
-      "focus": "There are＋複数名詞。so many＋複数名詞 は「とても多くの～」。",
+      "focus": "There are so many foreigners は存在構文。so many の後は可算名詞の複数形。",
       "category": "Grammar"
     },
     {
@@ -120,8 +120,8 @@
       "answer": "We were worried about the welfare of the children.",
       "id": 805,
       "sourceNumber": 5,
-      "focus": "be worried about A は「Aを心配する」。the welfare of ～ は「～の幸福・福祉」。",
-      "category": "Usage & Collocation"
+      "focus": "welfare は「幸福・福祉」。the welfare of children は子どもたちの安全や生活のよさを指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼らは街に放たれていた熊を何とか捕まえることができた。",
@@ -146,7 +146,7 @@
       "answer": "They managed to capture the bear that was loose in the city.",
       "id": 806,
       "sourceNumber": 6,
-      "focus": "manage to do は「何とか～する」。the bear that ～ は関係代名詞による後置修飾。",
+      "focus": "manage to capture は「何とか捕まえる」。that was loose in the city は bear を修飾する関係詞節。",
       "category": "Grammar"
     },
     {
@@ -170,8 +170,8 @@
       "answer": "Everyone was disappointed with the news.",
       "id": 807,
       "sourceNumber": 7,
-      "focus": "be disappointed with A は「Aにがっかりする」。感情を表す過去分詞＋前置詞。",
-      "category": "Usage & Collocation"
+      "focus": "disappointed は「がっかりした」という感情。disappointing は「がっかりさせる」原因側。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "言語は人間と他の動物を区別するものである。",
@@ -196,8 +196,8 @@
       "answer": "Language distinguishes humans from the rest of the animals.",
       "id": 808,
       "sourceNumber": 8,
-      "focus": "distinguish A from B は「AとBを区別する」。the rest of ～ は「残りの～」。",
-      "category": "Usage & Collocation"
+      "focus": "distinguish humans from animals は tell humans apart from animals と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "この論文は１つの単純な仮説に基づいている。",
@@ -222,8 +222,8 @@
       "answer": "This paper is based on one simple hypothesis.",
       "id": 809,
       "sourceNumber": 9,
-      "focus": "be based on A は「Aに基づく」。one simple hypothesis が前置詞onの目的語。",
-      "category": "Usage & Collocation"
+      "focus": "is based on ... は受動態の形。「～に基づいている」で、根拠を on の後に示す。",
+      "category": "Grammar"
     },
     {
       "japanese": "これらの映画は教育的な目的のものです。",
@@ -248,8 +248,8 @@
       "answer": "These films are for educational purposes.",
       "id": 810,
       "sourceNumber": 10,
-      "focus": "be for educational purposes は「教育目的である」。for＋目的を表す名詞句。",
-      "category": "Usage & Collocation"
+      "focus": "purpose は「目的」。for educational purposes は教育目的で、for personal use は個人利用の意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "日本の子供たちは新年に親戚からお金を受け取る。",
@@ -274,7 +274,7 @@
       "answer": "Japanese children receive money from their relatives at New Year.",
       "id": 811,
       "sourceNumber": 11,
-      "focus": "receive A from B は「BからAを受け取る」。at New Year は時を表す句。",
+      "focus": "receive money from ... は「～からお金を受け取る」。受け手は主語、差出人は from の後ろ。",
       "category": "Usage & Collocation"
     },
     {
@@ -300,8 +300,8 @@
       "answer": "The weather in the UK is so unpredictable.",
       "id": 812,
       "sourceNumber": 12,
-      "focus": "the weather in the UK：前置詞句 in the UK がweatherを後ろから修飾。",
-      "category": "Grammar",
+      "focus": "unpredictable は「予測できない」。un- は否定の接頭辞で、predict（予測する）と関連する。",
+      "category": "Vocabulary",
       "alternatives": [
         {
           "order": [
@@ -339,8 +339,8 @@
       "answer": "This application is able to read bar codes.",
       "id": 813,
       "sourceNumber": 13,
-      "focus": "be able to do は「～できる」。bar codes は「バーコード」。",
-      "category": "Grammar"
+      "focus": "is able to read bar codes は can read bar codes と言い換えられる。能力・機能を表す。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "その実験の結果を正確に解釈するのは難しい。",
@@ -365,7 +365,7 @@
       "answer": "It is difficult to accurately interpret the results of the experiment.",
       "id": 814,
       "sourceNumber": 14,
-      "focus": "It is difficult to do の形式主語構文。accurately は解釈する動作を修飾。",
+      "focus": "It is difficult to interpret ... は形式主語構文。accurately は interpret を修飾する副詞。",
       "category": "Grammar"
     },
     {
@@ -389,7 +389,7 @@
       "answer": "He is always so polite to elderly people.",
       "id": 815,
       "sourceNumber": 15,
-      "focus": "be polite to A は「Aに礼儀正しい」。so は形容詞politeの前に置く。",
+      "focus": "polite は「礼儀正しい」。impolite は反対語で、be polite to people の形で対象を示す。",
       "category": "Usage & Collocation"
     },
     {
@@ -415,7 +415,7 @@
       "answer": "She wore a mask because she wasn't wearing any makeup.",
       "id": 816,
       "sourceNumber": 16,
-      "focus": "because S V は理由を表す節。wasn't wearing は過去進行形。",
+      "focus": "because she wasn't wearing ... は理由の副詞節。wasn't wearing は過去進行形の否定。",
       "category": "Grammar"
     },
     {
@@ -439,8 +439,8 @@
       "answer": "I'm a member of the student council.",
       "id": 817,
       "sourceNumber": 17,
-      "focus": "a member of A は「Aの一員」。student council は「生徒会」。",
-      "category": "Usage & Collocation"
+      "focus": "council は「議会・評議会」。student council は「生徒会」を表す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "子供たちは森へ冒険に出かけた。",
@@ -465,8 +465,8 @@
       "answer": "The children set off on an adventure in the woods.",
       "id": 818,
       "sourceNumber": 18,
-      "focus": "set off on an adventure は「冒険に出かける」。in the woods は場所。",
-      "category": "Usage & Collocation"
+      "focus": "adventure は「冒険」。set off on an adventure は冒険へ出発する意味で、set off は「出発する」。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その川は両国の国境を示している。",
@@ -491,8 +491,8 @@
       "answer": "The river marks the border between the two countries.",
       "id": 819,
       "sourceNumber": 19,
-      "focus": "mark the border between A and B は「AとBの境界を示す」。",
-      "category": "Usage & Collocation"
+      "focus": "border は「国境・境界」。mark the border は境界を示すことで、between A and B が両側を示す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "すべての人間にとって老化は避けられないものだ。",
@@ -517,7 +517,7 @@
       "answer": "Aging is inevitable for every human.",
       "id": 820,
       "sourceNumber": 20,
-      "focus": "Aging は動名詞が主語。be inevitable for A は「Aにとって不可避だ」。",
+      "focus": "Aging は動名詞句で主語。一般的な概念を述べるので is inevitable と単数動詞を使う。",
       "category": "Grammar"
     },
     {
@@ -541,8 +541,8 @@
       "answer": "The news reported on the theft of a large diamond.",
       "id": 821,
       "sourceNumber": 21,
-      "focus": "the theft of A は「Aの窃盗」。the news reported on ～ のonに注意。",
-      "category": "Usage & Collocation"
+      "focus": "theft は「窃盗」。steal（盗む）の名詞で、the theft of a diamond はダイヤの盗難。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "ことわざにあるように，百聞は一見に如かずだ。",
@@ -563,7 +563,7 @@
       "answer": "As the saying goes,seeing is believing.",
       "id": 822,
       "sourceNumber": 22,
-      "focus": "As the saying goes は「ことわざにあるように」。seeing is believing は動名詞の主語・補語。",
+      "focus": "Seeing is believing は動名詞 seeing が主語、believing が補語。「百聞は一見にしかず」。",
       "category": "Grammar"
     },
     {
@@ -587,7 +587,7 @@
       "answer": "Have you seen any good movies lately?",
       "id": 823,
       "sourceNumber": 23,
-      "focus": "Have you seen ...? は現在完了の経験。lately は「最近」。",
+      "focus": "Have you seen ... lately? は経験を尋ねる現在完了。lately は最近の期間を指す。",
       "category": "Grammar"
     },
     {
@@ -611,7 +611,7 @@
       "answer": "Shorts and T-shirts are too casual to wear to this restaurant.",
       "id": 824,
       "sourceNumber": 24,
-      "focus": "too＋形容詞＋to do：「～すぎて…できない」。too casual to wear to this restaurant で「この店に着て行くにはカジュアルすぎる」。",
+      "focus": "too casual to wear ... は「着て行くにはカジュアルすぎる」。too ... to の不定詞は程度の結果を表す。",
       "category": "Grammar"
     },
     {
@@ -637,7 +637,7 @@
       "answer": "The word cards should be put in alphabetical sequence.",
       "id": 825,
       "sourceNumber": 25,
-      "focus": "should be put は受動態。「アルファベット順に」は in alphabetical sequence。",
+      "focus": "should be put は助動詞を伴う受動態。word cards が並べられる側なので be＋過去分詞。",
       "category": "Grammar"
     },
     {
@@ -667,7 +667,7 @@
       "answer": "I located the small village on this map.",
       "id": 826,
       "sourceNumber": 26,
-      "focus": "locate A on B は「Bの上でAの位置を確認する」。on this map が場所。",
+      "focus": "locate は「位置を突き止める」。location は「場所・位置」で、locate A on a map と使う。",
       "category": "Usage & Collocation"
     },
     {
@@ -691,8 +691,9 @@
       "answer": "Doctor Jones dedicated himself to fighting cancer.",
       "id": 827,
       "sourceNumber": 27,
-      "focus": "dedicate oneself to doing は「～することに専念する」。to は前置詞なので動名詞。",
-      "category": "Usage & Collocation"
+      "focus": "dedicate oneself to ～ing は「～に専念する」。to は前置詞なので fighting となる。",
+      "category": "Usage & Collocation",
+      "focusExample": "She dedicated herself to learning English."
     },
     {
       "japanese": "世界は地軸に基づいて回転している。",
@@ -717,8 +718,8 @@
       "answer": "The world spins on its axis.",
       "id": 828,
       "sourceNumber": 28,
-      "focus": "spin on its axis は「軸を中心に回転する」。所有格 its に注意。",
-      "category": "Usage & Collocation"
+      "focus": "axis は「軸」。spin on its axis は自転することを表し、軸の複数形は axes。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その機関の目的はすべての政府の腐敗を取り除くことだ。",
@@ -743,7 +744,7 @@
       "answer": "The agency's aim is to eliminate all corruption in government.",
       "id": 829,
       "sourceNumber": 29,
-      "focus": "aim is to do は「目的は～すること」。eliminate all corruption で「腐敗を一掃する」。",
+      "focus": "aim is to eliminate ... の不定詞は補語。目標の内容を説明する。",
       "category": "Grammar"
     },
     {
@@ -765,8 +766,8 @@
       "answer": "His inspiration was exhausted.",
       "id": 830,
       "sourceNumber": 30,
-      "focus": "be exhausted は「尽きる、消耗する」。受動態の形で状態を表す。",
-      "category": "Grammar"
+      "focus": "inspiration は「ひらめき・創作意欲」。was exhausted は発想が尽きた状態を表す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "うちのネコは尻尾が長い。",
@@ -789,8 +790,8 @@
       "answer": "My cat has a long tail.",
       "id": 831,
       "sourceNumber": 31,
-      "focus": "My cat has a long tail.：have＋名詞で身体的特徴を表す。",
-      "category": "Grammar"
+      "focus": "tail は「しっぽ」。long tail は長い尾で、tale（物語）と同音だが綴りが異なる。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "主題に関係のない質問はしないでください。",
@@ -817,8 +818,8 @@
       "answer": "Please do not ask questions that are not relevant to the topic.",
       "id": 832,
       "sourceNumber": 32,
-      "focus": "questions that are not relevant to the topic：関係代名詞thatと be relevant to。",
-      "category": "Grammar"
+      "focus": "that are not relevant to the topic は questions を修飾する関係詞節。relevant to は「～に関係する」。",
+      "category": "Usage & Collocation"
     },
     {
       "japanese": "自由は人権の基礎である。",
@@ -843,8 +844,8 @@
       "answer": "Freedom is the foundation of human rights.",
       "id": 833,
       "sourceNumber": 33,
-      "focus": "be the foundation of A は「Aの基礎である」。human rights は「人権」。",
-      "category": "Usage & Collocation"
+      "focus": "foundation は「基礎・土台」。建物の土台だけでなく自由や制度の根拠を比喩的に表す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼は江戸時代の歴史について一連の講義を行った。",
@@ -869,8 +870,8 @@
       "answer": "He held a series of lectures on the history of the Edo period.",
       "id": 834,
       "sourceNumber": 34,
-      "focus": "hold a series of lectures on A は「Aについて一連の講義をする」。",
-      "category": "Usage & Collocation"
+      "focus": "a series of lectures は「一連の講義」。series は単数・複数が同形の名詞。",
+      "category": "Grammar"
     },
     {
       "japanese": "その会社は州内でタバコの販売を独占している。",
@@ -895,8 +896,8 @@
       "answer": "The company has a monopoly on selling tobacco in the state.",
       "id": 835,
       "sourceNumber": 35,
-      "focus": "have a monopoly on A は「Aを独占する」。selling は前置詞onの目的語。",
-      "category": "Usage & Collocation"
+      "focus": "monopoly は「独占」。have a monopoly on ... は市場や販売を独占すること。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "提出前に書類をよく確認してください。",
@@ -917,8 +918,8 @@
       "answer": "Please check your documents carefully prior to submitting them.",
       "id": 836,
       "sourceNumber": 36,
-      "focus": "prior to doing は「～する前に」。to が前置詞なので submitting。",
-      "category": "Usage & Collocation"
+      "focus": "prior to submitting は before submitting と言い換えられる。to は前置詞で動名詞が続く。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "あなたが夏より冬の方が好きなのは奇妙だ。",
@@ -941,7 +942,7 @@
       "answer": "It is odd that you prefer winter to summer.",
       "id": 837,
       "sourceNumber": 37,
-      "focus": "It is odd that S V：形式主語Itと真主語that節。prefer A to B にも注意。",
+      "focus": "It is odd that ... の It は形式主語。prefer winter to summer は「夏より冬を好む」。",
       "category": "Grammar"
     },
     {
@@ -965,8 +966,8 @@
       "answer": "The woman is gentle with everybody.",
       "id": 838,
       "sourceNumber": 38,
-      "focus": "be gentle with A は「Aに優しい」。gentle と一緒に用いる前置詞。",
-      "category": "Usage & Collocation"
+      "focus": "gentle は「優しい・穏やかな」。be gentle with people は人に優しく接すること。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "表現の自由は基本的人権の1つです。",
@@ -989,7 +990,7 @@
       "answer": "Freedom of expression is one of the basic human rights.",
       "id": 839,
       "sourceNumber": 39,
-      "focus": "freedom of expression は「表現の自由」。one of＋複数名詞。",
+      "focus": "one of the basic human rights は「基本的人権の一つ」。one of の後は複数名詞 rights。",
       "category": "Grammar"
     },
     {
@@ -1013,7 +1014,7 @@
       "answer": "The Internet enables us to communicate across national boundaries.",
       "id": 840,
       "sourceNumber": 40,
-      "focus": "enable A to do は「Aが～できるようにする」。across boundaries は「境界を越えて」。",
+      "focus": "enable us to communicate は「私たちが通信できるようにする」。〈enable＋人＋to不定詞〉。",
       "category": "Grammar"
     },
     {
@@ -1035,8 +1036,8 @@
       "answer": "This song is popular with teenagers now.",
       "id": 841,
       "sourceNumber": 41,
-      "focus": "be popular with A は「Aに人気がある」。前置詞withを使う。",
-      "category": "Usage & Collocation"
+      "focus": "be popular with teenagers は be liked by teenagers と言い換えられる。人気の対象は with。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "新しい法律は環境保護を目的としている。",
@@ -1061,8 +1062,8 @@
       "answer": "The new legislation aims to protect the environment.",
       "id": 842,
       "sourceNumber": 42,
-      "focus": "aim to do は「～することを目指す」。the new legislation が主語。",
-      "category": "Usage & Collocation"
+      "focus": "legislation は「法律・立法」。law と近いが、制定された法規や立法活動を指す硬い語。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "両国は最終的に合意し，平和条約に調印した。",
@@ -1087,8 +1088,8 @@
       "answer": "The two countries finally agreed and signed a peace treaty.",
       "id": 843,
       "sourceNumber": 43,
-      "focus": "agree and sign a treaty：動詞がandで並列。peace treaty は「平和条約」。",
-      "category": "Grammar"
+      "focus": "treaty は「条約」。peace treaty は平和条約で、agreement より公式な国家間の取り決め。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "テストの結果は実に彼の自信を高めた。",
@@ -1113,8 +1114,8 @@
       "answer": "His test results gave him a real boost in confidence.",
       "id": 844,
       "sourceNumber": 44,
-      "focus": "give A a boost in B は「AのBを高める」。give＋人＋物の第4文型。",
-      "category": "Usage & Collocation"
+      "focus": "gave him a boost は第4文型〈SVOO〉。「彼の自信を高めた」という結果を表す。",
+      "category": "Grammar"
     },
     {
       "japanese": "彼は1年間ニューヨークに住んで英語の技能を習得した。",
@@ -1139,8 +1140,8 @@
       "answer": "He acquired his skills in English by living in New York for a year.",
       "id": 845,
       "sourceNumber": 45,
-      "focus": "acquire skills in A は「Aの技能を身につける」。by doing は手段。",
-      "category": "Usage & Collocation"
+      "focus": "by living in New York は手段を示す〈by＋動名詞〉。「住むことで英語力を身につけた」。",
+      "category": "Grammar"
     },
     {
       "japanese": "テレビの天気予報の雪の予測は間違っていた。",
@@ -1163,8 +1164,8 @@
       "answer": "The prediction of snow on the TV weather forecast was incorrect.",
       "id": 846,
       "sourceNumber": 46,
-      "focus": "the prediction of snow は「雪の予測」。on the TV weather forecast は予報での話。",
-      "category": "Usage & Collocation"
+      "focus": "prediction は「予測」。predict（予測する）から派生し、weather forecast は天気予報。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "コンサートは本当に素晴らしかった。",
@@ -1187,7 +1188,7 @@
       "answer": "The concert was absolutely fantastic.",
       "id": 847,
       "sourceNumber": 47,
-      "focus": "absolutely fantastic のように強調副詞と形容詞が結びつく。",
+      "focus": "absolutely は「まったく・本当に」。fantastic など強い評価を表す形容詞とよく使う。",
       "category": "Usage & Collocation"
     },
     {
@@ -1215,8 +1216,9 @@
       "answer": "It was such an unusual day today and I am exhausted.",
       "id": 848,
       "sourceNumber": 48,
-      "focus": "such＋a/an＋形容詞＋名詞。「とても～な日」という名詞句。",
-      "category": "Grammar"
+      "focus": "such an unusual day は〈such＋冠詞＋形容詞＋名詞〉。so unusual a day との語順の違いに注意。",
+      "category": "Grammar",
+      "focusExample": "It was such an exciting movie."
     },
     {
       "japanese": "彼女は完璧になるまで練習をずっと繰り返した。",
@@ -1239,7 +1241,7 @@
       "answer": "She kept repeating the exercise until she became perfect.",
       "id": 849,
       "sourceNumber": 49,
-      "focus": "keep doing は「～し続ける」。until S V は「～するまで」。",
+      "focus": "kept repeating は「繰り返し続けた」。keep の後ろは動名詞。",
       "category": "Grammar"
     },
     {
@@ -1263,8 +1265,8 @@
       "answer": "The star is visible to the naked eye.",
       "id": 850,
       "sourceNumber": 50,
-      "focus": "be visible to the naked eye は「肉眼で見える」。visible to に注意。",
-      "category": "Usage & Collocation"
+      "focus": "visible to the naked eye は can be seen without a microscope に近い。「肉眼で見える」。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "私はコートを着るつもりだが，君も同様にすべきだ。",
@@ -1287,8 +1289,8 @@
       "answer": "I am going to wear a coat and you should do likewise.",
       "id": 851,
       "sourceNumber": 51,
-      "focus": "do likewise は「同じようにする」。助動詞should の後には動詞原形。",
-      "category": "Grammar"
+      "focus": "likewise は「同じように」。do likewise は「同じことをする」で、前の動作を繰り返さない。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼には正義感がない。",
@@ -1311,8 +1313,8 @@
       "answer": "He has no sense of justice.",
       "id": 852,
       "sourceNumber": 52,
-      "focus": "have no sense of justice は「正義感がない」。no＋名詞。",
-      "category": "Usage & Collocation"
+      "focus": "justice は「正義・公正」。a sense of justice は正義感を表す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私は新しい戦略を提案したいと思います。",
@@ -1335,8 +1337,8 @@
       "answer": "I'd like to propose a new strategy.",
       "id": 853,
       "sourceNumber": 53,
-      "focus": "would like to do は丁寧な希望表現。propose a strategy は「戦略を提案する」。",
-      "category": "Grammar"
+      "focus": "I'd like to propose ... は I'd like to suggest ... と言い換えられる。丁寧な提案。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "私たちは署名する前に契約書を注意深く読むべきだ。",
@@ -1359,7 +1361,7 @@
       "answer": "We should read the contract carefully before we sign.",
       "id": 854,
       "sourceNumber": 54,
-      "focus": "should＋動詞原形。the contract がreadの目的語。",
+      "focus": "before we sign は時を表す節。「署名する前に」で、sign の目的語 contract は文脈上省略。",
       "category": "Grammar"
     },
     {
@@ -1385,7 +1387,7 @@
       "answer": "Spending a year relaxing before college is a ridiculous idea.",
       "id": 855,
       "sourceNumber": 55,
-      "focus": "Spending ... は動名詞句が主語。before college が時を表す。",
+      "focus": "Spending a year relaxing ... は動名詞句の主語。長い主語でも is を用いる。",
       "category": "Grammar"
     },
     {
@@ -1409,8 +1411,8 @@
       "answer": "He was very generous and gave a lot of money to charity.",
       "id": 856,
       "sourceNumber": 56,
-      "focus": "very generous は副詞＋形容詞。and が後の動作をつなぐ。",
-      "category": "Grammar"
+      "focus": "generous は「気前のよい・寛大な」。generously は副詞で、寄付や援助に使われる。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "新しい環境政策が議会で議論される。",
@@ -1433,7 +1435,7 @@
       "answer": "The new environmental policy will be discussed by parliament.",
       "id": 857,
       "sourceNumber": 57,
-      "focus": "will be discussed は未来の受動態。by parliament は動作主。",
+      "focus": "will be discussed は未来の受動態。by parliament は議論する主体を示す。",
       "category": "Grammar"
     },
     {
@@ -1457,7 +1459,7 @@
       "answer": "I truly believe working together can change the world.",
       "id": 858,
       "sourceNumber": 58,
-      "focus": "truly は動詞believeを修飾。working together は後の節の主語。",
+      "focus": "working together は動名詞句で believe の目的語節の主語。「一緒に働くことが世界を変える」。",
       "category": "Grammar"
     },
     {
@@ -1483,7 +1485,7 @@
       "answer": "The police arrested him for carrying a dangerous substance in a public place.",
       "id": 859,
       "sourceNumber": 59,
-      "focus": "arrest A for doing は「～した罪でAを逮捕する」。",
+      "focus": "arrest 人 for ～ing は「～したことで逮捕する」。for の後ろは動名詞 carrying。",
       "category": "Usage & Collocation"
     },
     {
@@ -1505,8 +1507,8 @@
       "answer": "The criminal appeared in court.",
       "id": 860,
       "sourceNumber": 60,
-      "focus": "appear in court は「法廷に出廷する」。in court をひとまとまりで覚える。",
-      "category": "Usage & Collocation"
+      "focus": "appear は「現れる」。appear in court は法廷に出廷する意味で、seem（～のように見える）とは別。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "ロンドンの建築はさまざまなスタイルが混在している。",
@@ -1529,8 +1531,8 @@
       "answer": "The architecture of London is a mix of many different styles.",
       "id": 861,
       "sourceNumber": 61,
-      "focus": "the architecture of London は「ロンドンの建築」。a mix of は「～の混合」。",
-      "category": "Usage & Collocation"
+      "focus": "architecture は「建築・建築様式」。建物単体ではなく街全体の建築の特徴を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "それは解決には長い時間がかかる，本当に複雑な問題だ。",
@@ -1555,7 +1557,7 @@
       "answer": "It is a really complicated problem that will take a long time to solve.",
       "id": 862,
       "sourceNumber": 62,
-      "focus": "a really complicated problem：reallyは形容詞complicatedを修飾。",
+      "focus": "that will take a long time to solve は problem を修飾する関係詞節。to solve は必要な時間を説明。",
       "category": "Grammar"
     },
     {
@@ -1585,8 +1587,8 @@
       "answer": "He always says \"Yes\" and never shows up,so he is unreliable.",
       "id": 863,
       "sourceNumber": 63,
-      "focus": "show up は「現れる」。never shows up と is unreliable が因果関係。",
-      "category": "Usage & Collocation",
+      "focus": "unreliable は「信用できない」。reliable（信頼できる）の反対語で、un- が否定を表す。",
+      "category": "Vocabulary",
       "punctuationAfter": [
         "up"
       ]
@@ -1614,8 +1616,8 @@
       "answer": "It was a steep climb to reach the top of the mountain.",
       "id": 864,
       "sourceNumber": 64,
-      "focus": "a steep climb は「急な登り」。to reach ～ は目的を表す不定詞。",
-      "category": "Grammar"
+      "focus": "steep は「急な」。a steep climb は急坂の登り、a steep increase は急激な増加にも使う。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "そのプラスチックの柄がついたナイフを取ってください。",
@@ -1638,7 +1640,7 @@
       "answer": "Please pass me the knife with the plastic handle.",
       "id": 865,
       "sourceNumber": 65,
-      "focus": "the knife with the plastic handle：with＋名詞 がknifeを後置修飾。",
+      "focus": "with the plastic handle は knife を後ろから修飾する前置詞句。「プラスチックの柄が付いたナイフ」。",
       "category": "Grammar"
     },
     {
@@ -1660,8 +1662,8 @@
       "answer": "The book has enhanced her fame.",
       "id": 866,
       "sourceNumber": 66,
-      "focus": "enhance A は「Aを高める」。has＋過去分詞で現在完了。",
-      "category": "Grammar"
+      "focus": "enhance は「高める・向上させる」。enhance her fame は知名度をさらに高めた意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "両親は私がアルバイトをするのをやめさせようとした。",
@@ -1686,8 +1688,9 @@
       "answer": "My parents tried to discourage me from getting a part-time job.",
       "id": 867,
       "sourceNumber": 67,
-      "focus": "discourage A from doing は「Aが～するのを思いとどまらせる」。",
-      "category": "Usage & Collocation"
+      "focus": "discourage 人 from ～ing は「人に～を思いとどまらせる」。encourage 人 to V と構造が異なる。",
+      "category": "Usage & Collocation",
+      "focusExample": "Rain discouraged us from going out."
     },
     {
       "japanese": "この学校は厳しい規律がある。",
@@ -1710,8 +1713,8 @@
       "answer": "This school has strict discipline.",
       "id": 868,
       "sourceNumber": 68,
-      "focus": "have strict discipline は「厳格な規律がある」。形容詞strictは名詞の前。",
-      "category": "Usage & Collocation"
+      "focus": "discipline は「規律・しつけ」。学校での行動規範を指し、学問分野という意味もある。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "アンは遅刻し，その上私たちに謝らなかった。",
@@ -1734,8 +1737,8 @@
       "answer": "Ann was late,and furthermore she didn't apologize to us.",
       "id": 869,
       "sourceNumber": 69,
-      "focus": "furthermore は「さらに」。文をつなぐ副詞であり接続詞とは異なる。",
-      "category": "Grammar"
+      "focus": "furthermore は moreover（さらに）と言い換えられる。文をつなぐ副詞なのでコンマが必要。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "我々は先人の知恵からもっと学ぶべきだ。",
@@ -1758,8 +1761,8 @@
       "answer": "We should learn more from ancient wisdom.",
       "id": 870,
       "sourceNumber": 70,
-      "focus": "learn from A は「Aから学ぶ」。ancient wisdom は「先人の知恵」。",
-      "category": "Usage & Collocation"
+      "focus": "wisdom は「知恵・賢明さ」。knowledge（知識）より経験に基づく判断力を含む。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "観客たちは彼女の演奏に対してどのように反応をしましたか。",
@@ -1784,7 +1787,7 @@
       "answer": "How did the audience react to her performance?",
       "id": 871,
       "sourceNumber": 71,
-      "focus": "How did＋主語＋動詞原形？ react to A は「Aに反応する」。",
+      "focus": "How did the audience react ...? の did の後は動詞原形 react。react to は対象への反応。",
       "category": "Grammar"
     },
     {
@@ -1808,8 +1811,8 @@
       "answer": "The guests were chiefly girls.",
       "id": 872,
       "sourceNumber": 72,
-      "focus": "chiefly は「主として」。be動詞の後の位置が基本。",
-      "category": "Grammar"
+      "focus": "chiefly は「主に」。mainly とほぼ同じで、The guests were chiefly girls で客の多くが女子という意味。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "それは壮大なイベントで，多くの人々が参加した。",
@@ -1834,8 +1837,8 @@
       "answer": "It was a grand event and many people took part in it.",
       "id": 873,
       "sourceNumber": 73,
-      "focus": "a grand event は「壮大な行事」。and で二つの節をつなぐ。",
-      "category": "Grammar"
+      "focus": "grand は「壮大な・立派な」。grand event は規模の大きな催し。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "初期の文明は紀元前3000年頃に起こった。",
@@ -1856,8 +1859,8 @@
       "answer": "Early civilizations arose around 3000 B.C.",
       "id": 874,
       "sourceNumber": 74,
-      "focus": "arise は「生じる」。around＋時期 は「～頃」。",
-      "category": "Usage & Collocation"
+      "focus": "arise は「現れる・生じる」。rise（上昇する）と似るが、文明や問題の発生にも使う。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼はその賞に値する。",
@@ -1878,8 +1881,8 @@
       "answer": "He deserves the prize.",
       "id": 875,
       "sourceNumber": 75,
-      "focus": "deserve＋名詞 は「～に値する」。他動詞なので直後に目的語。",
-      "category": "Usage & Collocation"
+      "focus": "deserve は「～に値する」。deserve the prize は受賞にふさわしいという意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私たちは一生懸命トレーニングしたので自信があります。",
@@ -1902,7 +1905,7 @@
       "answer": "We trained hard so we have confidence.",
       "id": 876,
       "sourceNumber": 76,
-      "focus": "train hard は「一生懸命訓練する」。so は前後の節を結果でつなぐ。",
+      "focus": "trained hard so ... は「懸命に訓練したので…」。so が結果を示す接続詞として働く。",
       "category": "Grammar"
     },
     {
@@ -1928,8 +1931,8 @@
       "answer": "He is rather unstable and gets really angry for no reason.",
       "id": 877,
       "sourceNumber": 77,
-      "focus": "rather unstable は「かなり不安定」。get angry は「怒る」。",
-      "category": "Usage & Collocation"
+      "focus": "unstable は「不安定な」。stable の反対語で、気分・政情・物理的状態にも使う。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "新しいプロジェクトを立ち上げるために，余剰資金が必要なんだ。",
@@ -1956,7 +1959,7 @@
       "answer": "We need some extra capital to start up the new project.",
       "id": 878,
       "sourceNumber": 78,
-      "focus": "need＋名詞＋to do は「～するために…が必要」。start up は「立ち上げる」。",
+      "focus": "capital to start up ... の不定詞は capital を後ろから説明。「事業を始めるための資金」。",
       "category": "Grammar"
     },
     {
@@ -1980,8 +1983,8 @@
       "answer": "The economy is improving gradually.",
       "id": 879,
       "sourceNumber": 79,
-      "focus": "be improving は現在進行形。gradually は「徐々に」。",
-      "category": "Grammar",
+      "focus": "is improving gradually は is getting better little by little と言い換えられる。",
+      "category": "Paraphrase",
       "alternatives": [
         {
           "order": [
@@ -2014,8 +2017,8 @@
       "answer": "I'm a stranger here,so I don't know where the nearest station is.",
       "id": 880,
       "sourceNumber": 80,
-      "focus": "be a stranger here は「この土地に不案内だ」。stranger＝見知らぬ人だけではない。",
-      "category": "Usage & Collocation"
+      "focus": "stranger は「見知らぬ人」だけでなく、その土地に不案内な人。I'm a stranger here の意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その病院にはがんの研究施設がある。",
@@ -2038,8 +2041,8 @@
       "answer": "The hospital has a cancer research facility.",
       "id": 881,
       "sourceNumber": 81,
-      "focus": "a cancer research facility は「がん研究施設」。複数の名詞が前から名詞を修飾。",
-      "category": "Grammar"
+      "focus": "facility は「施設・設備」。research facility は研究施設、facilities は設備全般を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "すべての人は平均的な 寿命の場合，約4年間も夢を見ている。",
@@ -2068,7 +2071,7 @@
       "answer": "Each person dreams for about four years in an average lifetime.",
       "id": 882,
       "sourceNumber": 82,
-      "focus": "for about four years は期間。in an average lifetime は「平均的な一生の中で」。",
+      "focus": "for about four years は期間を示す。in an average lifetime は「平均的な一生のうちで」。",
       "category": "Grammar"
     },
     {
@@ -2094,8 +2097,9 @@
       "answer": "He always makes people laugh with his funny stories.",
       "id": 883,
       "sourceNumber": 83,
-      "focus": "make A do は「Aに～させる」。人＋動詞原形の使役構文。",
-      "category": "Grammar"
+      "focus": "makes people laugh は〈make＋目的語＋動詞の原形〉の使役構文。to laugh にはしない。",
+      "category": "Grammar",
+      "focusExample": "The movie made me laugh."
     },
     {
       "japanese": "彼らは社会的ネットワークを広げることに関心がない。",
@@ -2118,7 +2122,7 @@
       "answer": "They aren't interested in extending their social network.",
       "id": 884,
       "sourceNumber": 84,
-      "focus": "be interested in doing は「～することに興味がある」。前置詞inの後は動名詞。",
+      "focus": "be interested in extending の in は前置詞なので動名詞。not interested で関心の否定。",
       "category": "Usage & Collocation"
     },
     {
@@ -2144,7 +2148,7 @@
       "answer": "It was fate that brought us together.",
       "id": 885,
       "sourceNumber": 85,
-      "focus": "It was A that ... は強調構文。bring A together は「Aを引き合わせる」。",
+      "focus": "It was fate that brought us together は強調構文。fate を強調し「私たちを出会わせたのは運命」。",
       "category": "Grammar"
     },
     {
@@ -2168,8 +2172,8 @@
       "answer": "The country is entering a recession due to low spending by the people.",
       "id": 886,
       "sourceNumber": 86,
-      "focus": "enter a recession は「不況に入る」。due to＋名詞 は「～のために」。",
-      "category": "Usage & Collocation"
+      "focus": "recession は「景気後退・不況」。enter a recession は景気が不況期に入ること。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "経済情勢が 最近好転しつつある。",
@@ -2194,7 +2198,7 @@
       "answer": "The economic situation is getting better nowadays.",
       "id": 887,
       "sourceNumber": 87,
-      "focus": "get better は「良くなる」。現在進行形 is getting で変化の途中を表す。",
+      "focus": "is getting better は現在進行形の状態変化。「だんだん良くなっている」。",
       "category": "Grammar",
       "alternatives": [
         {
@@ -2231,7 +2235,7 @@
       "answer": "Andy's dog follows him wherever he goes.",
       "id": 888,
       "sourceNumber": 88,
-      "focus": "wherever S V は「～するところならどこでも」。follows him が主節。",
+      "focus": "wherever he goes は「彼が行くところならどこでも」。wherever が場所を示す副詞節を導く。",
       "category": "Grammar"
     },
     {
@@ -2251,8 +2255,8 @@
       "answer": "In all likelihood,I shall attend the meeting.",
       "id": 889,
       "sourceNumber": 89,
-      "focus": "in all likelihood は「おそらく」。文全体を修飾する副詞句。",
-      "category": "Usage & Collocation"
+      "focus": "In all likelihood は probably（おそらく）と言い換えられる。文全体の確率を表す。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "ダイエット中だったので，ケーキを買うことに罪悪感を感じた。",
@@ -2275,8 +2279,8 @@
       "answer": "I felt guilty buying the cake as I was on a diet.",
       "id": 890,
       "sourceNumber": 90,
-      "focus": "feel guilty doing は「～して罪悪感を覚える」。buying は動名詞。",
-      "category": "Usage & Collocation"
+      "focus": "feel guilty buying ... はケーキを買ったことへの罪悪感。as I was on a diet の as は理由。",
+      "category": "Grammar"
     },
     {
       "japanese": "その市は公共交通機関を改善することでインフラに投資している。",
@@ -2301,8 +2305,8 @@
       "answer": "The city is investing in its infrastructure by improving public transportation.",
       "id": 891,
       "sourceNumber": 91,
-      "focus": "invest in A は「Aに投資する」。by doing は「～することによって」。",
-      "category": "Usage & Collocation"
+      "focus": "by improving public transportation は〈by＋動名詞〉で投資の方法を示す。",
+      "category": "Grammar"
     },
     {
       "japanese": "医者は私に，私が 致命的な病気にかかかっていると告げた。",
@@ -2331,7 +2335,7 @@
       "answer": "The doctor told me that I had a fatal disease.",
       "id": 892,
       "sourceNumber": 92,
-      "focus": "tell A that S V は「Aに～だと言う」。fatal disease は「致命的な病気」。",
+      "focus": "told me that ... の that 節が伝えた内容。had a fatal disease は過去形でその時点の事実を述べる。",
       "category": "Grammar"
     },
     {
@@ -2357,8 +2361,8 @@
       "answer": "The police chased the criminal after he escaped from the station.",
       "id": 893,
       "sourceNumber": 93,
-      "focus": "chase A は「Aを追う」。after S V は時間を表す節。",
-      "category": "Usage & Collocation"
+      "focus": "chase は「追いかける」。pursue に近く、after he escaped は時間を示す節。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私はスクリーンの明るさを調節した。",
@@ -2381,8 +2385,8 @@
       "answer": "I adjusted the screen brightness.",
       "id": 894,
       "sourceNumber": 94,
-      "focus": "adjust A は「Aを調整する」。screen brightness は「画面の明るさ」。",
-      "category": "Usage & Collocation"
+      "focus": "adjust は「調整する」。brightness は「明るさ」で、bright（明るい）の名詞形。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その風習は私たちの生活様式とは 異質なものだ。",
@@ -2409,8 +2413,9 @@
       "answer": "The manners are alien to our way of life.",
       "id": 895,
       "sourceNumber": 95,
-      "focus": "be alien to A：「Aにとって異質である」。前置詞は to が標準的。",
-      "category": "Usage & Collocation"
+      "focus": "alien は「異質な・なじみのない」。be alien to A は「Aにはなじみがない」で前置詞 to。",
+      "category": "Usage & Collocation",
+      "focusExample": "This custom is alien to me."
     },
     {
       "japanese": "このソフトの日本語版は今年の後半にリリースされる。",
@@ -2433,7 +2438,7 @@
       "answer": "The Japanese version of this software will be released later in the year.",
       "id": 896,
       "sourceNumber": 96,
-      "focus": "the Japanese version of A は「Aの日本語版」。will be released は未来の受動態。",
+      "focus": "will be released は未来の受動態。「公開・発売される」で release は情報や作品の公開にも使う。",
       "category": "Grammar"
     },
     {
@@ -2457,7 +2462,7 @@
       "answer": "Her job is to translate newspaper articles from Japanese into English.",
       "id": 897,
       "sourceNumber": 97,
-      "focus": "translate A from B into C は「AをBからCへ翻訳する」。",
+      "focus": "translate A from B into C は「AをBからCに翻訳する」。into が翻訳先の言語を表す。",
       "category": "Usage & Collocation"
     },
     {
@@ -2485,8 +2490,8 @@
       "answer": "This item is temporarily out of stock.",
       "id": 898,
       "sourceNumber": 98,
-      "focus": "be out of stock は「在庫切れである」。temporarily は「一時的に」。",
-      "category": "Usage & Collocation",
+      "focus": "temporarily out of stock は currently unavailable（現在入手できない）に近い。temporarily は一時的。",
+      "category": "Paraphrase",
       "alternatives": [
         {
           "order": [
@@ -2525,8 +2530,8 @@
       "answer": "The government tried to suppress the report of the scandal.",
       "id": 899,
       "sourceNumber": 99,
-      "focus": "try to do は「～しようとする」。suppress the report は「報道を抑える」。",
-      "category": "Grammar"
+      "focus": "suppress は「抑える・隠す」。suppress a report は報道を抑圧する意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私は卒業後，銀行に就職する。",
@@ -2549,7 +2554,7 @@
       "answer": "After graduation I am going to work for a bank.",
       "id": 900,
       "sourceNumber": 100,
-      "focus": "After graduation は「卒業後」。be going to do は予定を表す。",
+      "focus": "am going to work は予定を表す。after graduation は「卒業後」で、前置詞 after が名詞を取る。",
       "category": "Grammar"
     }
   ]

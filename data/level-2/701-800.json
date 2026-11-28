@@ -26,7 +26,7 @@
       "answer": "The local government imposes a fine on anybody who smokes on the street.",
       "id": 701,
       "sourceNumber": 1,
-      "focus": "impose a fine on A：Aに罰金を科す。anybody who ～ は「～する人は誰でも」。",
+      "focus": "anybody who smokes ... は who 以下が anybody を説明する関係詞節。impose a fine on A は人に罰金を科す。",
       "category": "Usage & Collocation"
     },
     {
@@ -52,8 +52,8 @@
       "answer": "He is a very talented artist.",
       "id": 702,
       "sourceNumber": 2,
-      "focus": "a very talented artist：veryは形容詞talentedを修飾。a＋副詞＋形容詞＋名詞。",
-      "category": "Grammar"
+      "focus": "talented は「才能のある」。talent は名詞「才能」で、a very talented artist は才能ある芸術家。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "なぜか彼の考えは気に入らない。",
@@ -80,8 +80,8 @@
       "answer": "Somehow his idea doesn't appeal to me.",
       "id": 703,
       "sourceNumber": 3,
-      "focus": "appeal to A：Aの心を引く。somehowは文全体を修飾する副詞。",
-      "category": "Grammar",
+      "focus": "appeal は「訴える」だけでなく「魅力を感じさせる」。doesn't appeal to me は好みに合わない意味。",
+      "category": "Vocabulary",
       "alternatives": [
         {
           "order": [
@@ -118,8 +118,8 @@
       "answer": "You must put your mobile phones away before class.",
       "id": 704,
       "sourceNumber": 4,
-      "focus": "put A away：Aを片づける。目的語が名詞ならput A awayの形を取れる。",
-      "category": "Usage & Collocation"
+      "focus": "put your phone away は put your phone back / out of sight と近い。put it away のように代名詞は間に置く。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "事実は小説より奇なり。",
@@ -142,7 +142,7 @@
       "answer": "Truth is stranger than fiction.",
       "id": 705,
       "sourceNumber": 5,
-      "focus": "Truth is stranger than fiction.：比較級 stranger than ～ を使ったことわざ。",
+      "focus": "stranger than fiction は比較級 stranger than ...。真実が作り話より奇妙なことがある、ということわざ。",
       "category": "Grammar"
     },
     {
@@ -166,8 +166,8 @@
       "answer": "There were approximately 25 people at the meeting.",
       "id": 706,
       "sourceNumber": 6,
-      "focus": "There were approximately 25 people：there構文＋概数approximately。",
-      "category": "Grammar"
+      "focus": "approximately は「およそ」。about / roughly 25 people と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "タイ北部の山岳地帯には多くの民族集団が住んでいる。",
@@ -192,8 +192,9 @@
       "answer": "The mountains of northern Thailand are home to many ethnic groups.",
       "id": 707,
       "sourceNumber": 7,
-      "focus": "be home to A：Aの生息地・本拠地である。ethnic groupsは「民族集団」。",
-      "category": "Usage & Collocation"
+      "focus": "be home to A は「Aの生息地・居住地である」。ethnic group は民族集団を表す。",
+      "category": "Usage & Collocation",
+      "focusExample": "This forest is home to many species."
     },
     {
       "japanese": "正式な手続きに従ってその職に応募してください。",
@@ -218,8 +219,8 @@
       "answer": "Please follow the official procedure to apply for the position.",
       "id": 708,
       "sourceNumber": 8,
-      "focus": "follow the procedure to do：～するための手続きに従う。to applyは目的を表す。",
-      "category": "Usage & Collocation"
+      "focus": "to apply for the position は目的の不定詞。「職に応募するために」決められた手続きを踏む。",
+      "category": "Grammar"
     },
     {
       "japanese": "その店の正確な場所を教えてください。",
@@ -242,8 +243,8 @@
       "answer": "Tell me the exact location of the store.",
       "id": 709,
       "sourceNumber": 9,
-      "focus": "Tell me A：第4文型。the exact location of ～ で「～の正確な場所」。",
-      "category": "Usage & Collocation"
+      "focus": "exact は「正確な・厳密な」。exact location は「正確な場所」で、approximate（おおよその）と対比。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その薬物を禁止する規則は人々から広範囲にわたる支持を得ている。",
@@ -272,8 +273,8 @@
       "answer": "The rules on banning drugs have widespread support from the population.",
       "id": 710,
       "sourceNumber": 10,
-      "focus": "rules on ～ing：～に関する規則。have widespread support＝広い支持を得る。",
-      "category": "Grammar"
+      "focus": "rules on banning drugs の on は「～について」。banning は動名詞で「禁止すること」。",
+      "category": "Usage & Collocation"
     },
     {
       "japanese": "彼は日本に永住することを決めた。",
@@ -298,8 +299,8 @@
       "answer": "He has decided to move to Japan permanently.",
       "id": 711,
       "sourceNumber": 11,
-      "focus": "decide to do：～することを決める。permanentlyは「永住するように」。",
-      "category": "Grammar",
+      "focus": "permanently は「恒久的に・ずっと」。temporarily（一時的に）と対比して覚える。",
+      "category": "Vocabulary",
       "alternatives": [
         {
           "order": [
@@ -348,8 +349,8 @@
       "answer": "Our college has special labs for the science majors.",
       "id": 712,
       "sourceNumber": 12,
-      "focus": "Our college has ～：主語Our college＋動詞has。special labs for ～で「～向けの研究室」。",
-      "category": "Usage & Collocation"
+      "focus": "major は大学では「専攻（する）」の意味もある。science majors は理系科目を専攻する学生。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私は教育の重要性を正しく理解している。",
@@ -372,8 +373,8 @@
       "answer": "I appreciate the importance of education.",
       "id": 713,
       "sourceNumber": 13,
-      "focus": "appreciate the importance of A：Aの重要性を理解・認識する。",
-      "category": "Usage & Collocation"
+      "focus": "appreciate the importance of education は recognize the importance of education と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "ヨーロッパの哲学の多くは古代ギリシャの思想に基づいている。",
@@ -398,7 +399,7 @@
       "answer": "Much of European philosophy is based on the ideas of the ancient Greeks.",
       "id": 714,
       "sourceNumber": 14,
-      "focus": "Much of A：Aの多く。be based on ～＝～に基づく。",
+      "focus": "Much of European philosophy が主語で、philosophy は不可算名詞。is based on は受動態の形。",
       "category": "Grammar"
     },
     {
@@ -428,8 +429,8 @@
       "answer": "The chip doesn't fly far from the stump.",
       "id": 715,
       "sourceNumber": 15,
-      "focus": "doesn’t fly far from ～：farは距離を表す副詞。ことわざの語順を確認。",
-      "category": "Grammar"
+      "focus": "chip は木などの「小片」、stump は「切り株」。The chip doesn't fly far from the stump は親子の類似を表す比喩。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私たちはその夜，丸太小屋に泊まった。",
@@ -454,8 +455,8 @@
       "answer": "We stayed at a log cabin that night.",
       "id": 716,
       "sourceNumber": 16,
-      "focus": "stay at A：Aに滞在する。a log cabin＝丸太小屋。",
-      "category": "Usage & Collocation"
+      "focus": "log は「丸太」。log cabin は丸太小屋で、log は記録という意味もある。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "この靴はあの靴よりも品質がはるかに優れている。",
@@ -480,8 +481,8 @@
       "answer": "These shoes are far superior to those in quality.",
       "id": 717,
       "sourceNumber": 17,
-      "focus": "be far superior to A：Aよりはるかに優れている。thanではなくtoを用いる。",
-      "category": "Usage & Collocation"
+      "focus": "superior は比較級に似た意味を持つ形容詞だが than ではなく to を使う。far は差の大きさを示す。",
+      "category": "Grammar"
     },
     {
       "japanese": "そのヘビはカエルを丸呑みした。",
@@ -504,7 +505,7 @@
       "answer": "The snake swallowed a frog whole.",
       "id": 718,
       "sourceNumber": 18,
-      "focus": "swallow A whole：Aを丸ごと飲み込む。wholeが目的語の状態を表す。",
+      "focus": "swallowed a frog whole の whole は「丸ごと」の状態を補足。目的語の後に置く形。",
       "category": "Grammar"
     },
     {
@@ -528,8 +529,8 @@
       "answer": "After climbing the mountain,my legs felt really sore the next day.",
       "id": 719,
       "sourceNumber": 19,
-      "focus": "feel sore：痛む。reallyは程度を強調する副詞で、felt really soreの形。",
-      "category": "Usage & Collocation"
+      "focus": "sore は「痛む・ひりひりする」。筋肉痛や喉の痛みにも使う形容詞。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "北アメリカの部族についてもっと知りたい。",
@@ -554,8 +555,8 @@
       "answer": "I want to know more about the tribes of North America.",
       "id": 720,
       "sourceNumber": 20,
-      "focus": "know more about A：Aについてもっと知る。the tribes of ～ は「～の部族」。",
-      "category": "Usage & Collocation"
+      "focus": "tribe は「部族」。tribal は形容詞「部族の」で、ethnic group と重なる場面もある。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "引っ越しの手伝いを申し出てくれて本当に感謝している。",
@@ -578,7 +579,7 @@
       "answer": "I am really grateful that you offered to help me move house.",
       "id": 721,
       "sourceNumber": 21,
-      "focus": "be grateful that S＋V：～ということに感謝する。reallyは感謝の程度を強調。",
+      "focus": "grateful that ... は感謝の内容を that 節で示す。offered to help は申し出の不定詞。",
       "category": "Grammar"
     },
     {
@@ -604,7 +605,7 @@
       "answer": "Our research institute is funded by the government.",
       "id": 722,
       "sourceNumber": 22,
-      "focus": "be funded by A：Aから資金提供を受ける。受動態be＋過去分詞。",
+      "focus": "is funded by the government は受動態。「政府から資金提供を受けている」で、fund は動詞にもなる。",
       "category": "Grammar"
     },
     {
@@ -630,8 +631,8 @@
       "answer": "I couldn't buy my new contact lenses because I forgot my prescription at home.",
       "id": 723,
       "sourceNumber": 23,
-      "focus": "forget A at home：Aを家に忘れる。becauseの後に主語＋動詞の節が続く。",
-      "category": "Grammar"
+      "focus": "prescription は「処方箋」。contact lenses はコンタクトレンズで、複数形を使う。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼らはステーキを 3人前注文した。",
@@ -656,8 +657,8 @@
       "answer": "They ordered three portions of steak.",
       "id": 724,
       "sourceNumber": 24,
-      "focus": "order three portions of A：Aを3人前注文する。数量＋portions of＋名詞。",
-      "category": "Usage & Collocation"
+      "focus": "three portions of steak は数量表現。portion は「一人前・一部分」で、three に合わせ複数形。",
+      "category": "Grammar"
     },
     {
       "japanese": "私たちはトラックにすべての家具を積み込んだ。",
@@ -680,8 +681,8 @@
       "answer": "We loaded all our furniture onto the truck.",
       "id": 725,
       "sourceNumber": 25,
-      "focus": "load A onto B：AをBに積み込む。家具全体はall our furniture。",
-      "category": "Usage & Collocation"
+      "focus": "loaded furniture onto the truck は put furniture onto the truck と言い換えられる。load は荷物を積む動作。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "昨夜の 激しい嵐が作物に深刻な被害を与えた。",
@@ -710,8 +711,8 @@
       "answer": "The fierce storm last night caused serious damage to the crops.",
       "id": 726,
       "sourceNumber": 26,
-      "focus": "cause serious damage to A：Aに深刻な被害を与える。",
-      "category": "Grammar"
+      "focus": "caused serious damage to the crops は seriously damaged the crops と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "彼は自宅までの道のりのかなり正確な地図を作った。",
@@ -736,8 +737,8 @@
       "answer": "He made a fairly accurate map of the way to his home.",
       "id": 727,
       "sourceNumber": 27,
-      "focus": "a fairly accurate map：fairlyが形容詞accurateを修飾する。",
-      "category": "Grammar"
+      "focus": "accurate は「正確な」。fairly は「かなり・まあまあ」で very より控えめな程度の場合がある。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼女は怖い話をいくつか私にしてくれた。",
@@ -760,8 +761,8 @@
       "answer": "She told me some tales of horror.",
       "id": 728,
       "sourceNumber": 28,
-      "focus": " tell 人 some tales of horror：人に恐怖の話をする。第4文型。",
-      "category": "Usage & Collocation"
+      "focus": "tale は「話・物語」。story より昔話・伝承のような語りを連想させることがある。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "グラスはすべて壁側の小さな戸棚にしまっている。",
@@ -786,8 +787,8 @@
       "answer": "We keep all our glasses in a small cabinet on the wall.",
       "id": 729,
       "sourceNumber": 29,
-      "focus": "keep A in B：AをBに保管する。all our glassesがkeepの目的語。",
-      "category": "Usage & Collocation"
+      "focus": "all our glasses は「私たちのコップすべて」。glasses は眼鏡の意味もあるが、ここでは食器。",
+      "category": "Grammar"
     },
     {
       "japanese": "この市には30以上の学術機関があります。",
@@ -810,8 +811,8 @@
       "answer": "There are over thirty academic institutions in this city.",
       "id": 730,
       "sourceNumber": 30,
-      "focus": "There are over thirty ～：there構文。overは数量の「～を超える」。",
-      "category": "Usage & Collocation"
+      "focus": "institution は「機関・団体」。academic institution は大学・研究所など学術機関を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "鯨は 海に住む哺乳類です。",
@@ -836,8 +837,8 @@
       "answer": "A whale is a marine mammal.",
       "id": 731,
       "sourceNumber": 31,
-      "focus": "A whale is a marine mammal：marineがmammalを修飾する。",
-      "category": "Grammar"
+      "focus": "marine は「海の」。marine mammal は海洋哺乳類で、marine life は海洋生物。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "庭は一日中日光にさらされている。",
@@ -864,7 +865,7 @@
       "answer": "The garden is exposed to the sun all day.",
       "id": 732,
       "sourceNumber": 32,
-      "focus": "be exposed to A：Aにさらされる。受動態be＋過去分詞。",
+      "focus": "is exposed to ... は受動態の形で「～にさらされている」。日光に長時間当たる状態を表す。",
       "category": "Grammar"
     },
     {
@@ -890,8 +891,8 @@
       "answer": "Could you possibly say that again?",
       "id": 733,
       "sourceNumber": 33,
-      "focus": "Could you possibly ～?：依頼を柔らかくするpossiblyの位置を確認。",
-      "category": "Grammar"
+      "focus": "Could you possibly say that again? は Could you say that again, please? より遠回しで丁寧な依頼。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "どのような種類の仕事をお探しですか。",
@@ -916,7 +917,7 @@
       "answer": "What sort of job are you looking for?",
       "id": 734,
       "sourceNumber": 34,
-      "focus": "What sort of job ～?：疑問詞のまとまりWhat sort of jobを文頭に置く。",
+      "focus": "What sort of job は疑問詞句全体。look for は「探す」で、for の目的語が文頭に移動している。",
       "category": "Grammar"
     },
     {
@@ -942,8 +943,9 @@
       "answer": "Since he stopped working,he has devoted his time to his hobbies.",
       "id": 735,
       "sourceNumber": 35,
-      "focus": "devote A to B：AをBにささげる。toは前置詞。",
-      "category": "Grammar"
+      "focus": "devote his time to his hobbies の to は前置詞。devote A to ～ing にもできる。",
+      "category": "Usage & Collocation",
+      "focusExample": "She devoted her time to helping others."
     },
     {
       "japanese": "科学者はロボットに簡単な仕事を完了させる命令を出した。",
@@ -968,7 +970,7 @@
       "answer": "The scientist gave the robot some commands to complete simple tasks.",
       "id": 736,
       "sourceNumber": 36,
-      "focus": "give A B to do：Aに～するためのBを与える。give the robot some commands。",
+      "focus": "gave the robot some commands は第4文型。to complete simple tasks が commands の目的を補う。",
       "category": "Grammar"
     },
     {
@@ -992,8 +994,8 @@
       "answer": "Organic compounds all contain carbon.",
       "id": 737,
       "sourceNumber": 37,
-      "focus": "All organic compounds contain carbon：allが主語名詞句全体を限定する。",
-      "category": "Grammar",
+      "focus": "compound は「化合物」。organic compound は有機化合物で、compound は「複合の」という形容詞にもなる。",
+      "category": "Vocabulary",
       "alternatives": [
         {
           "order": [
@@ -1030,7 +1032,7 @@
       "answer": "I am a morning person,whereas my brother is a night owl.",
       "id": 738,
       "sourceNumber": 38,
-      "focus": "whereas S＋V：一方で～。対照する内容を接続する。",
+      "focus": "whereas は「一方で」。I am a morning person と my brother is a night owl を対比させる。",
       "category": "Grammar"
     },
     {
@@ -1058,7 +1060,7 @@
       "answer": "You can see the scene shown in slow motion.",
       "id": 739,
       "sourceNumber": 39,
-      "focus": "the scene shown in slow motion：shownは過去分詞の後置修飾。",
+      "focus": "shown in slow motion は scene を後ろから修飾する過去分詞句。「スローモーションで示された場面」。",
       "category": "Grammar"
     },
     {
@@ -1088,8 +1090,8 @@
       "answer": "A wolf dog is a hybrid between a wolf and a dog.",
       "id": 740,
       "sourceNumber": 40,
-      "focus": "a hybrid between A and B：AとBの交配種・混合物。",
-      "category": "Grammar"
+      "focus": "hybrid は「交配種・混合物」。車では hybrid car のように異なる方式の組合せを示す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "杉の木の花粉は多くの人にアレルギー反応を引き起こす可能性がある。",
@@ -1114,8 +1116,8 @@
       "answer": "The pollen from cedar trees can trigger an allergic reaction in many people.",
       "id": 741,
       "sourceNumber": 41,
-      "focus": " trigger an allergic reaction：アレルギー反応を引き起こす。",
-      "category": "Usage & Collocation"
+      "focus": "trigger は「引き金」から転じて「引き起こす」。trigger an allergic reaction はアレルギー反応を起こす。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "流行に関係なく，自分が心地よいと感じるものを着るべきだ。",
@@ -1140,8 +1142,9 @@
       "answer": "Regardless of trends,you should wear whatever makes you feel comfortable.",
       "id": 742,
       "sourceNumber": 42,
-      "focus": "wear whatever makes you feel comfortable：whateverは「～するものは何でも」。",
-      "category": "Grammar"
+      "focus": "whatever makes you feel comfortable は wear の目的語となる名詞節。whatever が makes の主語。",
+      "category": "Grammar",
+      "focusExample": "Wear what makes you comfortable."
     },
     {
       "japanese": "目と耳と鼻は 感覚器官である。",
@@ -1166,8 +1169,8 @@
       "answer": "The eyes,ears and nose are sensory organs.",
       "id": 743,
       "sourceNumber": 43,
-      "focus": "The eyes, ears and nose are ～：複数の主語をandで結び、動詞はare。",
-      "category": "Grammar"
+      "focus": "sensory は「感覚の」。sensory organs は目・耳・鼻などの感覚器官。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "率直に言うと，私は学校を辞めたくない。",
@@ -1186,7 +1189,7 @@
       "answer": "To be frank,I do not want to leave school.",
       "id": 744,
       "sourceNumber": 44,
-      "focus": "To be frank：率直に言うと。文全体を修飾する不定詞表現。",
+      "focus": "To be frank は「率直に言えば」。文全体を修飾する独立不定詞で、主語 I の動作を表さない。",
       "category": "Grammar"
     },
     {
@@ -1210,8 +1213,8 @@
       "answer": "Draw a straight line with a pencil.",
       "id": 745,
       "sourceNumber": 45,
-      "focus": "draw a straight line with A：Aを使って直線を引く。withは道具。",
-      "category": "Usage & Collocation"
+      "focus": "with a pencil の with は道具を示す。straight は「まっすぐな」、line は「線」。",
+      "category": "Grammar"
     },
     {
       "japanese": "この計画に同意する具体的な理由を教えてくれますか。",
@@ -1236,7 +1239,7 @@
       "answer": "Can you give me a concrete reason for agreeing to the plan?",
       "id": 746,
       "sourceNumber": 46,
-      "focus": "give 人 a concrete reason for ～ing：人に～する具体的な理由を伝える。",
+      "focus": "reason for agreeing の for は前置詞。後ろの agreeing は動名詞で、賛成する理由を示す。",
       "category": "Usage & Collocation"
     },
     {
@@ -1260,7 +1263,7 @@
       "answer": "Data transmission speeds are getting faster and faster.",
       "id": 747,
       "sourceNumber": 47,
-      "focus": "Data transmission speeds：名詞が連続する複合名詞。get faster and faster＝ますます速くなる。",
+      "focus": "faster and faster は〈比較級＋and＋比較級〉で「ますます速く」。get は状態変化を表す。",
       "category": "Grammar"
     },
     {
@@ -1290,8 +1293,8 @@
       "answer": "The dog is really responding to some other clue or sign such as shape.",
       "id": 748,
       "sourceNumber": 48,
-      "focus": "respond to A：Aに反応する。such as shape＝例えば形のような。",
-      "category": "Grammar"
+      "focus": "clue は「手掛かり」。clue / sign は犬が反応する合図となる情報を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "心臓は４つの小室で構成されている。",
@@ -1316,8 +1319,8 @@
       "answer": "The heart consists of four chambers.",
       "id": 749,
       "sourceNumber": 49,
-      "focus": "consist of A：Aから成る。受動態にせずconsists ofを使う。",
-      "category": "Usage & Collocation"
+      "focus": "consist of A は「Aで構成される」。consist は自動詞で be consisted of という受動態にはしない。",
+      "category": "Grammar"
     },
     {
       "japanese": "航空業界では技術が大きく進歩した。",
@@ -1342,8 +1345,8 @@
       "answer": "The aviation industry has seen significant advancements in technology.",
       "id": 750,
       "sourceNumber": 50,
-      "focus": "The aviation industry has seen ～：industryを主語とし、has seenを述語にする。",
-      "category": "Usage & Collocation"
+      "focus": "aviation は「航空」。aviation industry は航空産業で、advancement は技術などの進歩。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "最近では臓器移植はかなり一般的だ。",
@@ -1366,8 +1369,8 @@
       "answer": "Organ transplants are quite common these days.",
       "id": 751,
       "sourceNumber": 51,
-      "focus": "Organ transplants are quite common：quiteは形容詞commonを修飾。",
-      "category": "Grammar"
+      "focus": "transplant は「移植」。organ transplant は臓器移植で、動詞 transplant にもなる。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私は 冷蔵庫を修理してもらった。",
@@ -1390,8 +1393,9 @@
       "answer": "I had my refrigerator fixed.",
       "id": 752,
       "sourceNumber": 52,
-      "focus": "have A done：Aを～してもらう。my refrigeratorが修理される側。",
-      "category": "Grammar"
+      "focus": "had my refrigerator fixed は〈have＋目的語＋過去分詞〉。「冷蔵庫を修理してもらった」。",
+      "category": "Usage & Collocation",
+      "focusExample": "I had my phone repaired."
     },
     {
       "japanese": "警官は彼がそこに駐車するのを許可した。",
@@ -1414,8 +1418,8 @@
       "answer": "The policeman permitted him to park there.",
       "id": 753,
       "sourceNumber": 53,
-      "focus": "permit 人 to do：人が～するのを許可する。",
-      "category": "Usage & Collocation"
+      "focus": "permit 人 to V は「人がVするのを許可する」。allow 人 to V と同じ構造。",
+      "category": "Grammar"
     },
     {
       "japanese": "彼は演説者として優れている。",
@@ -1438,8 +1442,8 @@
       "answer": "He is excellent as a speaker.",
       "id": 754,
       "sourceNumber": 54,
-      "focus": "be excellent as A：Aとして優秀である。asは「～として」。",
-      "category": "Usage & Collocation"
+      "focus": "excellent as a speaker は a very good speaker に近い。「話し手として優れている」。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "政府は国内の市場を保護しようとしている。",
@@ -1462,8 +1466,8 @@
       "answer": "The government is trying to protect the domestic market.",
       "id": 755,
       "sourceNumber": 55,
-      "focus": "be trying to do：～しようとしている。protect the domestic marketの語順。",
-      "category": "Usage & Collocation"
+      "focus": "domestic は「国内の・家庭内の」。domestic market は国内市場、foreign market と対比。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私のおじは昨年心臓移植を受けた。",
@@ -1488,8 +1492,8 @@
       "answer": "My uncle had a heart transplant last year.",
       "id": 756,
       "sourceNumber": 56,
-      "focus": "have a heart transplant：心臓移植を受ける。have＋名詞。",
-      "category": "Usage & Collocation"
+      "focus": "had a heart transplant は「心臓移植を受けた」。have はここでは行為・経験を表す。",
+      "category": "Grammar"
     },
     {
       "japanese": "すべての生き物は，生き残るために繁殖する方法を見つけてきた。",
@@ -1514,7 +1518,7 @@
       "answer": "All creatures have found a way to reproduce in order to survive.",
       "id": 757,
       "sourceNumber": 57,
-      "focus": "find a way to do：～する方法を見つける。to reproduceはwayを修飾。",
+      "focus": "a way to reproduce の不定詞は way を修飾。in order to survive は生き残る目的。",
       "category": "Grammar"
     },
     {
@@ -1538,8 +1542,8 @@
       "answer": "Cats' eyes are sensitive to light.",
       "id": 758,
       "sourceNumber": 58,
-      "focus": "be sensitive to A：Aに敏感である。toは前置詞。",
-      "category": "Usage & Collocation"
+      "focus": "sensitive は「敏感な」。be sensitive to light は光に敏感であること。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "最近家電製品の値段が上がっている。",
@@ -1562,8 +1566,8 @@
       "answer": "The price of household appliances has gone up recently.",
       "id": 759,
       "sourceNumber": 59,
-      "focus": "The price of A has gone up：Aの価格が上がった。go upの現在完了。",
-      "category": "Grammar"
+      "focus": "has gone up は has increased と言い換えられる。price が主語なので受動態ではない。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "今朝，アイスランドの火山が再び噴火した。",
@@ -1588,7 +1592,7 @@
       "answer": "A volcano in Iceland has erupted again this morning.",
       "id": 760,
       "sourceNumber": 60,
-      "focus": "A volcano in Iceland has erupted：in Icelandはvolcanoを後ろから説明する。",
+      "focus": "has erupted は現在完了。this morning と使う場合、話し手にとって朝が続いているかが関係する。",
       "category": "Grammar"
     },
     {
@@ -1616,7 +1620,7 @@
       "answer": "A common myth is that people use only 10% of their brain.",
       "id": 761,
       "sourceNumber": 61,
-      "focus": "A common myth is that ～：that節が補語となり、俗説の内容を表す。",
+      "focus": "A common myth is that ... の that 節は補語。「よくある俗説」の内容を説明する。",
       "category": "Grammar"
     },
     {
@@ -1640,8 +1644,8 @@
       "answer": "Biology is divided into two categories,zoology and botany.",
       "id": 762,
       "sourceNumber": 62,
-      "focus": "be divided into A：Aに分けられる。受動態＋into。",
-      "category": "Grammar"
+      "focus": "zoology は「動物学」、botany は「植物学」。biology（生物学）の下位分野。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "歌を歌うことは彼にとって慰めだ。",
@@ -1664,7 +1668,7 @@
       "answer": "Singing is a comfort to him.",
       "id": 763,
       "sourceNumber": 63,
-      "focus": "Singing is a comfort to him：動名詞Singingが主語、a comfortが補語。",
+      "focus": "Singing は動名詞で主語。a comfort は「慰めになるもの」で、comfort は名詞。",
       "category": "Grammar"
     },
     {
@@ -1690,7 +1694,7 @@
       "answer": "The results of the entrance examination have been announced.",
       "id": 764,
       "sourceNumber": 64,
-      "focus": "have been announced：現在完了の受動態。have＋been＋過去分詞。",
+      "focus": "have been announced は現在完了の受動態。結果がすでに発表されたことを示す。",
       "category": "Grammar"
     },
     {
@@ -1716,8 +1720,8 @@
       "answer": "We sell various types of electronic goods to overseas customers.",
       "id": 765,
       "sourceNumber": 65,
-      "focus": "various types of A：さまざまな種類のA。electronic goods＝電子製品。",
-      "category": "Usage & Collocation"
+      "focus": "various は「さまざまな」。electronic は「電子の」で electrical（電気の）と意味が異なる。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私たちは家を売る以外の選択肢がなかった。",
@@ -1740,8 +1744,8 @@
       "answer": "We had no alternative but to sell the house.",
       "id": 766,
       "sourceNumber": 66,
-      "focus": "have no alternative but to do：～する以外に選択肢がない。",
-      "category": "Grammar"
+      "focus": "have no alternative but to sell は have no choice but to sell と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "この場合，額縁は絵よりも価値がある。",
@@ -1764,7 +1768,7 @@
       "answer": "In this case,the frame is worth more than the picture.",
       "id": 767,
       "sourceNumber": 67,
-      "focus": "be worth more than A：Aより価値がある。worthは前置詞的な性質をもつ形容詞。",
+      "focus": "be worth more than ... の worth は「価値がある」。形は形容詞だが、後ろに直接金額や名詞を取る。",
       "category": "Usage & Collocation"
     },
     {
@@ -1794,7 +1798,7 @@
       "answer": "She carried out an experiment dealing with lung tissue.",
       "id": 768,
       "sourceNumber": 68,
-      "focus": "carry out an experiment：実験を行う。dealing withはexperimentを修飾。",
+      "focus": "dealing with lung tissue は experiment を後ろから修飾する現在分詞句。",
       "category": "Grammar"
     },
     {
@@ -1820,7 +1824,7 @@
       "answer": "I have packed my suitcase ready for my trip.",
       "id": 769,
       "sourceNumber": 69,
-      "focus": "have packed A：荷物を詰め終えている。ready for my tripは準備ができた状態を示す。",
+      "focus": "have packed は現在完了。ready for my trip は旅行の準備ができた状態を補足する。",
       "category": "Grammar"
     },
     {
@@ -1844,7 +1848,7 @@
       "answer": "Taxes were lowered to stimulate the economy.",
       "id": 770,
       "sourceNumber": 70,
-      "focus": "be lowered to do：～するために引き下げられる。to stimulateは目的。",
+      "focus": "were lowered は受動態。to stimulate the economy は税金を下げた目的を示す不定詞。",
       "category": "Grammar"
     },
     {
@@ -1870,8 +1874,8 @@
       "answer": "I try to keep my valuable possessions in a safe place.",
       "id": 771,
       "sourceNumber": 71,
-      "focus": "keep A in a safe place：Aを安全な場所に保管する。",
-      "category": "Usage & Collocation"
+      "focus": "possession は「所有物・財産」。valuable possessions は貴重品で、possession は所有という意味もある。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その国への乳製品や肉製品の持ち込みは禁止されている。",
@@ -1896,7 +1900,7 @@
       "answer": "Bringing dairy or meat products into the country is prohibited.",
       "id": 772,
       "sourceNumber": 72,
-      "focus": "Bringing ～ into the country：動名詞句が主語。is prohibitedが述語。",
+      "focus": "Bringing ... into the country は動名詞句で主語。全体を単数扱いし is prohibited とする。",
       "category": "Grammar"
     },
     {
@@ -1920,7 +1924,7 @@
       "answer": "He was banned from driving for eight months.",
       "id": 773,
       "sourceNumber": 73,
-      "focus": "be banned from ～ing：～することを禁止される。fromは前置詞。",
+      "focus": "was banned from driving は受動態。from の後は動名詞で「運転を禁止された」。",
       "category": "Grammar"
     },
     {
@@ -1948,8 +1952,8 @@
       "answer": "He is a big fan of the pop artist.",
       "id": 774,
       "sourceNumber": 74,
-      "focus": "be a big fan of A：「Aの大ファンである」。fan of A をひとまとまりで覚える。",
-      "category": "Usage & Collocation"
+      "focus": "fan は「ファン・愛好者」。a big fan of the artist はその芸術家の熱心な愛好者。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "気候変動は多くの種類の動物の絶滅を引き起こしている。",
@@ -1974,8 +1978,8 @@
       "answer": "Climate change is causing the extinction of many kinds of animals.",
       "id": 775,
       "sourceNumber": 75,
-      "focus": "cause the extinction of A：Aの絶滅を引き起こす。現在進行形is causing。",
-      "category": "Grammar"
+      "focus": "extinction は「絶滅」。extinct は形容詞で、cause the extinction of ... は種を絶滅に追いやる意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "10人余りの中学生が，地下鉄の駅で待っていた。",
@@ -2004,7 +2008,7 @@
       "answer": "A dozen or so junior high school students waited in a subway station.",
       "id": 776,
       "sourceNumber": 76,
-      "focus": "a dozen or so ～：12程度の～。junior high school studentsが名詞のまとまり。",
+      "focus": "a dozen or so は「12ほど」。or so は概数を示し、後ろは複数の students。",
       "category": "Grammar"
     },
     {
@@ -2038,7 +2042,7 @@
       "answer": "The roars of laughter in the movie theater make it hard for the audience to follow the plot of the movie.",
       "id": 777,
       "sourceNumber": 77,
-      "focus": "make it hard for A to do：Aが～するのを難しくする。itは形式目的語。",
+      "focus": "make it hard for A to V の it は形式目的語。for the audience が不定詞の意味上の主語。",
       "category": "Grammar"
     },
     {
@@ -2066,7 +2070,7 @@
       "answer": "My room has a lot of stuff that I want to throw away.",
       "id": 778,
       "sourceNumber": 78,
-      "focus": "a lot of stuff：たくさんのもの。that以下がstuffを修飾する。",
+      "focus": "that I want to throw away は stuff を修飾する関係詞節。throw away の目的語が省略されている。",
       "category": "Grammar"
     },
     {
@@ -2092,8 +2096,8 @@
       "answer": "It will cost roughly a thousand dollars.",
       "id": 779,
       "sourceNumber": 79,
-      "focus": "cost roughly a thousand dollars：約1000ドルかかる。roughlyは数量を修飾。",
-      "category": "Usage & Collocation"
+      "focus": "roughly a thousand dollars は approximately a thousand dollars と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "早朝に地震が発生しました。",
@@ -2116,8 +2120,8 @@
       "answer": "An earthquake occurred early in the morning.",
       "id": 780,
       "sourceNumber": 80,
-      "focus": "An earthquake occurred：occurは自動詞。「起こる」を表す。",
-      "category": "Grammar"
+      "focus": "occur は「起こる・発生する」。happen に近いが、やや硬い表現で自動詞。",
+      "category": "Usage & Collocation"
     },
     {
       "japanese": "大統領は戦争は終わったと宣言した。",
@@ -2142,7 +2146,7 @@
       "answer": "The president declared that the war was over.",
       "id": 781,
       "sourceNumber": 81,
-      "focus": "declare that S＋V：～だと宣言する。the war was over＝戦争が終わった。",
+      "focus": "declared that ... の that 節は宣言した内容。was over は「終わっていた」という状態。",
       "category": "Grammar"
     },
     {
@@ -2166,7 +2170,7 @@
       "answer": "Violence is never the answer.",
       "id": 782,
       "sourceNumber": 82,
-      "focus": "Violence is never the answer：neverはbe動詞の後に置く。",
+      "focus": "never は頻度・否定を表す副詞。be動詞 is の後ろに置き、「決して答えにはならない」。",
       "category": "Grammar"
     },
     {
@@ -2194,8 +2198,8 @@
       "answer": "I put my clothes into the closet.",
       "id": 783,
       "sourceNumber": 83,
-      "focus": "put A into B：AをBの中に入れる。my clothesが目的語。",
-      "category": "Usage & Collocation"
+      "focus": "put clothes into the closet の into は中への移動を示す。in は位置・状態を表す。",
+      "category": "Grammar"
     },
     {
       "japanese": "助手が香草を刻んでいる間に，料理人は鍋のスープをかき混ぜた。",
@@ -2222,7 +2226,7 @@
       "answer": "The chef stirred the pot of soup while his assistant chopped the herbs.",
       "id": 784,
       "sourceNumber": 84,
-      "focus": "stir the pot of soup：鍋のスープをかき混ぜる。whileは同時進行を示す。",
+      "focus": "while his assistant chopped ... は同時に行われた動作を表す副詞節。",
       "category": "Grammar"
     },
     {
@@ -2250,8 +2254,9 @@
       "answer": "The editor was able to spot all the mistakes in the report.",
       "id": 785,
       "sourceNumber": 85,
-      "focus": "be able to spot A：Aを見つけることができる。spotは「見つける」。",
-      "category": "Grammar"
+      "focus": "spot は「点・場所」だけでなく動詞「見つける・見抜く」。spot mistakes は誤りを発見する意味。",
+      "category": "Vocabulary",
+      "focusExample": "I spotted a mistake in the answer."
     },
     {
       "japanese": "12時ちょうどに会いましょう。",
@@ -2276,8 +2281,8 @@
       "answer": "I will meet you at precisely 12 o'clock.",
       "id": 786,
       "sourceNumber": 86,
-      "focus": "at precisely 12 o’clock：ちょうど12時に。preciselyが時刻を限定。",
-      "category": "Grammar"
+      "focus": "precisely は「正確に・ちょうど」。時刻を限定する at precisely 12 o'clock の形。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "この店は電気製品と家庭用品を売っている。",
@@ -2300,8 +2305,8 @@
       "answer": "This shop sells electrical appliances and household appliances.",
       "id": 787,
       "sourceNumber": 87,
-      "focus": "electrical appliances and household appliances：品目をandで並列にする。",
-      "category": "Usage & Collocation"
+      "focus": "appliance は「器具・電気製品」。electrical appliances と household appliances は指す範囲が違う。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "人間の行為が多くの動物種を絶滅の危機にさらしている。",
@@ -2326,7 +2331,7 @@
       "answer": "Man's actions have endangered many species of animals.",
       "id": 788,
       "sourceNumber": 88,
-      "focus": "have endangered A：Aを絶滅の危機にさらしてきた。現在完了。",
+      "focus": "have endangered は現在完了。「多くの種を絶滅の危機にさらしてきた」と現在への影響を表す。",
       "category": "Grammar"
     },
     {
@@ -2358,8 +2363,8 @@
       "answer": "According to the newspaper,an active volcano on the island exploded into life again.",
       "id": 789,
       "sourceNumber": 89,
-      "focus": "explode into life：突然活動を始める。on the islandはvolcanoを修飾。",
-      "category": "Grammar"
+      "focus": "explode は「爆発する」以外に突然激しく活動すること。volcano が主語になっている。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼は大事な採用面接を前に緊張していた。",
@@ -2382,7 +2387,7 @@
       "answer": "He was feeling nervous before the important job interview.",
       "id": 790,
       "sourceNumber": 90,
-      "focus": "be feeling nervous：緊張を感じている。before Aは「Aの前に」。",
+      "focus": "was feeling nervous は過去進行形。面接前のある時点で緊張していた状態を示す。",
       "category": "Grammar"
     },
     {
@@ -2408,8 +2413,8 @@
       "answer": "The doctor gave him some antibiotics.",
       "id": 791,
       "sourceNumber": 91,
-      "focus": "give 人 物：人に物を与える。give him some antibioticsは第4文型。",
-      "category": "Usage & Collocation"
+      "focus": "gave him some antibiotics は第4文型。「彼に抗生物質を与えた」で、him が受け手。",
+      "category": "Grammar"
     },
     {
       "japanese": "インフルエンザと新型コロナウイルスの症状はよく似ている。",
@@ -2432,8 +2437,8 @@
       "answer": "The symptoms of influenza and COVID-19 are very similar.",
       "id": 792,
       "sourceNumber": 92,
-      "focus": "The symptoms of A and B：AとBの症状。主語は複数なのでare。",
-      "category": "Usage & Collocation"
+      "focus": "symptom は「症状」。influenza と COVID-19 の症状を比較している。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "卓球部は私にとって理想的だった。",
@@ -2456,8 +2461,8 @@
       "answer": "The table tennis club was ideal for me.",
       "id": 793,
       "sourceNumber": 93,
-      "focus": "be ideal for A：Aに最適である。forは対象を表す。",
-      "category": "Usage & Collocation"
+      "focus": "ideal for me は perfect for me と近い。「自分にちょうどよい」。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "あなたは今すぐ決心を変えるべきだ。",
@@ -2480,8 +2485,8 @@
       "answer": "You should alter your decision now.",
       "id": 794,
       "sourceNumber": 94,
-      "focus": "alter your decision：決定を変える。should＋動詞の原形。",
-      "category": "Usage & Collocation"
+      "focus": "alter は「変更する」。change に近いが、部分的な変更にも用いる。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その地震はとても小さかったので，感知するのは難しかった。",
@@ -2506,7 +2511,7 @@
       "answer": "The earthquake was so small that it was difficult to detect.",
       "id": 795,
       "sourceNumber": 95,
-      "focus": "so ～ that S＋V：とても～なので…。it was difficult to detect＝検知が難しかった。",
+      "focus": "so small that ... は程度と結果の構文。it was difficult to detect は形式主語 it を用いる。",
       "category": "Grammar"
     },
     {
@@ -2534,7 +2539,7 @@
       "answer": "The truck crashed into my friend's house yesterday.",
       "id": 796,
       "sourceNumber": 96,
-      "focus": "crash into A：Aに衝突する。intoは衝突する対象を表す。",
+      "focus": "crash は「衝突する」。crash into A で「Aに激突する」、into が方向を示す。",
       "category": "Usage & Collocation"
     },
     {
@@ -2560,8 +2565,8 @@
       "answer": "The United States has military bases in many countries.",
       "id": 797,
       "sourceNumber": 97,
-      "focus": "have military bases in A：Aに軍事基地を持つ。",
-      "category": "Usage & Collocation"
+      "focus": "military は「軍事の」。military base は軍事基地で、army（陸軍）より広い概念。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "この地震で多くの建物が倒壊した。",
@@ -2586,7 +2591,7 @@
       "answer": "Many buildings collapsed in the earthquake.",
       "id": 798,
       "sourceNumber": 98,
-      "focus": "Many buildings collapsed：collapseは自動詞。受動態にしない。",
+      "focus": "collapsed は自動詞「崩壊した」。建物が自ら崩れた意味なので受動態にしない。",
       "category": "Grammar",
       "alternatives": [
         {
@@ -2625,7 +2630,7 @@
       "answer": "He dashed to the store before it closed,hoping to buy the item.",
       "id": 799,
       "sourceNumber": 99,
-      "focus": "dash to A：Aに急いで向かう。before it closed＝閉店する前に。",
+      "focus": "hoping to buy ... は分詞構文で、急いだときの気持ち・目的を補足する。",
       "category": "Grammar"
     },
     {
@@ -2651,8 +2656,9 @@
       "answer": "The Internet provides us with many visual images of the world.",
       "id": 800,
       "sourceNumber": 100,
-      "focus": "provide 人 with 物：人に物を提供する。provide us with many visual images。",
-      "category": "Usage & Collocation"
+      "focus": "provide 人 with 物 は「人に物を提供する」。provide 物 to 人 とも言える。",
+      "category": "Usage & Collocation",
+      "focusExample": "We provide students with free textbooks."
     }
   ]
 }

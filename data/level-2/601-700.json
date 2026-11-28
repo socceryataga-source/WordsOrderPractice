@@ -30,7 +30,7 @@
       "answer": "When there is a long drought or war,crops are ruined and many people starve to death.",
       "id": 601,
       "sourceNumber": 1,
-      "focus": "When there is ～：～があるとき。long drought：長期の干ばつ。when節を先に置く。",
+      "focus": "When there is ... は「～があるとき」。crops are ruined は受動態で、複数主語 crops に are を使う。",
       "category": "Grammar"
     },
     {
@@ -54,7 +54,7 @@
       "answer": "Not all bacteria are harmful.",
       "id": 602,
       "sourceNumber": 2,
-      "focus": "not all ～：すべてが～というわけではない（部分否定）。all ～ not と混同しない。",
+      "focus": "Not all bacteria are harmful は部分否定。「すべての細菌が有害なわけではない」で、None of ... とは異なる。",
       "category": "Grammar"
     },
     {
@@ -78,7 +78,7 @@
       "answer": "Valuable papers are preserved in the safe.",
       "id": 603,
       "sourceNumber": 3,
-      "focus": "be preserved in ～：～の中に保存されている。受動態 be＋過去分詞。",
+      "focus": "are preserved は受動態で「保存されている」。preserve は文化財や食品を保存・保護する意味にも使う。",
       "category": "Grammar"
     },
     {
@@ -102,8 +102,8 @@
       "answer": "We are now entering a new phase of the campaign.",
       "id": 604,
       "sourceNumber": 4,
-      "focus": "enter a new phase of ～：～の新しい段階に入る。enter はここでは他動詞。",
-      "category": "Collocation & Usage"
+      "focus": "phase は「段階・局面」。enter a new phase は「新しい段階に入る」で、enter は前置詞なしの他動詞。",
+      "category": "Usage & Collocation"
     },
     {
       "japanese": "この仕事では世界中の人々と数多く交流することが求められる。",
@@ -126,8 +126,9 @@
       "answer": "This job requires a lot of interaction with people from around the world.",
       "id": 605,
       "sourceNumber": 5,
-      "focus": "require a lot of interaction with ～：～との多くの交流を必要とする。",
-      "category": "Collocation & Usage"
+      "focus": "interaction は「交流・相互作用」。interact with ... は「～と交流する」という動詞形。",
+      "category": "Usage & Collocation",
+      "focusExample": "I enjoy interacting with classmates."
     },
     {
       "japanese": "彼は全財産を不動産に投資することに決めた。",
@@ -152,8 +153,8 @@
       "answer": "He decided to invest all his money in real estate.",
       "id": 606,
       "sourceNumber": 6,
-      "focus": "invest all one’s money in real estate：全財産を不動産に投資する。invest A in B。",
-      "category": "Collocation & Usage"
+      "focus": "invest A in B は「AをBに投資する」。all his money は invest の目的語、real estate は投資先。",
+      "category": "Usage & Collocation"
     },
     {
       "japanese": "一般的に高脂肪の食物は 消化されにくい。",
@@ -182,7 +183,7 @@
       "answer": "In general,foods high in fat are difficult to digest.",
       "id": 607,
       "sourceNumber": 7,
-      "focus": "foods high in fat：脂肪分の多い食物。形容詞句 high in fat の後置修飾。",
+      "focus": "foods high in fat の high in fat は foods を後ろから修飾する形容詞句。「脂肪分の多い食品」。",
       "category": "Grammar"
     },
     {
@@ -210,7 +211,7 @@
       "answer": "You need a license to drive a car in Japan.",
       "id": 608,
       "sourceNumber": 8,
-      "focus": "need a license to drive：運転するための免許が必要。to不定詞が license を修飾。",
+      "focus": "a license to drive の to不定詞は license の用途を説明。「運転するための免許」。",
       "category": "Grammar"
     },
     {
@@ -234,8 +235,8 @@
       "answer": "This word derives from Portuguese.",
       "id": 609,
       "sourceNumber": 9,
-      "focus": "derive from ～：～に由来する。主語が this word なので derives。",
-      "category": "Collocation & Usage"
+      "focus": "derive は「由来する」。derive from Portuguese のように語源・由来を述べるときに使う。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "すべての交通規則に従わなければなりません。",
@@ -258,8 +259,8 @@
       "answer": "We should obey all of the traffic rules.",
       "id": 610,
       "sourceNumber": 10,
-      "focus": "obey all of the traffic rules：すべての交通規則に従う。obey は前置詞を伴わない他動詞。",
-      "category": "Collocation & Usage"
+      "focus": "obey は「従う」他動詞。obey the rules とし、follow the rules と言い換えられる。",
+      "category": "Usage & Collocation"
     },
     {
       "japanese": "ビールを飲みすぎてはいけません。そうでないと 食欲がなくなりますよ。",
@@ -280,8 +281,8 @@
       "answer": "Don't drink too much beer,or you'll spoil your appetite.",
       "id": 611,
       "sourceNumber": 11,
-      "focus": "spoil one’s appetite：食欲を損なう。or＋文で「さもないと」。",
-      "category": "Collocation & Usage"
+      "focus": "命令文＋or＋文は「～しなさい、さもないと…」。spoil は「台無しにする」。",
+      "category": "Grammar"
     },
     {
       "japanese": "彼女のほほえみで，彼は彼女が幸せであると確信した。",
@@ -306,7 +307,7 @@
       "answer": "Her smile convinced him that she was happy.",
       "id": 612,
       "sourceNumber": 12,
-      "focus": "convince A that ～：Aに～だと確信させる。目的語 him の後に that節。",
+      "focus": "convince 人 that S V は「人に～だと確信させる」。that 節が納得させる内容を示す。",
       "category": "Grammar"
     },
     {
@@ -330,8 +331,8 @@
       "answer": "I went to the bank for a loan to buy a new car.",
       "id": 613,
       "sourceNumber": 13,
-      "focus": "for a loan to buy ～：～を買うためのローンを求めて。to不定詞が loan を説明。",
-      "category": "Collocation & Usage"
+      "focus": "a loan to buy a new car の to不定詞は loan の目的を示す。「車を買うためのローン」。",
+      "category": "Grammar"
     },
     {
       "japanese": "障害物が群衆が舞台に上ってくるのを防いだ。",
@@ -354,8 +355,9 @@
       "answer": "A barrier stopped the crowd from climbing on to the stage.",
       "id": 614,
       "sourceNumber": 14,
-      "focus": "stop A from ～ing：Aが～するのを妨げる。from の後は動名詞。",
-      "category": "Grammar"
+      "focus": "stop A from ～ing は「Aが～するのを妨げる」。from の後は動名詞 climbing。",
+      "category": "Usage & Collocation",
+      "focusExample": "The fence stopped the deer from entering."
     },
     {
       "japanese": "私の妹は犬が怖い。",
@@ -380,8 +382,8 @@
       "answer": "My sister is frightened of dogs.",
       "id": 615,
       "sourceNumber": 15,
-      "focus": "be frightened of ～：～を怖がる。frightened は主語の感情を表す。",
-      "category": "Grammar"
+      "focus": "frightened は「怖がっている」人の感情を表す。frightening は「人を怖がらせる」側の性質。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼は多額の借金を１年で返済した。",
@@ -408,8 +410,8 @@
       "answer": "He paid off a huge amount of debt in a year.",
       "id": 616,
       "sourceNumber": 16,
-      "focus": "pay off a huge amount of debt：多額の借金を完済する。pay off と amount of のまとまり。",
-      "category": "Collocation & Usage"
+      "focus": "debt は「借金・負債」。pay off debt は借金を完済することで、単に pay とは異なる。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その国々はいつもスポーツでライバルになっている。",
@@ -432,7 +434,7 @@
       "answer": "The countries have always been rivals at sport.",
       "id": 617,
       "sourceNumber": 17,
-      "focus": "have always been ～：現在完了で always は have と been の間が基本。",
+      "focus": "have always been は現在完了の継続。always は have と been の間に置いて長期間の状態を強調。",
       "category": "Grammar"
     },
     {
@@ -456,8 +458,8 @@
       "answer": "The politician said he would fight for the masses.",
       "id": 618,
       "sourceNumber": 18,
-      "focus": "fight for the masses：一般大衆のために戦う。fight for ～。",
-      "category": "Collocation & Usage"
+      "focus": "masses は「大衆・一般の人々」。fight for the masses は人々のために活動する意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "留学するには両親の同意が必要だ。",
@@ -480,8 +482,8 @@
       "answer": "To study abroad,you need the consent of your parents.",
       "id": 619,
       "sourceNumber": 19,
-      "focus": "need the consent of your parents：親の同意が必要。consent of ～は「～の同意」。",
-      "category": "Grammar"
+      "focus": "consent は「同意・承諾」。permission は「許可」、consent は意思に基づく同意を重視する。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "あなたは来月から正式にマネージャーに昇進します。",
@@ -506,7 +508,7 @@
       "answer": "You will be officially promoted to manager from next month.",
       "id": 620,
       "sourceNumber": 20,
-      "focus": "be promoted to manager：マネージャーに昇進する。be promoted to ～。",
+      "focus": "will be promoted は未来の受動態。to manager が昇進後の役職を示す。",
       "category": "Grammar",
       "alternatives": [
         {
@@ -545,8 +547,8 @@
       "answer": "I would like to arrange an online meeting with the professor.",
       "id": 621,
       "sourceNumber": 21,
-      "focus": "would like to arrange ～：～を手配したい。would like to＋動詞原形。",
-      "category": "Grammar"
+      "focus": "would like to arrange ... は want to organize ... と近いが、would like to のほうが丁寧。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "政府は非常時のために大量の米を貯蔵している。",
@@ -571,8 +573,8 @@
       "answer": "The government stores a large quantity of rice for emergencies.",
       "id": 622,
       "sourceNumber": 22,
-      "focus": "a large quantity of rice：大量の米。quantity of＋不可算名詞。",
-      "category": "Collocation & Usage"
+      "focus": "a large quantity of rice は数量表現。rice は不可算名詞で、quantity を使って量を示している。",
+      "category": "Grammar"
     },
     {
       "japanese": "私たちは検査で数多くの間違いを発見した。",
@@ -595,8 +597,8 @@
       "answer": "We found numerous mistakes in the test.",
       "id": 623,
       "sourceNumber": 23,
-      "focus": "find numerous mistakes in ～：～で多数の誤りを見つける。numerous＋複数名詞。",
-      "category": "Collocation & Usage"
+      "focus": "numerous は「非常に多くの」。many より改まった表現で、後ろには複数名詞 mistakes。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "外務省は侵略を批判した。",
@@ -612,8 +614,8 @@
       "answer": "The foreign ministry criticised the invasion.",
       "id": 624,
       "sourceNumber": 24,
-      "focus": "foreign ministry：外務省。原本の問題語 criticised は英国式、解答の criticized は米国式の綴り。",
-      "category": "Collocation & Usage",
+      "focus": "criticise と criticize は英国式・米国式の綴りの違い。どちらも「批判する」で、語義は同じ。",
+      "category": "Vocabulary",
       "correctOrder": [
         0,
         3,
@@ -643,7 +645,7 @@
       "answer": "In spring,the cherry trees all bloom.",
       "id": 625,
       "sourceNumber": 25,
-      "focus": "the cherry trees all bloom：桜の木がみな咲く。all は主語の全体を指す。",
+      "focus": "the cherry trees all bloom の all は主語全体を指す。All the cherry trees bloom とも言える。",
       "category": "Grammar",
       "alternatives": [
         {
@@ -681,8 +683,8 @@
       "answer": "He bought a large property in town for his family to live in.",
       "id": 626,
       "sourceNumber": 26,
-      "focus": "buy a large property in town：町に大きな不動産を買う。in town は場所を示す。",
-      "category": "Collocation & Usage"
+      "focus": "property は「財産・不動産」。a large property は大きな土地や建物を含む不動産を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "ここはたくさんの農場がある農業地帯です。",
@@ -705,8 +707,8 @@
       "answer": "This is an agricultural area with a large number of farms.",
       "id": 627,
       "sourceNumber": 27,
-      "focus": "an agricultural area with ～：～のある農業地帯。with＋名詞で付随情報。",
-      "category": "Collocation & Usage"
+      "focus": "agricultural は「農業の」。agriculture（農業）の形容詞で、area と組み合わせ農業地帯を表す。",
+      "category": "Usage & Collocation"
     },
     {
       "japanese": "それを納屋に戻しておいてくれますか。",
@@ -731,8 +733,8 @@
       "answer": "Can you put it back in the barn?",
       "id": 628,
       "sourceNumber": 28,
-      "focus": "put it back in the barn：それを納屋へ戻す。put＋目的語＋back＋場所。",
-      "category": "Collocation & Usage"
+      "focus": "put it back in the barn は return it to the barn と言い換えられる。back は元の場所へ戻す意味。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "あなたは適切な治療を受ける必要がある。",
@@ -755,8 +757,8 @@
       "answer": "You need to get appropriate medical care.",
       "id": 629,
       "sourceNumber": 29,
-      "focus": "get appropriate medical care：適切な医療を受ける。appropriate は medical care を修飾。",
-      "category": "Collocation & Usage"
+      "focus": "appropriate は「適切な」。medical care は医療や手当てを指し、appropriate care は適切なケア。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "骨粉や硝酸ソーダはよく使われる 肥料である。",
@@ -783,8 +785,8 @@
       "answer": "Bone meal and nitrates are common fertilizers.",
       "id": 630,
       "sourceNumber": 30,
-      "focus": "Bone meal and nitrates：骨粉と硝酸塩。複数主語なので are。",
-      "category": "Collocation & Usage"
+      "focus": "fertilizer は「肥料」。fertile（肥沃な）と関連し、植物の成長を助ける物質を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "家に帰った時，とてもお腹が空いていた。",
@@ -809,7 +811,7 @@
       "answer": "I was so hungry when I got home.",
       "id": 631,
       "sourceNumber": 31,
-      "focus": "when I got home：帰宅したとき。副詞節の位置は文頭・文末で変えられる場合がある。",
+      "focus": "when I got home は時を表す副詞節。文頭に移すなら When I got home, I was so hungry. となる。",
       "category": "Grammar"
     },
     {
@@ -833,8 +835,8 @@
       "answer": "Japan has very fertile soil,so it is easy to grow many crops.",
       "id": 632,
       "sourceNumber": 32,
-      "focus": "fertile soil：肥沃な土壌。very は形容詞 fertile を強める。",
-      "category": "Grammar"
+      "focus": "fertile は「肥沃な」。fertile soil は作物が育ちやすい土壌を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "大統領の人気はこの1年で下降した。",
@@ -857,8 +859,8 @@
       "answer": "The president's popularity declined throughout the year.",
       "id": 633,
       "sourceNumber": 33,
-      "focus": "The president’s popularity declined：大統領の人気が下がった。throughout the year は期間。",
-      "category": "Collocation & Usage"
+      "focus": "decline は「減少・低下する」。人気や価格などが下がるときに使い、fall と近い。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その生徒は遅刻して部屋に入ってきて授業を中断させた。",
@@ -883,7 +885,7 @@
       "answer": "The student interrupted the lesson when he entered the room late.",
       "id": 634,
       "sourceNumber": 34,
-      "focus": "interrupt the lesson：授業を中断させる。when節で時を補足する。",
+      "focus": "when he entered the room late は時を表す節。interrupt は「中断させる」他動詞。",
       "category": "Grammar"
     },
     {
@@ -905,7 +907,7 @@
       "answer": "Since her parents retired,they often go abroad.",
       "id": 635,
       "sourceNumber": 35,
-      "focus": "Since her parents retired：両親が引退したので。since は理由を表す接続詞。",
+      "focus": "Since her parents retired は文脈では「両親が退職して以来」。since は時の起点も理由も表すため区別。",
       "category": "Grammar"
     },
     {
@@ -929,8 +931,8 @@
       "answer": "The minister of education gave a talk at our school.",
       "id": 636,
       "sourceNumber": 36,
-      "focus": "minister of education：文部大臣。give a talk＝講演する。",
-      "category": "Collocation & Usage"
+      "focus": "minister は「大臣」のほか宗教上の「牧師」。minister of education は教育を担当する大臣。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼には性格 障害があると思った。",
@@ -959,7 +961,7 @@
       "answer": "I felt that he had a character disorder.",
       "id": 637,
       "sourceNumber": 37,
-      "focus": "feel that ～：～だと思う。that節の中は he had a character disorder。",
+      "focus": "felt that ... の that 以下は感じた内容。character disorder は「性格・人格上の障害」を意味する表現。",
       "category": "Grammar"
     },
     {
@@ -987,7 +989,7 @@
       "answer": "The United Kingdom has been ruled by either a king or a queen.",
       "id": 638,
       "sourceNumber": 38,
-      "focus": "has been ruled：現在完了の受動態。either A or B＝AかBのどちらか。",
+      "focus": "has been ruled は現在完了の受動態。either a king or a queen は「王か女王のどちらか」。",
       "category": "Grammar"
     },
     {
@@ -1011,7 +1013,7 @@
       "answer": "You should avoid using vague expressions in your report.",
       "id": 639,
       "sourceNumber": 39,
-      "focus": "avoid using ～：～を使うのを避ける。avoid の後には動名詞。",
+      "focus": "avoid using は「使うことを避ける」。avoid の後は動名詞で、avoid to use とはしない。",
       "category": "Grammar"
     },
     {
@@ -1035,8 +1037,8 @@
       "answer": "We were happy about his sudden visit.",
       "id": 640,
       "sourceNumber": 40,
-      "focus": "be happy about ～：～を喜ぶ。his sudden visit は名詞句。",
-      "category": "Collocation & Usage"
+      "focus": "sudden は「突然の」。visit は「訪問」という名詞にもなるため、his sudden visit は名詞句。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その店では取引のたびに領収書を発行している。",
@@ -1061,8 +1063,8 @@
       "answer": "The store provides a receipt for every transaction.",
       "id": 641,
       "sourceNumber": 41,
-      "focus": "provide a receipt for ～：～に対して領収書を出す。every＋単数名詞。",
-      "category": "Collocation & Usage"
+      "focus": "every transaction の every は単数名詞 transaction を取る。「取引ごとに領収書を出す」。",
+      "category": "Grammar"
     },
     {
       "japanese": "胃が痛い。",
@@ -1085,8 +1087,8 @@
       "answer": "I have a pain in my stomach.",
       "id": 642,
       "sourceNumber": 42,
-      "focus": "have a pain in my stomach：胃が痛む。pain in＋体の部位。",
-      "category": "Collocation & Usage"
+      "focus": "have a pain in my stomach は have a stomachache と言い換えられる。pain は痛みそのもの。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "医師たちはなぜその病気に免疫がある人がいるのかはっきりわからなかった。",
@@ -1109,8 +1111,9 @@
       "answer": "Doctors were not sure why some people were immune to the disease.",
       "id": 643,
       "sourceNumber": 43,
-      "focus": "be immune to ～：～に免疫がある。to は前置詞。",
-      "category": "Grammar"
+      "focus": "immune は「免疫がある」。be immune to ... の to は前置詞で、病気・影響の対象を示す。",
+      "category": "Usage & Collocation",
+      "focusExample": "She is immune to the disease."
     },
     {
       "japanese": "この果物は主としてインドから来る。",
@@ -1131,8 +1134,8 @@
       "answer": "This fruit comes mainly from India.",
       "id": 644,
       "sourceNumber": 44,
-      "focus": "come mainly from India：主にインドから来る。mainly は動詞句を修飾する。",
-      "category": "Collocation & Usage",
+      "focus": "mainly は「主に」。come mainly from India のように、動詞と出所を表す句の間に置ける。",
+      "category": "Grammar",
       "alternatives": [
         {
           "order": [
@@ -1166,8 +1169,8 @@
       "answer": "The main religion of India is Hinduism.",
       "id": 645,
       "sourceNumber": 45,
-      "focus": "The main religion of India：インドの主な宗教。main は名詞 religion の前。",
-      "category": "Collocation & Usage"
+      "focus": "religion は「宗教」、religious は「宗教上の」。Hinduism はヒンドゥー教を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼はコーチが彼にプレーさせてくれないと怒っていた。",
@@ -1192,7 +1195,7 @@
       "answer": "He was angry that the coach didn't let him play.",
       "id": 646,
       "sourceNumber": 46,
-      "focus": "be angry that ～：～ということに怒る。that節が怒りの理由を示す。",
+      "focus": "angry that ... の that 節は怒っている理由・内容。didn't let him play は〈let＋人＋原形〉。",
       "category": "Grammar"
     },
     {
@@ -1218,8 +1221,8 @@
       "answer": "We collected money for the conservation of endangered species.",
       "id": 647,
       "sourceNumber": 47,
-      "focus": "for the conservation of endangered species：絶滅危惧種の保護のために。",
-      "category": "Collocation & Usage"
+      "focus": "conservation は「保護・保全」。endangered species は絶滅のおそれのある種を指す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼は いつもより遅く着いた。",
@@ -1242,8 +1245,8 @@
       "answer": "He arrived later than usual.",
       "id": 648,
       "sourceNumber": 48,
-      "focus": "later than usual：いつもより遅く。比較級 later＋than。",
-      "category": "Collocation & Usage"
+      "focus": "later than usual は later than normal（普段より遅く）と言い換えられる。比較の基準は usual。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "主に先生方の助けのおかげで私は入試に合格できた。",
@@ -1266,8 +1269,8 @@
       "answer": "I passed the entrance exam largely thanks to the help of my teachers.",
       "id": 649,
       "sourceNumber": 49,
-      "focus": "largely thanks to ～：主に～のおかげで。thanks to は前置詞句。",
-      "category": "Collocation & Usage",
+      "focus": "thanks to the help of ... は because of the help of ... と近い。感謝・好ましい結果を含むことが多い。",
+      "category": "Paraphrase",
       "alternatives": [
         {
           "order": [
@@ -1308,8 +1311,8 @@
       "answer": "The country owes her present prosperity partly to the support of Japan.",
       "id": 650,
       "sourceNumber": 50,
-      "focus": "owe A to B：AはBのおかげだ。partly はその理由が一部であることを表す。",
-      "category": "Grammar",
+      "focus": "owe A to B は「AはBのおかげだ」。partly は要因が一部であることを表す。",
+      "category": "Usage & Collocation",
       "alternatives": [
         {
           "order": [
@@ -1351,7 +1354,7 @@
       "answer": "They guarantee that the train will arrive on time.",
       "id": 651,
       "sourceNumber": 51,
-      "focus": "guarantee that ～：～と保証する。that節の中は will arrive。",
+      "focus": "guarantee that ... は保証する内容を that 節で表す。will arrive は未来の事柄。",
       "category": "Grammar"
     },
     {
@@ -1373,8 +1376,8 @@
       "answer": "He showed great leadership.",
       "id": 652,
       "sourceNumber": 52,
-      "focus": "show great leadership：素晴らしい指導力を発揮する。show＋名詞。",
-      "category": "Collocation & Usage"
+      "focus": "leadership は「指導力・統率力」。show leadership はリーダーシップを発揮する意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "タンパク質はアミノ酸でできている。",
@@ -1397,7 +1400,7 @@
       "answer": "Proteins are made of amino acids.",
       "id": 653,
       "sourceNumber": 53,
-      "focus": "be made of ～：～からできている（材料）。amino acids は複数。",
+      "focus": "are made of amino acids は受動態。be made of は材料が分かる場合によく使う。",
       "category": "Grammar"
     },
     {
@@ -1421,8 +1424,8 @@
       "answer": "The farmer raised various types of livestock.",
       "id": 654,
       "sourceNumber": 54,
-      "focus": "various types of livestock：さまざまな種類の家畜。livestock は集合的に使う。",
-      "category": "Collocation & Usage"
+      "focus": "livestock は「家畜」を集合的に表す語。cattle なども集団を指す名詞。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私たちはまだ完全には終わっていないので，少々お待ちください。",
@@ -1445,7 +1448,7 @@
       "answer": "We haven't entirely finished so please wait a moment.",
       "id": 655,
       "sourceNumber": 55,
-      "focus": "have not entirely finished：まだ完全には終えていない。not entirely は部分否定。",
+      "focus": "not entirely finished は「完全には終わっていない」という部分否定。not finished at all とは異なる。",
       "category": "Grammar"
     },
     {
@@ -1471,8 +1474,8 @@
       "answer": "My brother and I compete over everything.",
       "id": 656,
       "sourceNumber": 56,
-      "focus": "My brother and I：兄と私。compete over ～＝～をめぐって競う。",
-      "category": "Grammar"
+      "focus": "compete は「競争する」。compete over something は物事をめぐって争う意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その会社は競争力がないので閉鎖した。",
@@ -1495,8 +1498,8 @@
       "answer": "The company was not competitive,so it closed down.",
       "id": 657,
       "sourceNumber": 57,
-      "focus": "not competitive：競争力がない。be動詞＋否定＋形容詞。",
-      "category": "Grammar"
+      "focus": "competitive は「競争力のある」。company was not competitive は他社と競争できなかったこと。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "風邪のせいで，ひどい喉の痛みがあった。",
@@ -1521,8 +1524,8 @@
       "answer": "The cold gave me a really bad sore throat.",
       "id": 658,
       "sourceNumber": 58,
-      "focus": "give A B：AにBを与える。a really bad sore throat は名詞句。",
-      "category": "Collocation & Usage"
+      "focus": "give me a sore throat は〈SVOO〉で「私に喉の痛みをもたらす」。病気が主語になる。",
+      "category": "Grammar"
     },
     {
       "japanese": "典型的なイギリスの食事には肉，じゃがいも，そしていくつかの野菜が含まれている。",
@@ -1545,8 +1548,8 @@
       "answer": "A typical English meal contains meat,potatoes and some vegetables.",
       "id": 659,
       "sourceNumber": 59,
-      "focus": "a typical English meal：典型的な英国の食事。形容詞は通常名詞の前。",
-      "category": "Collocation & Usage"
+      "focus": "typical は「典型的な」。a typical English meal はイギリスでよく見られる食事。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼女が質問するのはまれだ。",
@@ -1569,7 +1572,7 @@
       "answer": "It is rare for her to ask a question.",
       "id": 660,
       "sourceNumber": 60,
-      "focus": "It is rare for A to ～：Aが～するのはまれだ。形式主語の構文。",
+      "focus": "It is rare for her to ... は形式主語構文。for her は to ask の動作主。",
       "category": "Grammar"
     },
     {
@@ -1593,8 +1596,8 @@
       "answer": "I finally persuaded him to buy it.",
       "id": 661,
       "sourceNumber": 61,
-      "focus": "persuade A to ～：Aに説得して～させる。persuade him to buy it。",
-      "category": "Collocation & Usage"
+      "focus": "persuaded him to buy は talked him into buying に近い。persuade は説得の結果を強調。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "年間予算はどのくらい残っていますか。",
@@ -1617,7 +1620,7 @@
       "answer": "How much of our yearly budget is left?",
       "id": 662,
       "sourceNumber": 62,
-      "focus": "How much of ～：～のうちどれくらい。疑問文の語順は is left。",
+      "focus": "How much of our yearly budget is left? の much は予算の量を尋ねる。budget は「予算」。",
       "category": "Grammar"
     },
     {
@@ -1643,8 +1646,8 @@
       "answer": "After graduation,he started his first proper job.",
       "id": 663,
       "sourceNumber": 63,
-      "focus": "his first proper job：初めてのまともな仕事。形容詞の語順に注意。",
-      "category": "Collocation & Usage"
+      "focus": "proper は「適切な・本格的な」。proper job はちゃんとした職という意味合い。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "メキシコ湾流はヨーロッパに温暖な気候をもたらす自然現象である。",
@@ -1669,7 +1672,7 @@
       "answer": "The Gulf Stream is a natural phenomenon that brings a warm climate to Europe.",
       "id": 664,
       "sourceNumber": 64,
-      "focus": "a natural phenomenon that ～：～する自然現象。that節が phenomenon を修飾。",
+      "focus": "that brings a warm climate ... は phenomenon を修飾する主格関係詞節。that が brings の主語。",
       "category": "Grammar"
     },
     {
@@ -1695,7 +1698,7 @@
       "answer": "Early civilizations lived near rivers,where the soil is very fertile.",
       "id": 665,
       "sourceNumber": 65,
-      "focus": "where the soil is very fertile：そこで土が肥沃な。非制限用法の関係副詞。",
+      "focus": "where the soil is very fertile は非制限用法の関係副詞節。rivers の場所に関する追加説明。",
       "category": "Grammar"
     },
     {
@@ -1721,8 +1724,8 @@
       "answer": "Some computer games are not suitable for small children.",
       "id": 666,
       "sourceNumber": 66,
-      "focus": "be suitable for ～：～に適している。not suitable for small children。",
-      "category": "Grammar"
+      "focus": "not suitable for small children は not appropriate for young children と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "その家の位置はとても便利そうだ。",
@@ -1747,7 +1750,7 @@
       "answer": "The location of the house seems to be very convenient.",
       "id": 667,
       "sourceNumber": 67,
-      "focus": "The location of the house：家の位置。seem to be＋形容詞。",
+      "focus": "seems to be convenient は「便利なように思われる」。seem は不定詞 to be を取る。",
       "category": "Grammar"
     },
     {
@@ -1771,7 +1774,7 @@
       "answer": "He missed a couple of days' work because of an illness.",
       "id": 668,
       "sourceNumber": 68,
-      "focus": "because of an illness：病気のために。because of の後ろは名詞句。",
+      "focus": "because of an illness は〈前置詞＋名詞句〉。because he was ill のように節でも言い換え可能。",
       "category": "Grammar"
     },
     {
@@ -1795,7 +1798,7 @@
       "answer": "Several people in my class became infected with the sickness.",
       "id": 669,
       "sourceNumber": 69,
-      "focus": "become infected with ～：～に感染する。infected with の結びつき。",
+      "focus": "became infected with ... は〈become＋過去分詞〉で感染した状態への変化を示す。",
       "category": "Grammar"
     },
     {
@@ -1819,7 +1822,7 @@
       "answer": "My sleep was disturbed by the sound.",
       "id": 670,
       "sourceNumber": 70,
-      "focus": "My sleep was disturbed by ～：睡眠が～によって妨げられた。受動態。",
+      "focus": "was disturbed by the sound は受動態。睡眠が妨げられたので My sleep が主語。",
       "category": "Grammar"
     },
     {
@@ -1845,8 +1848,8 @@
       "answer": "When I am stressed,I get irritated over very small things.",
       "id": 671,
       "sourceNumber": 71,
-      "focus": "get irritated over ～：～にいらいらする。very small things は「些細なこと」。",
-      "category": "Grammar"
+      "focus": "irritated は「いらだっている」。irritating は「いらだたせる」という原因側の性質。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私はチャイムの前にかろうじて終えることができた。",
@@ -1869,8 +1872,8 @@
       "answer": "I barely had a chance to finish before the chime.",
       "id": 672,
       "sourceNumber": 72,
-      "focus": "barely have a chance to ～：～する機会がほとんどない。barely の位置に注意。",
-      "category": "Grammar",
+      "focus": "barely は「かろうじて・ほとんど～ない」。had a chance を弱く否定する意味合いになる。",
+      "category": "Vocabulary",
       "alternatives": [
         {
           "order": [
@@ -1907,7 +1910,7 @@
       "answer": "There is a large oak tree with lots of acorns in the park.",
       "id": 673,
       "sourceNumber": 73,
-      "focus": "There is a large oak tree with ～：～のある大きなオークの木がある。",
+      "focus": "with lots of acorns は oak tree を詳しく説明する前置詞句。「たくさんのドングリを付けた木」。",
       "category": "Grammar"
     },
     {
@@ -1931,8 +1934,8 @@
       "answer": "I enjoy all outdoor activities.",
       "id": 674,
       "sourceNumber": 74,
-      "focus": "all outdoor activities：あらゆる野外活動。all は名詞句の前。",
-      "category": "Collocation & Usage"
+      "focus": "outdoor は「屋外の」。outdoors は「屋外で」という副詞・名詞なので区別する。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼は自動車事故で内臓の一部に怪我を負った。",
@@ -1957,8 +1960,8 @@
       "answer": "The car crash caused damage to some of his internal organs.",
       "id": 675,
       "sourceNumber": 75,
-      "focus": "cause damage to ～：～に損傷を与える。some of his internal organs に続く。",
-      "category": "Collocation & Usage"
+      "focus": "caused damage to ... は damaged ... と言い換えられる。damage は名詞にも動詞にもなる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "日本の飢餓に苦しむ子供たちのことを聞くと，人々は驚く。",
@@ -1983,8 +1986,8 @@
       "answer": "People are surprised to hear about starving children in Japan.",
       "id": 676,
       "sourceNumber": 76,
-      "focus": "be surprised to hear ～：～を聞いて驚く。to不定詞は感情の原因を表す。",
-      "category": "Collocation & Usage"
+      "focus": "be surprised to hear ... の不定詞は驚いた原因を表す。「聞いて驚く」の形。",
+      "category": "Grammar"
     },
     {
       "japanese": "月の重力によって地球の潮位は上がったり下がったりする。",
@@ -2009,7 +2012,7 @@
       "answer": "The moon's gravity causes the tides on Earth to rise and fall.",
       "id": 677,
       "sourceNumber": 77,
-      "focus": "cause A to ～：Aに～させる。the tides on Earth が目的語。",
+      "focus": "cause the tides to rise ... は〈cause＋目的語＋to不定詞〉。潮の満ち引きを起こすこと。",
       "category": "Grammar"
     },
     {
@@ -2035,8 +2038,8 @@
       "answer": "Some consumers are concerned about the effects of pesticide on their food.",
       "id": 678,
       "sourceNumber": 78,
-      "focus": "be concerned about ～：～を懸念する。the effects of pesticide は名詞句。",
-      "category": "Collocation & Usage"
+      "focus": "pesticide は「農薬」。the effects of pesticide on food は農薬が食品に及ぼす影響。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "森林伐採は生物多様性に大きな脅威を与えている。",
@@ -2059,8 +2062,8 @@
       "answer": "Deforestation poses a significant threat to biodiversity.",
       "id": 679,
       "sourceNumber": 79,
-      "focus": "pose a significant threat to ～：～に大きな脅威となる。pose a threat to ～。",
-      "category": "Collocation & Usage"
+      "focus": "biodiversity は「生物多様性」。bio- は「生命の」で、diversity は「多様性」。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "有機野菜はしばしばかなり値段が高い。",
@@ -2083,7 +2086,7 @@
       "answer": "Organic vegetables are often quite expensive.",
       "id": 680,
       "sourceNumber": 80,
-      "focus": "are often quite expensive：しばしばかなり高価。often は頻度、quite は程度。",
+      "focus": "are often quite expensive の often は頻度、quite は程度を表す。どちらも形容詞 expensive を説明する位置が異なる。",
       "category": "Grammar"
     },
     {
@@ -2111,8 +2114,8 @@
       "answer": "There has been a sharp increase in the price of daily foods recently.",
       "id": 681,
       "sourceNumber": 81,
-      "focus": "a sharp increase in the price of ～：～の価格の急騰。increase in ～。",
-      "category": "Collocation & Usage"
+      "focus": "sharp は「鋭い」だけでなく増減が「急激な」。a sharp increase は急増を意味する。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "騒音が眠りの妨げになった。",
@@ -2135,8 +2138,8 @@
       "answer": "The noise interfered with sleep.",
       "id": 682,
       "sourceNumber": 82,
-      "focus": "interfere with ～：～を妨げる。interfere は with と結びつく。",
-      "category": "Collocation & Usage"
+      "focus": "interfere with sleep は disturb sleep と言い換えられる。interfere は with を伴う。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "それはひどい映画だったので私は終わる前に出てしまった。",
@@ -2161,7 +2164,7 @@
       "answer": "It was a terrible movie and I left before it ended.",
       "id": 683,
       "sourceNumber": 83,
-      "focus": "It was a terrible movie：ひどい映画だった。and で後続の文をつなぐ。",
+      "focus": "left before it ended の before は接続詞で節を取る。the movie を指す it に注意。",
       "category": "Grammar"
     },
     {
@@ -2185,8 +2188,8 @@
       "answer": "The city raised an alarm over the rising water level.",
       "id": 684,
       "sourceNumber": 84,
-      "focus": "raise an alarm over ～：～について警報を発する。raise an alarm。",
-      "category": "Collocation & Usage"
+      "focus": "alarm は「警報・警戒」。raise an alarm は危険を知らせる警報を発すること。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "リクは真実を知りたがっている。",
@@ -2211,8 +2214,8 @@
       "answer": "Riku is anxious to know the truth.",
       "id": 685,
       "sourceNumber": 85,
-      "focus": "be anxious to know ～：～を知りたがる。anxious to＋動詞原形。",
-      "category": "Collocation & Usage"
+      "focus": "anxious は「不安な」のほか「強く望んでいる」。anxious to know は「知りたがっている」。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "私たちは成功の 妨げとなるものを克服しなくてはいけない。",
@@ -2241,8 +2244,8 @@
       "answer": "We have to overcome an obstacle to success.",
       "id": 686,
       "sourceNumber": 86,
-      "focus": "have to overcome an obstacle to success：成功への障害を乗り越える必要がある。",
-      "category": "Grammar"
+      "focus": "obstacle は「障害物・妨げ」。an obstacle to success は成功を阻む要因。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "彼らが時間通りに到着するかは疑わしい。",
@@ -2267,7 +2270,7 @@
       "answer": "It is doubtful that they will arrive on time.",
       "id": 687,
       "sourceNumber": 87,
-      "focus": "It is doubtful that ～：～かどうか疑わしい。形式主語 it＋that節。",
+      "focus": "It is doubtful that ... の it は形式主語。that 節が疑わしい内容を示す。",
       "category": "Grammar"
     },
     {
@@ -2295,7 +2298,7 @@
       "answer": "It is recommended these products be kept in cold storage.",
       "id": 688,
       "sourceNumber": 88,
-      "focus": "recommend that ～ (should) be＋過去分詞：提案・推奨を表す仮定法現在。that は省略されている。",
+      "focus": "It is recommended (that) these products be kept ... は提案・要求の仮定法現在。be の原形に注意。",
       "category": "Grammar"
     },
     {
@@ -2323,7 +2326,7 @@
       "answer": "The baby got upset when he saw the cat.",
       "id": 689,
       "sourceNumber": 89,
-      "focus": "get upset when ～：～したときうろたえる。when節が時を示す。",
+      "focus": "got upset は〈get＋形容詞〉で感情の変化。「動揺した」で、when 節がきっかけ。",
       "category": "Grammar"
     },
     {
@@ -2349,7 +2352,7 @@
       "answer": "My leg is so painful that I can't walk.",
       "id": 690,
       "sourceNumber": 90,
-      "focus": "so＋形容詞＋that節：「とても～なので…」。so painful that ～。",
+      "focus": "so painful that I can't walk は程度と結果を表す。so の後は形容詞 painful。",
       "category": "Grammar"
     },
     {
@@ -2373,8 +2376,8 @@
       "answer": "The experiment confirmed my hypothesis.",
       "id": 691,
       "sourceNumber": 91,
-      "focus": "confirm my hypothesis：仮説を立証する。confirm＋目的語。",
-      "category": "Collocation & Usage"
+      "focus": "confirmed my hypothesis は supported my hypothesis with evidence と近いが、confirm は裏づけが得られた意味を強調。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "私は彼の音楽をロックに分類する。",
@@ -2397,8 +2400,9 @@
       "answer": "I classify his music as rock.",
       "id": 692,
       "sourceNumber": 92,
-      "focus": "classify A as B：AをBに分類する。as は前置詞。",
-      "category": "Collocation & Usage"
+      "focus": "classify A as B は「AをBに分類する」。as の後ろが分類先で、A は直接目的語。",
+      "category": "Usage & Collocation",
+      "focusExample": "They classified the plant as a new species."
     },
     {
       "japanese": "その子は素晴らしいプレゼントを手にして喜びのあまり 飛び上がった。",
@@ -2425,7 +2429,7 @@
       "answer": "The child jumped for joy to have the fantastic present.",
       "id": 693,
       "sourceNumber": 93,
-      "focus": "jump for joy：喜びで飛び上がる。to have ～ は理由・きっかけを補う。",
+      "focus": "to have the fantastic present は喜びの理由を説明する不定詞。jump for joy は「嬉しさで跳ぶ」。",
       "category": "Grammar"
     },
     {
@@ -2449,8 +2453,8 @@
       "answer": "He dismissed his daughter's tutor.",
       "id": 694,
       "sourceNumber": 94,
-      "focus": "dismiss a tutor：家庭教師を解雇する。daughter’s は所有格。",
-      "category": "Collocation & Usage"
+      "focus": "dismiss は「退ける」以外に人を「解雇する」。ここでは家庭教師を職から外した意味。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "レシートがないと返金を受けることはできません。",
@@ -2475,8 +2479,8 @@
       "answer": "You cannot get refunds without receipts.",
       "id": 695,
       "sourceNumber": 95,
-      "focus": "cannot get refunds without receipts：領収書なしでは返金を受けられない。",
-      "category": "Collocation & Usage"
+      "focus": "cannot get refunds without receipts は receipts are required for refunds と言い換えられる。",
+      "category": "Paraphrase"
     },
     {
       "japanese": "これらのウイルスは私たちに深刻な問題をもたらすだろう。",
@@ -2499,8 +2503,8 @@
       "answer": "These viruses will bring us serious trouble.",
       "id": 696,
       "sourceNumber": 96,
-      "focus": "bring A B：AにBをもたらす。bring us serious trouble。",
-      "category": "Collocation & Usage"
+      "focus": "bring us serious trouble は第4文型〈SVOO〉。「私たちに深刻な問題をもたらす」。",
+      "category": "Grammar"
     },
     {
       "japanese": "その有名な絵画はルーブル美術館に展示されている。",
@@ -2523,7 +2527,7 @@
       "answer": "The famous painting is exhibited in the Louvre.",
       "id": 697,
       "sourceNumber": 97,
-      "focus": "be exhibited in ～：～に展示されている。受動態。",
+      "focus": "is exhibited は受動態で「展示されている」。exhibit は動詞「展示する」と名詞「展示品」。",
       "category": "Grammar"
     },
     {
@@ -2547,7 +2551,7 @@
       "answer": "It's a mystery to me why he didn't come.",
       "id": 698,
       "sourceNumber": 98,
-      "focus": "It’s a mystery to me why ～：なぜ～か私には不思議だ。why節が mystery の内容を説明。",
+      "focus": "why he didn't come は間接疑問節で、mystery の内容を補う。疑問詞の後ろは平叙文語順。",
       "category": "Grammar"
     },
     {
@@ -2573,8 +2577,8 @@
       "answer": "The city prospered due to the availability of natural resources.",
       "id": 699,
       "sourceNumber": 99,
-      "focus": "due to the availability of ～：～が利用できるおかげで。due to は前置詞句。",
-      "category": "Collocation & Usage"
+      "focus": "prosper は「繁栄する」。prosperity は「繁栄」で、due to は原因を示す。",
+      "category": "Vocabulary"
     },
     {
       "japanese": "その環境団体は排気の規制削減をするよう懸命に活動している。",
@@ -2597,8 +2601,8 @@
       "answer": "The environmental group works hard to control and reduce emissions.",
       "id": 700,
       "sourceNumber": 100,
-      "focus": "work hard to control and reduce ～：～を管理・削減するために懸命に活動する。",
-      "category": "Collocation & Usage"
+      "focus": "to control and reduce emissions は目的の不定詞。and で2つの動詞を並列し「排出を管理・削減する」。",
+      "category": "Grammar"
     }
   ]
 }

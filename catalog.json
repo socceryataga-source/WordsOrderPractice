@@ -3,7 +3,13 @@
     {
       "id": "3",
       "label": "★★★",
-      "ranges": []
+      "ranges": [
+        {
+          "id": "1-100",
+          "label": "1–100",
+          "file": "data/level-3/1-100.json"
+        }
+      ]
     },
     {
       "id": "2",
